@@ -1,5 +1,9 @@
 # Dictello
 
+<p align="center">
+  <img src="assets/dictello-logo.png" alt="Dictello" width="420">
+</p>
+
 Dictello is a local-first dictation and voice translation app for Apple Silicon
 Macs. Press `fn` once to dictate into the active application, or press `fn`
 twice to dictate with on-device translation.
@@ -15,12 +19,14 @@ CMake, Python, Terminal setup, and manual model downloads are not required.
 
 ## Install the beta
 
-1. Download the ZIP and matching `.sha256` file from
+1. Download the DMG and matching `.sha256` file from
    [Releases](https://github.com/NekoNokoo/Dictello/releases).
-2. Unzip it and move `Dictello.app` to Applications.
-3. Open Dictello once.
-4. This beta is not signed with an Apple Developer certificate. If macOS blocks
-   it, open System Settings → Privacy & Security → Open Anyway.
+2. Open the DMG.
+3. Right-click `Установить Dictello.command`, choose Open, and confirm. The
+   installer copies Dictello to Applications, removes quarantine, and launches
+   it.
+4. This beta is not signed with an Apple Developer certificate, so macOS still
+   requires this one explicit confirmation.
 5. Grant Microphone and Accessibility access in the first-run setup.
 
 ## Use
@@ -45,13 +51,13 @@ processing. Transcript history is local and opt-in.
 From the directory containing both downloaded files:
 
 ```bash
-shasum -a 256 -c Dictello-0.1.0-beta.1-apple-silicon-macos26.zip.sha256
+shasum -a 256 -c Dictello-0.1.0-beta.2-apple-silicon-macos26.dmg.sha256
 ```
 
 Expected result:
 
 ```text
-Dictello-0.1.0-beta.1-apple-silicon-macos26.zip: OK
+Dictello-0.1.0-beta.2-apple-silicon-macos26.dmg: OK
 ```
 
 ## Beta feedback
