@@ -1,12 +1,5 @@
 # Dictello
 
-<p align="center">
-  <img src="assets/dictello-logo.png" alt="Dictello" width="420">
-</p>
-
-<p align="center">
-  <a href="#english">English</a> · <a href="#русский">Русский</a>
-</p>
 
 ## English
 
