@@ -7,12 +7,14 @@ Dictello is a private, local-first voice input and AI text assistant for Apple
 Silicon Macs. Dictate into any active text field, translate speech or a screen
 region, transform selected text, or translate a document with local models.
 
-[**Download Dictello 0.2.0 beta 2 for Apple Silicon**](https://github.com/NekoNokoo/Dictello/releases/download/v0.2.0-beta.2/Dictello-0.2.0-beta.2-apple-silicon-macos26.dmg)
+[**Download Dictello 0.2.0 beta 3 for Apple Silicon**](https://github.com/NekoNokoo/Dictello/releases/download/v0.2.0-beta.3/Dictello-0.2.0-beta.3-apple-silicon-macos26.dmg)
 · [Website](https://nekonokoo.github.io/Dictello/)
 
 ### Highlights
 
-- local dictation with Whisper Large v3 Turbo;
+- local dictation with a user-selected Whisper model;
+- six transcription models available for explicit in-app download, with
+  progress, downloaded size, checksum verification, and cancellation;
 - Russian, English, mixed speech, and automatic language detection;
 - on-device voice translation through Apple Translation;
 - Command Mode for correcting, shortening, rewriting, summarizing, and
@@ -41,17 +43,18 @@ region, transform selected text, or translate a document with local models.
 
 - Apple Silicon Mac;
 - macOS 26 or newer;
-- approximately 1.5 GB of free disk space for the bundled speech model;
+- about 60 MB for the app, plus space for the transcription model you choose;
 - Microphone and Accessibility permissions.
 
-The beta includes Whisper and its arm64 runtime. Homebrew, Python, CMake, and a
-separate speech-model download are not required.
+The beta includes the Whisper arm64 runtime but no speech-model weights. Choose
+and download a model during onboarding or in Settings; compatible existing
+model files can remain outside the app bundle.
 
 ### Install the public beta
 
-1. [Download the DMG directly](https://github.com/NekoNokoo/Dictello/releases/download/v0.2.0-beta.2/Dictello-0.2.0-beta.2-apple-silicon-macos26.dmg)
+1. [Download the DMG directly](https://github.com/NekoNokoo/Dictello/releases/download/v0.2.0-beta.3/Dictello-0.2.0-beta.3-apple-silicon-macos26.dmg)
    and get the matching checksum from
-   [Releases](https://github.com/NekoNokoo/Dictello/releases/tag/v0.2.0-beta.2).
+   [Releases](https://github.com/NekoNokoo/Dictello/releases/tag/v0.2.0-beta.3).
 2. Open the DMG.
 3. Right-click `Установить Dictello.command`, choose **Open**, and confirm.
 4. Grant Microphone and Accessibility access during onboarding.
@@ -69,13 +72,13 @@ an optional model; macOS may also prepare an Apple Translation language pack.
 ### Verify the download
 
 ```bash
-shasum -a 256 -c Dictello-0.2.0-beta.2-apple-silicon-macos26.dmg.sha256
+shasum -a 256 -c Dictello-0.2.0-beta.3-apple-silicon-macos26.dmg.sha256
 ```
 
 Expected result:
 
 ```text
-Dictello-0.2.0-beta.2-apple-silicon-macos26.dmg: OK
+Dictello-0.2.0-beta.3-apple-silicon-macos26.dmg: OK
 ```
 
 ---
@@ -87,12 +90,14 @@ Dictello — приватное локальное приложение для �
 переводить речь и области экрана, преобразовывать выделенный текст и локально
 переводить документы.
 
-[**Скачать Dictello 0.2.0 beta 2 для Apple Silicon**](https://github.com/NekoNokoo/Dictello/releases/download/v0.2.0-beta.2/Dictello-0.2.0-beta.2-apple-silicon-macos26.dmg)
+[**Скачать Dictello 0.2.0 beta 3 для Apple Silicon**](https://github.com/NekoNokoo/Dictello/releases/download/v0.2.0-beta.3/Dictello-0.2.0-beta.3-apple-silicon-macos26.dmg)
 · [Открыть сайт](https://nekonokoo.github.io/Dictello/)
 
 ### Основные возможности
 
-- локальная диктовка на Whisper Large v3 Turbo;
+- локальная диктовка на выбранной пользователем модели Whisper;
+- шесть моделей транскрибации для явной загрузки прямо в приложении: со шкалой
+  прогресса, объёмом загрузки, проверкой checksum и отменой;
 - русский, английский, смешанная речь и автоматическое определение языка;
 - локальный голосовой перевод через Apple Translation;
 - Command Mode для исправления, сокращения, изменения стиля, резюмирования и
@@ -121,17 +126,18 @@ Dictello — приватное локальное приложение для �
 
 - Mac с Apple Silicon;
 - macOS 26 или новее;
-- около 1,5 ГБ свободного места для встроенной речевой модели;
+- около 60 МБ для приложения и место для выбранной модели транскрибации;
 - разрешения на доступ к микрофону и Универсальному доступу.
 
-В beta уже включены Whisper и arm64-runtime. Homebrew, Python, CMake и отдельная
-загрузка речевой модели не требуются.
+В beta включён arm64-runtime Whisper, но нет встроенных весов речевой модели.
+Модель выбирается и загружается во время настройки или позднее в параметрах;
+совместимые имеющиеся файлы моделей могут храниться вне bundle приложения.
 
 ### Установка публичной beta
 
-1. [Скачайте DMG напрямую](https://github.com/NekoNokoo/Dictello/releases/download/v0.2.0-beta.2/Dictello-0.2.0-beta.2-apple-silicon-macos26.dmg),
+1. [Скачайте DMG напрямую](https://github.com/NekoNokoo/Dictello/releases/download/v0.2.0-beta.3/Dictello-0.2.0-beta.3-apple-silicon-macos26.dmg),
    а соответствующий checksum — на
-   [странице релиза](https://github.com/NekoNokoo/Dictello/releases/tag/v0.2.0-beta.2).
+   [странице релиза](https://github.com/NekoNokoo/Dictello/releases/tag/v0.2.0-beta.3).
 2. Откройте DMG.
 3. Нажмите правой кнопкой на `Установить Dictello.command`, выберите
    **«Открыть»** и подтвердите запуск.
@@ -151,13 +157,13 @@ Dictello — приватное локальное приложение для �
 ### Проверка загрузки
 
 ```bash
-shasum -a 256 -c Dictello-0.2.0-beta.2-apple-silicon-macos26.dmg.sha256
+shasum -a 256 -c Dictello-0.2.0-beta.3-apple-silicon-macos26.dmg.sha256
 ```
 
 Ожидаемый результат:
 
 ```text
-Dictello-0.2.0-beta.2-apple-silicon-macos26.dmg: OK
+Dictello-0.2.0-beta.3-apple-silicon-macos26.dmg: OK
 ```
 
 ## Beta feedback / Обратная связь
