@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Dictello Updates</title>
+    <link>https://nekonokoo.github.io/Dictello/</link>
+    <description>Signed Dictello updates distributed through GitHub Releases.</description>
+    <language>en</language>
+  </channel>
+</rss>
