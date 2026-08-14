@@ -6,6 +6,34 @@
         <description>Signed Dictello updates distributed through GitHub Releases.</description>
         <language>en</language>
         <item>
+            <title>0.2.0-beta.10</title>
+            <pubDate>Fri, 14 Aug 2026 10:31:26 +0300</pubDate>
+            <link>https://nekonokoo.github.io/Dictello/</link>
+            <sparkle:version>16</sparkle:version>
+            <sparkle:shortVersionString>0.2.0-beta.10</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Dictello 0.2.0 beta 10
+
+Build 16 · Apple Silicon · macOS 26+
+
+## Текущая сборка
+
+- Опубликована актуальная сборка Dictello с последними доработками приложения.
+- Релиз упакован из проверенной установленной копии, а не пересобран из
+  незакоммиченного рабочего дерева.
+
+## Установка и обновление
+
+- Сайт ведёт на этот DMG, а Sparkle предлагает обновление beta.9 → beta.10.
+- Установщик проверяет подпись приложения и не изменяет рекурсивно его
+  расширенные атрибуты.
+- Сборка по-прежнему подписана ad-hoc: на новом Mac macOS может один раз
+  запросить ручное подтверждение Gatekeeper.
+]]></description>
+            <enclosure url="https://github.com/NekoNokoo/Dictello/releases/download/v0.2.0-beta.10/Dictello-0.2.0-beta.10-apple-silicon-macos26.zip" length="30424207" type="application/octet-stream" sparkle:edSignature="Kob6xGpHOrYaj5z9q8fzok3IB5tDcFSTNxJfJ1BonTb/keQfuMM7eqOJ0nVWUBnDn1sUKamstt1HjsiAt8DMAg=="/>
+        </item>
+        <item>
             <title>0.2.0-beta.9</title>
             <pubDate>Thu, 13 Aug 2026 13:17:40 +0300</pubDate>
             <link>https://nekonokoo.github.io/Dictello/</link>
@@ -161,43 +189,6 @@ Build 12 · Apple Silicon · macOS 26+
 - Транскрибация и выбранные локальные режимы обработки выполняются на устройстве.
 ]]></description>
             <enclosure url="https://github.com/NekoNokoo/Dictello/releases/download/v0.2.0-beta.6/Dictello-0.2.0-beta.6-apple-silicon-macos26.zip" length="22247638" type="application/octet-stream" sparkle:edSignature="5MsBjS5RGxlWk4M88i4Koa/Xg4SWDOhsjVRytAD8I4Xtn1Src07hnMNmrbeQ43/jdqo5AHb/vvTnpAH0oB6PAw=="/>
-        </item>
-        <item>
-            <title>0.2.0-beta.5</title>
-            <pubDate>Sat, 01 Aug 2026 20:48:09 +0300</pubDate>
-            <link>https://nekonokoo.github.io/Dictello/</link>
-            <sparkle:version>11</sparkle:version>
-            <sparkle:shortVersionString>0.2.0-beta.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Dictello 0.2.0 beta 5
-
-Build 11 · Apple Silicon · macOS 26+
-
-## Что нового
-
-- Для новых установок основная клавиша диктовки — `⌥ Space` (`Alt + Space`). Она работает как на MacBook, так и на Mac mini с обычной внешней клавиатурой без `fn`.
-- Текущие пользователи сохраняют уже выбранную клавишу. В настройках можно в одно нажатие переключиться между `⌥ Space` и `fn`.
-- Двойное нажатие выбранной клавиши запускает голосовой перевод: например, `⌥ Space ×2`.
-- Главный экран, строка состояния, меню, обучение и подсказки теперь показывают фактически выбранную клавишу.
-- Режимы `fn + Space` и `fn + Shift + Space` остаются доступны на Apple-клавиатурах, даже если основной клавишей выбрана `⌥ Space`.
-
-## Также вошло в обновление
-
-- Автообновление напрямую через GitHub Releases: Dictello сам сообщает о новой версии, загружает её и предлагает перезапуск.
-- Компактный главный экран и рабочий центр с недавними результатами.
-- Раздельные цвета индикаторов диктовки и перевода, звуки и общая опциональная тёмная плашка.
-- Выбор и загрузка моделей транскрибации внутри приложения с отображением прогресса.
-- Ручная выгрузка локальных моделей и таймер автоматической выгрузки.
-- Более цельная структура настроек перевода и локальных моделей.
-
-## Важно
-
-- Модели не входят в установщик и загружаются пользователем отдельно.
-- Приложение распространяется без Mac App Store и без нотариального заверения Apple.
-- Транскрибация и выбранные локальные режимы обработки выполняются на устройстве.
-]]></description>
-            <enclosure url="https://github.com/NekoNokoo/Dictello/releases/download/v0.2.0-beta.5/Dictello-0.2.0-beta.5-apple-silicon-macos26.zip" length="22245204" type="application/octet-stream" sparkle:edSignature="RuEyJaoJdGetcHhf2UE8lEU43wozUEfSsGaDWH3rGAP7ki+MGAItiXTJqdeRN76QuFYiyi2wWwUpsyT30svNDQ=="/>
         </item>
     </channel>
 </rss>
