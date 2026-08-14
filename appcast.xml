@@ -6,6 +6,26 @@
         <description>Signed Dictello updates distributed through GitHub Releases.</description>
         <language>en</language>
         <item>
+            <title>0.2.0-beta.14</title>
+            <pubDate>Fri, 14 Aug 2026 12:40:40 +0300</pubDate>
+            <link>https://nekonokoo.github.io/Dictello/</link>
+            <sparkle:version>20</sparkle:version>
+            <sparkle:shortVersionString>0.2.0-beta.14</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Dictello 0.2.0-beta.14
+
+Исправлена нестабильная загрузка Whisper на сетях, где сервер закрывает большой файл раньше окончания передачи.
+
+- при `curl: (18) Transferred a partial file` Dictello сохраняет уже скачанную часть;
+- следующая попытка продолжает загрузку с последнего байта, а не начинает 574 МБ заново;
+- отмена, отображение подключения и защита от зависшей передачи сохранены.
+
+Сборка предназначена для установки и проверки через AirDrop. Она не опубликована в GitHub Releases и не попадёт в автообновления.
+]]></description>
+            <enclosure url="https://github.com/NekoNokoo/Dictello/releases/download/v0.2.0-beta.14/Dictello-0.2.0-beta.14-apple-silicon-macos26.zip" length="30450435" type="application/octet-stream" sparkle:edSignature="8N01s5RUOOyzZZrWnskM40iKYwgtkB+tMb3yjhss0dEJRUUUGNBXxoIPb/nJ9/jBFJKa2y8AwtFjrNFiQhBqCA=="/>
+        </item>
+        <item>
             <title>0.2.0-beta.12</title>
             <pubDate>Fri, 14 Aug 2026 11:32:43 +0300</pubDate>
             <link>https://nekonokoo.github.io/Dictello/</link>
@@ -128,36 +148,6 @@ Build 15 · Apple Silicon · macOS 26+
 - Сборка подписана ad-hoc: Developer ID и нотариализации Apple пока нет. Первая ручная установка всё ещё может потребовать одного подтверждения Gatekeeper. Sparkle Ed25519 защищает обновление beta.8 → beta.9.
 ]]></description>
             <enclosure url="https://github.com/NekoNokoo/Dictello/releases/download/v0.2.0-beta.9/Dictello-0.2.0-beta.9-apple-silicon-macos26.zip" length="30252784" type="application/octet-stream" sparkle:edSignature="F5E1MFI6Un99UXzhaNxZhw2aWJ55puCEyz30RlDnIk9RpJwEXtZqJFcmsK7IkhWPWBqM8qptE3xC3kC1pLorAg=="/>
-        </item>
-        <item>
-            <title>0.2.0-beta.8</title>
-            <pubDate>Mon, 03 Aug 2026 19:02:16 +0300</pubDate>
-            <link>https://nekonokoo.github.io/Dictello/</link>
-            <sparkle:version>14</sparkle:version>
-            <sparkle:shortVersionString>0.2.0-beta.8</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Dictello 0.2.0 beta 8
-
-Build 14 · Apple Silicon · macOS 26+
-
-## Исправления Ассистента
-
-- Окно завершённого ответа больше не закрывается автоматически и не зависит от окончания локальной озвучки. Результат остаётся на экране, пока пользователь не закроет его крестиком, клавишей `Escape` или повторной горячей клавишей активного профиля.
-- Убрано лишнее пустое пространство снизу в окне подтверждения действия.
-- Подтверждённое действие теперь привязано к тому же приложению, окну или активному полю, которое было целью при построении плана. Если до нажатия «Выполнить» фокус изменился, Ассистент безопасно откажется выполнять действие над новой целью.
-
-## Безопасность и совместимость
-
-- Исправления работают на уровне типизированного конвейера Ассистента и не зависят от выбранной локальной модели Ollama.
-- Удаление файлов, shell, письма, покупки, пароли, настройки безопасности и автономное управление Mac по-прежнему не поддерживаются.
-- Веб-доступ остаётся опциональным и выключенным по умолчанию; локальные модели не загружаются автоматически.
-
-## Установка
-
-- Сборка подписана ad-hoc: Developer ID и нотариализации Apple пока нет. Первая ручная установка всё ещё может потребовать одного подтверждения Gatekeeper. Sparkle Ed25519 защищает канал обновлений, но не заменяет подпись Apple.
-]]></description>
-            <enclosure url="https://github.com/NekoNokoo/Dictello/releases/download/v0.2.0-beta.8/Dictello-0.2.0-beta.8-apple-silicon-macos26.zip" length="23051648" type="application/octet-stream" sparkle:edSignature="JJQM+dBDfgWUvYFb8QRMUr30g51rpSvNaW3XgaWwtd90HNg5jBPf54f1lTs07dGJ31xFxYn04KuxA6Z7qHs6AQ=="/>
         </item>
     </channel>
 </rss>
