@@ -6,6 +6,36 @@
         <description>Signed Dictello updates distributed through GitHub Releases.</description>
         <language>en</language>
         <item>
+            <title>0.2.0-beta.12</title>
+            <pubDate>Fri, 14 Aug 2026 11:32:43 +0300</pubDate>
+            <link>https://nekonokoo.github.io/Dictello/</link>
+            <sparkle:version>18</sparkle:version>
+            <sparkle:shortVersionString>0.2.0-beta.12</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Dictello 0.2.0 beta 12
+
+Build 18 · Apple Silicon · macOS 26+
+
+## Исправления загрузки Whisper
+
+- Загрузка моделей использует системный `curl`, а не callbacks URLSession,
+  которые на части Mac не передавали ни байты, ни завершение задачи.
+- Индикатор прогресса теперь измеряет размер реально записываемого временного
+  файла модели.
+- «Отменить» завершает процесс загрузки, очищает частичный файл и возвращает
+  кнопку «Скачать».
+- После загрузки по-прежнему проверяется SHA-256 модели.
+
+## Установка и обновление
+
+- Сайт ведёт на этот DMG, а Sparkle предлагает обновление beta.11 → beta.12.
+- Сборка подписана ad-hoc: на новом Mac macOS может один раз запросить ручное
+  подтверждение Gatekeeper.
+]]></description>
+            <enclosure url="https://github.com/NekoNokoo/Dictello/releases/download/v0.2.0-beta.12/Dictello-0.2.0-beta.12-apple-silicon-macos26.zip" length="30441877" type="application/octet-stream" sparkle:edSignature="05IVc+rlDFfytTFVERVDDyHPXVrdXBRIX0em9hGsxTcfWnoQm4kD4pt9ZbHKsG6YeuCwF8V3I7BAoG/fDrvNBg=="/>
+        </item>
+        <item>
             <title>0.2.0-beta.11</title>
             <pubDate>Fri, 14 Aug 2026 10:52:41 +0300</pubDate>
             <link>https://nekonokoo.github.io/Dictello/</link>
@@ -128,56 +158,6 @@ Build 14 · Apple Silicon · macOS 26+
 - Сборка подписана ad-hoc: Developer ID и нотариализации Apple пока нет. Первая ручная установка всё ещё может потребовать одного подтверждения Gatekeeper. Sparkle Ed25519 защищает канал обновлений, но не заменяет подпись Apple.
 ]]></description>
             <enclosure url="https://github.com/NekoNokoo/Dictello/releases/download/v0.2.0-beta.8/Dictello-0.2.0-beta.8-apple-silicon-macos26.zip" length="23051648" type="application/octet-stream" sparkle:edSignature="JJQM+dBDfgWUvYFb8QRMUr30g51rpSvNaW3XgaWwtd90HNg5jBPf54f1lTs07dGJ31xFxYn04KuxA6Z7qHs6AQ=="/>
-        </item>
-        <item>
-            <title>0.2.0-beta.7</title>
-            <pubDate>Mon, 03 Aug 2026 12:46:11 +0300</pubDate>
-            <link>https://nekonokoo.github.io/Dictello/</link>
-            <sparkle:version>13</sparkle:version>
-            <sparkle:shortVersionString>0.2.0-beta.7</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Dictello 0.2.0 beta 7
-
-Build 13 · Apple Silicon · macOS 26+
-
-## Ассистент · Beta
-
-- Новый локальный Ассистент запускается сочетанием `fn + J` в профиле Fn. Для внешнего профиля используется соответствующее сочетание профиля, его можно изменить в настройках.
-- Ассистент умеет открывать и активировать приложения, искать и открывать файлы и папки только в безопасных областях, а также показывать сведения о памяти, диске, батарее, процессоре, времени работы и версии Mac.
-- Локальные справочные ответы используют общий выбранный Ollama-runtime Dictello — без второго сервера и дублирования моделей.
-- Безопасный веб-доступ включается отдельно и по умолчанию выключен. После явного включения доступны погода, курсы USD/EUR/CNY и веб-поиск. Найденные HTTPS-ссылки открываются только по прямой команде пользователя.
-- Перед обратимыми действиями показывается понятный план, после выполнения — проверяемый результат. Удаление файлов, shell, письма, покупки, пароли и автономное управление Mac не поддерживаются.
-- Ответ сохраняет язык исходного запроса. Результат можно закрыть крестиком, `Escape` или повторным нажатием `fn` в профиле Fn.
-- Новый органический зелёный Halo заменяет ровные концентрические окружности и отражает состояния записи, планирования, подтверждения и результата.
-
-## Локальная озвучка
-
-- Голосовой ответ Ассистента опционален. Доступны системные голоса macOS, локальный Piper и локальный Qwen3-TTS 0.6B; ничего не скачивается без явного выбора пользователя.
-- Piper требует Python 3.9+ и отдельно установленный runtime/голос. Qwen3-TTS требует Apple Silicon и Python 3.10–3.13.
-- У Qwen3-TTS 0.6B нет голоса с родным русским языком: Aiden даёт наиболее нейтральный результат, у других голосов может сохраняться акцент. Скорость Qwen не растягивается искусственно.
-
-## Диктовка и обучение
-
-- Усилены проверки аудиовхода и результата Whisper: тишина, слишком короткий сигнал, служебные многоточия и типичные ложные фразы больше не вставляются как успешная транскрипция.
-- Улучшена обработка старта и остановки записи, звуков обратной связи и ошибок недоступного аудиоустройства.
-- Обучение дополнено отдельным уроком Ассистента: запуск, безопасные действия, локальный/веб-режим и способы закрытия результата.
-- Главный экран, настройки, статистика, меню и локализации обновлены для нового режима и активного профиля горячих клавиш.
-
-## Установка и обновление
-
-- Установщик заранее проверяет Apple Silicon, macOS 26+, комплектность и подпись приложения; сохраняет предыдущую копию, снимает quarantine только с установленного Dictello и проверяет реальный запуск.
-- Для пользователя без записи в `/Applications` используется один системный запрос администратора; при отмене предлагается установка в `~/Applications`.
-- Добавлен локальный диагностический журнал `~/Library/Logs/Dictello/installer.log` без паролей и содержимого пользовательских файлов.
-
-## Важно
-
-- Сборка подписана ad-hoc: Developer ID и нотариализации Apple пока нет. Первая ручная установка всё ещё требует одного понятного подтверждения Gatekeeper. Sparkle Ed25519 защищает канал обновлений, но не заменяет подпись Apple.
-- Dictello не отключает Gatekeeper и не рекомендует делать это вручную.
-- Модели не входят в установщик и загружаются только после выбора пользователя.
-- В изолированном режиме отключены веб-доступ Ассистента и проверки обновлений.
-]]></description>
-            <enclosure url="https://github.com/NekoNokoo/Dictello/releases/download/v0.2.0-beta.7/Dictello-0.2.0-beta.7-apple-silicon-macos26.zip" length="22847602" type="application/octet-stream" sparkle:edSignature="Fu0gzFmIAvmGe9oCKLNGjob2wArng2jLACVDIRaJXfKxsCHSyGDfvAMFiINkZRj68J+EaBzX/9tyL1NBgzSrCA=="/>
         </item>
     </channel>
 </rss>
