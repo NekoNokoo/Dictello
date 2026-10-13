@@ -1,0 +1,1719 @@
+{
+  "version": 1,
+  "canvas": [
+    1024,
+    1024
+  ],
+  "composite_origin": [
+    0,
+    0
+  ],
+  "generated_with": "built-in imagegen",
+  "profiles": {
+    "neutral": {
+      "open": "components/upper_face/neutral.png",
+      "frames": {
+        "closing_35": {
+          "eyes_left": "animation/blink/neutral/closing_35/eyes_left.png",
+          "eyes_right": "animation/blink/neutral/closing_35/eyes_right.png",
+          "eyes": "animation/blink/neutral/closing_35/eyes.png",
+          "upper_face": "animation/blink/neutral/closing_35/upper_face.png",
+          "measurements": {
+            "left": {
+              "socket_anchor": [
+                376,
+                545
+              ],
+              "bounds": [
+                304,
+                513,
+                448,
+                596
+              ],
+              "source_bounds": [
+                20,
+                296,
+                291,
+                453
+              ]
+            },
+            "right": {
+              "socket_anchor": [
+                648,
+                545
+              ],
+              "bounds": [
+                576,
+                513,
+                720,
+                596
+              ],
+              "source_bounds": [
+                436,
+                296,
+                708,
+                453
+              ]
+            }
+          }
+        },
+        "closing_70": {
+          "eyes_left": "animation/blink/neutral/closing_70/eyes_left.png",
+          "eyes_right": "animation/blink/neutral/closing_70/eyes_right.png",
+          "eyes": "animation/blink/neutral/closing_70/eyes.png",
+          "upper_face": "animation/blink/neutral/closing_70/upper_face.png",
+          "measurements": {
+            "left": {
+              "socket_anchor": [
+                376,
+                545
+              ],
+              "bounds": [
+                304,
+                539,
+                448,
+                596
+              ],
+              "source_bounds": [
+                748,
+                336,
+                1026,
+                453
+              ]
+            },
+            "right": {
+              "socket_anchor": [
+                648,
+                545
+              ],
+              "bounds": [
+                576,
+                539,
+                720,
+                596
+              ],
+              "source_bounds": [
+                1142,
+                335,
+                1419,
+                453
+              ]
+            }
+          }
+        },
+        "closed": {
+          "eyes_left": "animation/blink/neutral/closed/eyes_left.png",
+          "eyes_right": "animation/blink/neutral/closed/eyes_right.png",
+          "eyes": "animation/blink/neutral/closed/eyes.png",
+          "upper_face": "animation/blink/neutral/closed/upper_face.png",
+          "measurements": {
+            "left": {
+              "socket_anchor": [
+                376,
+                545
+              ],
+              "bounds": [
+                304,
+                557,
+                448,
+                581
+              ],
+              "source_bounds": [
+                1461,
+                368,
+                1731,
+                426
+              ]
+            },
+            "right": {
+              "socket_anchor": [
+                648,
+                545
+              ],
+              "bounds": [
+                576,
+                557,
+                720,
+                581
+              ],
+              "source_bounds": [
+                1845,
+                367,
+                2115,
+                424
+              ]
+            }
+          }
+        }
+      }
+    },
+    "kind": {
+      "open": "components/upper_face/kind.png",
+      "frames": {
+        "closing_35": {
+          "eyes_left": "animation/blink/kind/closing_35/eyes_left.png",
+          "eyes_right": "animation/blink/kind/closing_35/eyes_right.png",
+          "eyes": "animation/blink/kind/closing_35/eyes.png",
+          "upper_face": "animation/blink/kind/closing_35/upper_face.png",
+          "measurements": {
+            "left": {
+              "socket_anchor": [
+                376,
+                545
+              ],
+              "bounds": [
+                304,
+                517,
+                448,
+                595
+              ],
+              "source_bounds": [
+                56,
+                302,
+                322,
+                447
+              ]
+            },
+            "right": {
+              "socket_anchor": [
+                648,
+                545
+              ],
+              "bounds": [
+                576,
+                519,
+                720,
+                595
+              ],
+              "source_bounds": [
+                442,
+                303,
+                714,
+                447
+              ]
+            }
+          }
+        },
+        "closing_70": {
+          "eyes_left": "animation/blink/kind/closing_70/eyes_left.png",
+          "eyes_right": "animation/blink/kind/closing_70/eyes_right.png",
+          "eyes": "animation/blink/kind/closing_70/eyes.png",
+          "upper_face": "animation/blink/kind/closing_70/upper_face.png",
+          "measurements": {
+            "left": {
+              "socket_anchor": [
+                376,
+                545
+              ],
+              "bounds": [
+                304,
+                536,
+                448,
+                592
+              ],
+              "source_bounds": [
+                773,
+                330,
+                1045,
+                442
+              ]
+            },
+            "right": {
+              "socket_anchor": [
+                648,
+                545
+              ],
+              "bounds": [
+                576,
+                537,
+                720,
+                592
+              ],
+              "source_bounds": [
+                1142,
+                329,
+                1415,
+                442
+              ]
+            }
+          }
+        },
+        "closed": {
+          "eyes_left": "animation/blink/kind/closed/eyes_left.png",
+          "eyes_right": "animation/blink/kind/closed/eyes_right.png",
+          "eyes": "animation/blink/kind/closed/eyes.png",
+          "upper_face": "animation/blink/kind/closed/upper_face.png",
+          "measurements": {
+            "left": {
+              "socket_anchor": [
+                376,
+                545
+              ],
+              "bounds": [
+                304,
+                550,
+                448,
+                574
+              ],
+              "source_bounds": [
+                1483,
+                356,
+                1742,
+                409
+              ]
+            },
+            "right": {
+              "socket_anchor": [
+                648,
+                545
+              ],
+              "bounds": [
+                576,
+                551,
+                720,
+                575
+              ],
+              "source_bounds": [
+                1851,
+                354,
+                2126,
+                409
+              ]
+            }
+          }
+        }
+      }
+    },
+    "cheerful": {
+      "open": "components/upper_face/cheerful.png",
+      "frames": {
+        "closing_35": {
+          "eyes_left": "animation/blink/cheerful/closing_35/eyes_left.png",
+          "eyes_right": "animation/blink/cheerful/closing_35/eyes_right.png",
+          "eyes": "animation/blink/cheerful/closing_35/eyes.png",
+          "upper_face": "animation/blink/cheerful/closing_35/upper_face.png",
+          "measurements": {
+            "left": {
+              "socket_anchor": [
+                376,
+                545
+              ],
+              "bounds": [
+                304,
+                521,
+                449,
+                599
+              ],
+              "source_bounds": [
+                22,
+                304,
+                314,
+                462
+              ]
+            },
+            "right": {
+              "socket_anchor": [
+                648,
+                545
+              ],
+              "bounds": [
+                577,
+                523,
+                720,
+                600
+              ],
+              "source_bounds": [
+                442,
+                313,
+                724,
+                464
+              ]
+            }
+          }
+        },
+        "closing_70": {
+          "eyes_left": "animation/blink/cheerful/closing_70/eyes_left.png",
+          "eyes_right": "animation/blink/cheerful/closing_70/eyes_right.png",
+          "eyes": "animation/blink/cheerful/closing_70/eyes.png",
+          "upper_face": "animation/blink/cheerful/closing_70/upper_face.png",
+          "measurements": {
+            "left": {
+              "socket_anchor": [
+                376,
+                545
+              ],
+              "bounds": [
+                304,
+                538,
+                449,
+                594
+              ],
+              "source_bounds": [
+                761,
+                345,
+                1036,
+                452
+              ]
+            },
+            "right": {
+              "socket_anchor": [
+                648,
+                545
+              ],
+              "bounds": [
+                577,
+                541,
+                720,
+                594
+              ],
+              "source_bounds": [
+                1152,
+                350,
+                1431,
+                453
+              ]
+            }
+          }
+        },
+        "closed": {
+          "eyes_left": "animation/blink/cheerful/closed/eyes_left.png",
+          "eyes_right": "animation/blink/cheerful/closed/eyes_right.png",
+          "eyes": "animation/blink/cheerful/closed/eyes.png",
+          "upper_face": "animation/blink/cheerful/closed/upper_face.png",
+          "measurements": {
+            "left": {
+              "socket_anchor": [
+                376,
+                545
+              ],
+              "bounds": [
+                304,
+                560,
+                449,
+                584
+              ],
+              "source_bounds": [
+                1478,
+                363,
+                1745,
+                437
+              ]
+            },
+            "right": {
+              "socket_anchor": [
+                648,
+                545
+              ],
+              "bounds": [
+                577,
+                561,
+                720,
+                585
+              ],
+              "source_bounds": [
+                1854,
+                371,
+                2139,
+                439
+              ]
+            }
+          }
+        }
+      }
+    },
+    "bashful": {
+      "open": "components/upper_face/bashful.png",
+      "frames": {
+        "closing_35": {
+          "eyes_left": "animation/blink/bashful/closing_35/eyes_left.png",
+          "eyes_right": "animation/blink/bashful/closing_35/eyes_right.png",
+          "eyes": "animation/blink/bashful/closing_35/eyes.png",
+          "upper_face": "animation/blink/bashful/closing_35/upper_face.png",
+          "measurements": {
+            "left": {
+              "socket_anchor": [
+                376,
+                545
+              ],
+              "bounds": [
+                304,
+                512,
+                448,
+                597
+              ],
+              "source_bounds": [
+                24,
+                299,
+                315,
+                496
+              ]
+            },
+            "right": {
+              "socket_anchor": [
+                648,
+                545
+              ],
+              "bounds": [
+                576,
+                512,
+                720,
+                596
+              ],
+              "source_bounds": [
+                421,
+                299,
+                710,
+                496
+              ]
+            }
+          }
+        },
+        "closing_70": {
+          "eyes_left": "animation/blink/bashful/closing_70/eyes_left.png",
+          "eyes_right": "animation/blink/bashful/closing_70/eyes_right.png",
+          "eyes": "animation/blink/bashful/closing_70/eyes.png",
+          "upper_face": "animation/blink/bashful/closing_70/upper_face.png",
+          "measurements": {
+            "left": {
+              "socket_anchor": [
+                376,
+                545
+              ],
+              "bounds": [
+                304,
+                539,
+                448,
+                597
+              ],
+              "source_bounds": [
+                744,
+                356,
+                1041,
+                496
+              ]
+            },
+            "right": {
+              "socket_anchor": [
+                648,
+                545
+              ],
+              "bounds": [
+                576,
+                538,
+                720,
+                596
+              ],
+              "source_bounds": [
+                1133,
+                353,
+                1440,
+                496
+              ]
+            }
+          }
+        },
+        "closed": {
+          "eyes_left": "animation/blink/bashful/closed/eyes_left.png",
+          "eyes_right": "animation/blink/bashful/closed/eyes_right.png",
+          "eyes": "animation/blink/bashful/closed/eyes.png",
+          "upper_face": "animation/blink/bashful/closed/upper_face.png",
+          "measurements": {
+            "left": {
+              "socket_anchor": [
+                376,
+                545
+              ],
+              "bounds": [
+                304,
+                546,
+                448,
+                570
+              ],
+              "source_bounds": [
+                1487,
+                370,
+                1776,
+                442
+              ]
+            },
+            "right": {
+              "socket_anchor": [
+                648,
+                545
+              ],
+              "bounds": [
+                576,
+                545,
+                720,
+                569
+              ],
+              "source_bounds": [
+                1865,
+                369,
+                2151,
+                442
+              ]
+            }
+          }
+        }
+      }
+    },
+    "worried": {
+      "open": "components/upper_face/worried.png",
+      "frames": {
+        "closing_35": {
+          "eyes_left": "animation/blink/worried/closing_35/eyes_left.png",
+          "eyes_right": "animation/blink/worried/closing_35/eyes_right.png",
+          "eyes": "animation/blink/worried/closing_35/eyes.png",
+          "upper_face": "animation/blink/worried/closing_35/upper_face.png",
+          "measurements": {
+            "left": {
+              "socket_anchor": [
+                376,
+                545
+              ],
+              "bounds": [
+                304,
+                516,
+                448,
+                595
+              ],
+              "source_bounds": [
+                18,
+                310,
+                316,
+                474
+              ]
+            },
+            "right": {
+              "socket_anchor": [
+                648,
+                545
+              ],
+              "bounds": [
+                576,
+                513,
+                720,
+                594
+              ],
+              "source_bounds": [
+                443,
+                310,
+                724,
+                474
+              ]
+            }
+          }
+        },
+        "closing_70": {
+          "eyes_left": "animation/blink/worried/closing_70/eyes_left.png",
+          "eyes_right": "animation/blink/worried/closing_70/eyes_right.png",
+          "eyes": "animation/blink/worried/closing_70/eyes.png",
+          "upper_face": "animation/blink/worried/closing_70/upper_face.png",
+          "measurements": {
+            "left": {
+              "socket_anchor": [
+                376,
+                545
+              ],
+              "bounds": [
+                304,
+                536,
+                448,
+                592
+              ],
+              "source_bounds": [
+                761,
+                340,
+                1049,
+                467
+              ]
+            },
+            "right": {
+              "socket_anchor": [
+                648,
+                545
+              ],
+              "bounds": [
+                576,
+                535,
+                720,
+                590
+              ],
+              "source_bounds": [
+                1135,
+                336,
+                1422,
+                467
+              ]
+            }
+          }
+        },
+        "closed": {
+          "eyes_left": "animation/blink/worried/closed/eyes_left.png",
+          "eyes_right": "animation/blink/worried/closed/eyes_right.png",
+          "eyes": "animation/blink/worried/closed/eyes.png",
+          "upper_face": "animation/blink/worried/closed/upper_face.png",
+          "measurements": {
+            "left": {
+              "socket_anchor": [
+                376,
+                545
+              ],
+              "bounds": [
+                304,
+                550,
+                448,
+                574
+              ],
+              "source_bounds": [
+                1484,
+                356,
+                1771,
+                432
+              ]
+            },
+            "right": {
+              "socket_anchor": [
+                648,
+                545
+              ],
+              "bounds": [
+                576,
+                548,
+                720,
+                572
+              ],
+              "source_bounds": [
+                1849,
+                351,
+                2135,
+                431
+              ]
+            }
+          }
+        }
+      }
+    },
+    "annoyed": {
+      "open": "components/upper_face/annoyed.png",
+      "frames": {
+        "closing_35": {
+          "eyes_left": "animation/blink/annoyed/closing_35/eyes_left.png",
+          "eyes_right": "animation/blink/annoyed/closing_35/eyes_right.png",
+          "eyes": "animation/blink/annoyed/closing_35/eyes.png",
+          "upper_face": "animation/blink/annoyed/closing_35/upper_face.png",
+          "measurements": {
+            "left": {
+              "socket_anchor": [
+                376,
+                545
+              ],
+              "bounds": [
+                304,
+                523,
+                448,
+                578
+              ],
+              "source_bounds": [
+                35,
+                314,
+                317,
+                444
+              ]
+            },
+            "right": {
+              "socket_anchor": [
+                648,
+                545
+              ],
+              "bounds": [
+                576,
+                523,
+                720,
+                579
+              ],
+              "source_bounds": [
+                417,
+                314,
+                702,
+                445
+              ]
+            }
+          }
+        },
+        "closing_70": {
+          "eyes_left": "animation/blink/annoyed/closing_70/eyes_left.png",
+          "eyes_right": "animation/blink/annoyed/closing_70/eyes_right.png",
+          "eyes": "animation/blink/annoyed/closing_70/eyes.png",
+          "upper_face": "animation/blink/annoyed/closing_70/upper_face.png",
+          "measurements": {
+            "left": {
+              "socket_anchor": [
+                376,
+                545
+              ],
+              "bounds": [
+                304,
+                539,
+                448,
+                577
+              ],
+              "source_bounds": [
+                775,
+                324,
+                1050,
+                443
+              ]
+            },
+            "right": {
+              "socket_anchor": [
+                648,
+                545
+              ],
+              "bounds": [
+                576,
+                540,
+                720,
+                578
+              ],
+              "source_bounds": [
+                1140,
+                324,
+                1414,
+                443
+              ]
+            }
+          }
+        },
+        "closed": {
+          "eyes_left": "animation/blink/annoyed/closed/eyes_left.png",
+          "eyes_right": "animation/blink/annoyed/closed/eyes_right.png",
+          "eyes": "animation/blink/annoyed/closed/eyes.png",
+          "upper_face": "animation/blink/annoyed/closed/upper_face.png",
+          "measurements": {
+            "left": {
+              "socket_anchor": [
+                376,
+                545
+              ],
+              "bounds": [
+                304,
+                529,
+                448,
+                553
+              ],
+              "source_bounds": [
+                1493,
+                337,
+                1754,
+                399
+              ]
+            },
+            "right": {
+              "socket_anchor": [
+                648,
+                545
+              ],
+              "bounds": [
+                576,
+                530,
+                720,
+                554
+              ],
+              "source_bounds": [
+                1865,
+                338,
+                2126,
+                399
+              ]
+            }
+          }
+        }
+      }
+    },
+    "sleepy": {
+      "open": "components/upper_face/sleepy.png",
+      "frames": {
+        "closing_35": {
+          "eyes_left": "animation/blink/sleepy/closing_35/eyes_left.png",
+          "eyes_right": "animation/blink/sleepy/closing_35/eyes_right.png",
+          "eyes": "animation/blink/sleepy/closing_35/eyes.png",
+          "upper_face": "animation/blink/sleepy/closing_35/upper_face.png",
+          "measurements": {
+            "left": {
+              "socket_anchor": [
+                376,
+                545
+              ],
+              "bounds": [
+                304,
+                526,
+                449,
+                575
+              ],
+              "source_bounds": [
+                46,
+                315,
+                346,
+                428
+              ]
+            },
+            "right": {
+              "socket_anchor": [
+                648,
+                545
+              ],
+              "bounds": [
+                576,
+                525,
+                720,
+                576
+              ],
+              "source_bounds": [
+                415,
+                315,
+                724,
+                429
+              ]
+            }
+          }
+        },
+        "closing_70": {
+          "eyes_left": "animation/blink/sleepy/closing_70/eyes_left.png",
+          "eyes_right": "animation/blink/sleepy/closing_70/eyes_right.png",
+          "eyes": "animation/blink/sleepy/closing_70/eyes.png",
+          "upper_face": "animation/blink/sleepy/closing_70/upper_face.png",
+          "measurements": {
+            "left": {
+              "socket_anchor": [
+                376,
+                545
+              ],
+              "bounds": [
+                304,
+                540,
+                449,
+                574
+              ],
+              "source_bounds": [
+                768,
+                324,
+                1053,
+                427
+              ]
+            },
+            "right": {
+              "socket_anchor": [
+                648,
+                545
+              ],
+              "bounds": [
+                576,
+                540,
+                720,
+                575
+              ],
+              "source_bounds": [
+                1123,
+                321,
+                1408,
+                427
+              ]
+            }
+          }
+        },
+        "closed": {
+          "eyes_left": "animation/blink/sleepy/closed/eyes_left.png",
+          "eyes_right": "animation/blink/sleepy/closed/eyes_right.png",
+          "eyes": "animation/blink/sleepy/closed/eyes.png",
+          "upper_face": "animation/blink/sleepy/closed/upper_face.png",
+          "measurements": {
+            "left": {
+              "socket_anchor": [
+                376,
+                545
+              ],
+              "bounds": [
+                304,
+                535,
+                449,
+                559
+              ],
+              "source_bounds": [
+                1483,
+                337,
+                1740,
+                400
+              ]
+            },
+            "right": {
+              "socket_anchor": [
+                648,
+                545
+              ],
+              "bounds": [
+                576,
+                536,
+                720,
+                560
+              ],
+              "source_bounds": [
+                1863,
+                334,
+                2127,
+                399
+              ]
+            }
+          }
+        }
+      }
+    },
+    "fierce": {
+      "open": "components/upper_face/fierce.png",
+      "frames": {
+        "closing_35": {
+          "eyes_left": "animation/blink/fierce/closing_35/eyes_left.png",
+          "eyes_right": "animation/blink/fierce/closing_35/eyes_right.png",
+          "eyes": "animation/blink/fierce/closing_35/eyes.png",
+          "upper_face": "animation/blink/fierce/closing_35/upper_face.png",
+          "measurements": {
+            "left": {
+              "socket_anchor": [
+                376,
+                537
+              ],
+              "bounds": [
+                304,
+                511,
+                448,
+                583
+              ],
+              "source_bounds": [
+                32,
+                288,
+                326,
+                434
+              ]
+            },
+            "right": {
+              "socket_anchor": [
+                648,
+                537
+              ],
+              "bounds": [
+                576,
+                512,
+                720,
+                583
+              ],
+              "source_bounds": [
+                419,
+                285,
+                724,
+                435
+              ]
+            }
+          }
+        },
+        "closing_70": {
+          "eyes_left": "animation/blink/fierce/closing_70/eyes_left.png",
+          "eyes_right": "animation/blink/fierce/closing_70/eyes_right.png",
+          "eyes": "animation/blink/fierce/closing_70/eyes.png",
+          "upper_face": "animation/blink/fierce/closing_70/upper_face.png",
+          "measurements": {
+            "left": {
+              "socket_anchor": [
+                376,
+                537
+              ],
+              "bounds": [
+                304,
+                531,
+                448,
+                583
+              ],
+              "source_bounds": [
+                749,
+                300,
+                1043,
+                434
+              ]
+            },
+            "right": {
+              "socket_anchor": [
+                648,
+                537
+              ],
+              "bounds": [
+                576,
+                532,
+                720,
+                583
+              ],
+              "source_bounds": [
+                1129,
+                296,
+                1424,
+                434
+              ]
+            }
+          }
+        },
+        "closed": {
+          "eyes_left": "animation/blink/fierce/closed/eyes_left.png",
+          "eyes_right": "animation/blink/fierce/closed/eyes_right.png",
+          "eyes": "animation/blink/fierce/closed/eyes.png",
+          "upper_face": "animation/blink/fierce/closed/upper_face.png",
+          "measurements": {
+            "left": {
+              "socket_anchor": [
+                376,
+                537
+              ],
+              "bounds": [
+                304,
+                543,
+                448,
+                567
+              ],
+              "source_bounds": [
+                1467,
+                307,
+                1757,
+                401
+              ]
+            },
+            "right": {
+              "socket_anchor": [
+                648,
+                537
+              ],
+              "bounds": [
+                576,
+                542,
+                720,
+                566
+              ],
+              "source_bounds": [
+                1846,
+                307,
+                2136,
+                401
+              ]
+            }
+          }
+        }
+      }
+    },
+    "laugh": {
+      "already_closed": true,
+      "open": "components/upper_face/laugh.png"
+    }
+  },
+  "emotion_frames": [
+    {
+      "name": "gentle_neutral",
+      "open": "emotions/kind/gentle_neutral.png",
+      "upper_face": "neutral",
+      "mouth": "neutral",
+      "frames": {
+        "closing_35": "animation/emotions/gentle_neutral/closing_35.png",
+        "closing_70": "animation/emotions/gentle_neutral/closing_70.png",
+        "closed": "animation/emotions/gentle_neutral/closed.png"
+      }
+    },
+    {
+      "name": "kind_smile",
+      "open": "emotions/kind/kind_smile.png",
+      "upper_face": "kind",
+      "mouth": "kind",
+      "frames": {
+        "closing_35": "animation/emotions/kind_smile/closing_35.png",
+        "closing_70": "animation/emotions/kind_smile/closing_70.png",
+        "closed": "animation/emotions/kind_smile/closed.png"
+      }
+    },
+    {
+      "name": "content",
+      "open": "emotions/kind/content.png",
+      "upper_face": "neutral",
+      "mouth": "kind",
+      "frames": {
+        "closing_35": "animation/emotions/content/closing_35.png",
+        "closing_70": "animation/emotions/content/closing_70.png",
+        "closed": "animation/emotions/content/closed.png"
+      }
+    },
+    {
+      "name": "soft_happy",
+      "open": "emotions/kind/soft_happy.png",
+      "upper_face": "kind",
+      "mouth": "cheerful",
+      "frames": {
+        "closing_35": "animation/emotions/soft_happy/closing_35.png",
+        "closing_70": "animation/emotions/soft_happy/closing_70.png",
+        "closed": "animation/emotions/soft_happy/closed.png"
+      }
+    },
+    {
+      "name": "bashful_soft",
+      "open": "emotions/kind/bashful_soft.png",
+      "upper_face": "bashful",
+      "mouth": "kind",
+      "frames": {
+        "closing_35": "animation/emotions/bashful_soft/closing_35.png",
+        "closing_70": "animation/emotions/bashful_soft/closing_70.png",
+        "closed": "animation/emotions/bashful_soft/closed.png"
+      }
+    },
+    {
+      "name": "bashful_smile",
+      "open": "emotions/kind/bashful_smile.png",
+      "upper_face": "bashful",
+      "mouth": "bashful",
+      "frames": {
+        "closing_35": "animation/emotions/bashful_smile/closing_35.png",
+        "closing_70": "animation/emotions/bashful_smile/closing_70.png",
+        "closed": "animation/emotions/bashful_smile/closed.png"
+      }
+    },
+    {
+      "name": "reassuring",
+      "open": "emotions/kind/reassuring.png",
+      "upper_face": "kind",
+      "mouth": "neutral",
+      "frames": {
+        "closing_35": "animation/emotions/reassuring/closing_35.png",
+        "closing_70": "animation/emotions/reassuring/closing_70.png",
+        "closed": "animation/emotions/reassuring/closed.png"
+      }
+    },
+    {
+      "name": "warm_open_smile",
+      "open": "emotions/kind/warm_open_smile.png",
+      "upper_face": "kind",
+      "mouth": "cheerful",
+      "frames": {
+        "closing_35": "animation/emotions/warm_open_smile/closing_35.png",
+        "closing_70": "animation/emotions/warm_open_smile/closing_70.png",
+        "closed": "animation/emotions/warm_open_smile/closed.png"
+      }
+    },
+    {
+      "name": "cheerful",
+      "open": "emotions/happy/cheerful.png",
+      "upper_face": "cheerful",
+      "mouth": "cheerful",
+      "frames": {
+        "closing_35": "animation/emotions/cheerful/closing_35.png",
+        "closing_70": "animation/emotions/cheerful/closing_70.png",
+        "closed": "animation/emotions/cheerful/closed.png"
+      }
+    },
+    {
+      "name": "excited",
+      "open": "emotions/happy/excited.png",
+      "upper_face": "cheerful",
+      "mouth": "laugh",
+      "frames": {
+        "closing_35": "animation/emotions/excited/closing_35.png",
+        "closing_70": "animation/emotions/excited/closing_70.png",
+        "closed": "animation/emotions/excited/closed.png"
+      }
+    },
+    {
+      "name": "giggly",
+      "open": "emotions/happy/giggly.png",
+      "upper_face": "bashful",
+      "mouth": "laugh",
+      "frames": {
+        "closing_35": "animation/emotions/giggly/closing_35.png",
+        "closing_70": "animation/emotions/giggly/closing_70.png",
+        "closed": "animation/emotions/giggly/closed.png"
+      }
+    },
+    {
+      "name": "bright_smile",
+      "open": "emotions/happy/bright_smile.png",
+      "upper_face": "cheerful",
+      "mouth": "kind",
+      "frames": {
+        "closing_35": "animation/emotions/bright_smile/closing_35.png",
+        "closing_70": "animation/emotions/bright_smile/closing_70.png",
+        "closed": "animation/emotions/bright_smile/closed.png"
+      }
+    },
+    {
+      "name": "happy_shy",
+      "open": "emotions/happy/happy_shy.png",
+      "upper_face": "bashful",
+      "mouth": "cheerful",
+      "frames": {
+        "closing_35": "animation/emotions/happy_shy/closing_35.png",
+        "closing_70": "animation/emotions/happy_shy/closing_70.png",
+        "closed": "animation/emotions/happy_shy/closed.png"
+      }
+    },
+    {
+      "name": "annoyed",
+      "open": "emotions/angry/annoyed.png",
+      "upper_face": "annoyed",
+      "mouth": "annoyed",
+      "frames": {
+        "closing_35": "animation/emotions/annoyed/closing_35.png",
+        "closing_70": "animation/emotions/annoyed/closing_70.png",
+        "closed": "animation/emotions/annoyed/closed.png"
+      }
+    },
+    {
+      "name": "mild_angry",
+      "open": "emotions/angry/mild_angry.png",
+      "upper_face": "annoyed",
+      "mouth": "neutral",
+      "frames": {
+        "closing_35": "animation/emotions/mild_angry/closing_35.png",
+        "closing_70": "animation/emotions/mild_angry/closing_70.png",
+        "closed": "animation/emotions/mild_angry/closed.png"
+      }
+    },
+    {
+      "name": "angry_pout",
+      "open": "emotions/angry/angry_pout.png",
+      "upper_face": "annoyed",
+      "mouth": "worried",
+      "frames": {
+        "closing_35": "animation/emotions/angry_pout/closing_35.png",
+        "closing_70": "animation/emotions/angry_pout/closing_70.png",
+        "closed": "animation/emotions/angry_pout/closed.png"
+      }
+    },
+    {
+      "name": "angry_smirk",
+      "open": "emotions/angry/angry_smirk.png",
+      "upper_face": "annoyed",
+      "mouth": "kind",
+      "frames": {
+        "closing_35": "animation/emotions/angry_smirk/closing_35.png",
+        "closing_70": "animation/emotions/angry_smirk/closing_70.png",
+        "closed": "animation/emotions/angry_smirk/closed.png"
+      }
+    },
+    {
+      "name": "fierce_angry",
+      "open": "emotions/angry/fierce_angry.png",
+      "upper_face": "fierce",
+      "mouth": "fierce",
+      "frames": {
+        "closing_35": "animation/emotions/fierce_angry/closing_35.png",
+        "closing_70": "animation/emotions/fierce_angry/closing_70.png",
+        "closed": "animation/emotions/fierce_angry/closed.png"
+      }
+    },
+    {
+      "name": "determined",
+      "open": "emotions/angry/determined.png",
+      "upper_face": "fierce",
+      "mouth": "neutral",
+      "frames": {
+        "closing_35": "animation/emotions/determined/closing_35.png",
+        "closing_70": "animation/emotions/determined/closing_70.png",
+        "closed": "animation/emotions/determined/closed.png"
+      }
+    },
+    {
+      "name": "determined_smile",
+      "open": "emotions/angry/determined_smile.png",
+      "upper_face": "fierce",
+      "mouth": "kind",
+      "frames": {
+        "closing_35": "animation/emotions/determined_smile/closing_35.png",
+        "closing_70": "animation/emotions/determined_smile/closing_70.png",
+        "closed": "animation/emotions/determined_smile/closed.png"
+      }
+    },
+    {
+      "name": "frustrated",
+      "open": "emotions/angry/frustrated.png",
+      "upper_face": "fierce",
+      "mouth": "worried",
+      "frames": {
+        "closing_35": "animation/emotions/frustrated/closing_35.png",
+        "closing_70": "animation/emotions/frustrated/closing_70.png",
+        "closed": "animation/emotions/frustrated/closed.png"
+      }
+    },
+    {
+      "name": "angry_open",
+      "open": "emotions/angry/angry_open.png",
+      "upper_face": "fierce",
+      "mouth": "cheerful",
+      "frames": {
+        "closing_35": "animation/emotions/angry_open/closing_35.png",
+        "closing_70": "animation/emotions/angry_open/closing_70.png",
+        "closed": "animation/emotions/angry_open/closed.png"
+      }
+    },
+    {
+      "name": "worried",
+      "open": "emotions/sad_tired/worried.png",
+      "upper_face": "worried",
+      "mouth": "worried",
+      "frames": {
+        "closing_35": "animation/emotions/worried/closing_35.png",
+        "closing_70": "animation/emotions/worried/closing_70.png",
+        "closed": "animation/emotions/worried/closed.png"
+      }
+    },
+    {
+      "name": "sad_flat",
+      "open": "emotions/sad_tired/sad_flat.png",
+      "upper_face": "worried",
+      "mouth": "sleepy",
+      "frames": {
+        "closing_35": "animation/emotions/sad_flat/closing_35.png",
+        "closing_70": "animation/emotions/sad_flat/closing_70.png",
+        "closed": "animation/emotions/sad_flat/closed.png"
+      }
+    },
+    {
+      "name": "sad_quiet",
+      "open": "emotions/sad_tired/sad_quiet.png",
+      "upper_face": "worried",
+      "mouth": "neutral",
+      "frames": {
+        "closing_35": "animation/emotions/sad_quiet/closing_35.png",
+        "closing_70": "animation/emotions/sad_quiet/closing_70.png",
+        "closed": "animation/emotions/sad_quiet/closed.png"
+      }
+    },
+    {
+      "name": "nervous",
+      "open": "emotions/sad_tired/nervous.png",
+      "upper_face": "worried",
+      "mouth": "bashful",
+      "frames": {
+        "closing_35": "animation/emotions/nervous/closing_35.png",
+        "closing_70": "animation/emotions/nervous/closing_70.png",
+        "closed": "animation/emotions/nervous/closed.png"
+      }
+    },
+    {
+      "name": "panic",
+      "open": "emotions/sad_tired/panic.png",
+      "upper_face": "worried",
+      "mouth": "fierce",
+      "frames": {
+        "closing_35": "animation/emotions/panic/closing_35.png",
+        "closing_70": "animation/emotions/panic/closing_70.png",
+        "closed": "animation/emotions/panic/closed.png"
+      }
+    },
+    {
+      "name": "sleepy",
+      "open": "emotions/sad_tired/sleepy.png",
+      "upper_face": "sleepy",
+      "mouth": "sleepy",
+      "frames": {
+        "closing_35": "animation/emotions/sleepy/closing_35.png",
+        "closing_70": "animation/emotions/sleepy/closing_70.png",
+        "closed": "animation/emotions/sleepy/closed.png"
+      }
+    },
+    {
+      "name": "tired_neutral",
+      "open": "emotions/sad_tired/tired_neutral.png",
+      "upper_face": "sleepy",
+      "mouth": "neutral",
+      "frames": {
+        "closing_35": "animation/emotions/tired_neutral/closing_35.png",
+        "closing_70": "animation/emotions/tired_neutral/closing_70.png",
+        "closed": "animation/emotions/tired_neutral/closed.png"
+      }
+    },
+    {
+      "name": "tired_smile",
+      "open": "emotions/sad_tired/tired_smile.png",
+      "upper_face": "sleepy",
+      "mouth": "kind",
+      "frames": {
+        "closing_35": "animation/emotions/tired_smile/closing_35.png",
+        "closing_70": "animation/emotions/tired_smile/closing_70.png",
+        "closed": "animation/emotions/tired_smile/closed.png"
+      }
+    },
+    {
+      "name": "deadpan",
+      "open": "emotions/sad_tired/deadpan.png",
+      "upper_face": "sleepy",
+      "mouth": "annoyed",
+      "frames": {
+        "closing_35": "animation/emotions/deadpan/closing_35.png",
+        "closing_70": "animation/emotions/deadpan/closing_70.png",
+        "closed": "animation/emotions/deadpan/closed.png"
+      }
+    },
+    {
+      "name": "mischievous",
+      "open": "emotions/special/mischievous.png",
+      "upper_face": "annoyed",
+      "mouth": "kind",
+      "frames": {
+        "closing_35": "animation/emotions/mischievous/closing_35.png",
+        "closing_70": "animation/emotions/mischievous/closing_70.png",
+        "closed": "animation/emotions/mischievous/closed.png"
+      }
+    },
+    {
+      "name": "smug",
+      "open": "emotions/special/smug.png",
+      "upper_face": "sleepy",
+      "mouth": "kind",
+      "frames": {
+        "closing_35": "animation/emotions/smug/closing_35.png",
+        "closing_70": "animation/emotions/smug/closing_70.png",
+        "closed": "animation/emotions/smug/closed.png"
+      }
+    },
+    {
+      "name": "confused",
+      "open": "emotions/special/confused.png",
+      "upper_face": "worried",
+      "mouth": "neutral",
+      "frames": {
+        "closing_35": "animation/emotions/confused/closing_35.png",
+        "closing_70": "animation/emotions/confused/closing_70.png",
+        "closed": "animation/emotions/confused/closed.png"
+      }
+    },
+    {
+      "name": "surprised",
+      "open": "emotions/special/surprised.png",
+      "upper_face": "neutral",
+      "mouth": "fierce",
+      "frames": {
+        "closing_35": "animation/emotions/surprised/closing_35.png",
+        "closing_70": "animation/emotions/surprised/closing_70.png",
+        "closed": "animation/emotions/surprised/closed.png"
+      }
+    },
+    {
+      "name": "shocked",
+      "open": "emotions/special/shocked.png",
+      "upper_face": "cheerful",
+      "mouth": "fierce",
+      "frames": {
+        "closing_35": "animation/emotions/shocked/closing_35.png",
+        "closing_70": "animation/emotions/shocked/closing_70.png",
+        "closed": "animation/emotions/shocked/closed.png"
+      }
+    },
+    {
+      "name": "serious",
+      "open": "emotions/special/serious.png",
+      "upper_face": "neutral",
+      "mouth": "sleepy",
+      "frames": {
+        "closing_35": "animation/emotions/serious/closing_35.png",
+        "closing_70": "animation/emotions/serious/closing_70.png",
+        "closed": "animation/emotions/serious/closed.png"
+      }
+    },
+    {
+      "name": "focused",
+      "open": "emotions/special/focused.png",
+      "upper_face": "fierce",
+      "mouth": "sleepy",
+      "frames": {
+        "closing_35": "animation/emotions/focused/closing_35.png",
+        "closing_70": "animation/emotions/focused/closing_70.png",
+        "closed": "animation/emotions/focused/closed.png"
+      }
+    },
+    {
+      "name": "cute_pout",
+      "open": "emotions/special/cute_pout.png",
+      "upper_face": "bashful",
+      "mouth": "annoyed",
+      "frames": {
+        "closing_35": "animation/emotions/cute_pout/closing_35.png",
+        "closing_70": "animation/emotions/cute_pout/closing_70.png",
+        "closed": "animation/emotions/cute_pout/closed.png"
+      }
+    },
+    {
+      "name": "embarrassed",
+      "open": "emotions/special/embarrassed.png",
+      "upper_face": "bashful",
+      "mouth": "worried",
+      "frames": {
+        "closing_35": "animation/emotions/embarrassed/closing_35.png",
+        "closing_70": "animation/emotions/embarrassed/closing_70.png",
+        "closed": "animation/emotions/embarrassed/closed.png"
+      }
+    }
+  ],
+  "bridges": [
+    {
+      "name": "attention",
+      "eyes": "kind",
+      "brows": "neutral",
+      "cheeks": "neutral",
+      "mouth": "neutral",
+      "file": "animation/bridges/attention.png",
+      "layers": [
+        "components/cheeks_left/neutral.png",
+        "components/cheeks_right/neutral.png",
+        "components/eyes_left/kind.png",
+        "components/eyes_right/kind.png",
+        "components/brows_left/neutral.png",
+        "components/brows_right/neutral.png",
+        "components/nose/neutral.png",
+        "components/mouths/neutral.png"
+      ]
+    },
+    {
+      "name": "thinking",
+      "eyes": "worried",
+      "brows": "kind",
+      "cheeks": "neutral",
+      "mouth": "sleepy",
+      "file": "animation/bridges/thinking.png",
+      "layers": [
+        "components/cheeks_left/neutral.png",
+        "components/cheeks_right/neutral.png",
+        "components/eyes_left/worried.png",
+        "components/eyes_right/worried.png",
+        "components/brows_left/kind.png",
+        "components/brows_right/kind.png",
+        "components/nose/neutral.png",
+        "components/mouths/sleepy.png"
+      ]
+    },
+    {
+      "name": "hesitation",
+      "eyes": "bashful",
+      "brows": "worried",
+      "cheeks": "bashful",
+      "mouth": "neutral",
+      "file": "animation/bridges/hesitation.png",
+      "layers": [
+        "components/cheeks_left/bashful.png",
+        "components/cheeks_right/bashful.png",
+        "components/eyes_left/bashful.png",
+        "components/eyes_right/bashful.png",
+        "components/brows_left/worried.png",
+        "components/brows_right/worried.png",
+        "components/nose/neutral.png",
+        "components/mouths/neutral.png"
+      ]
+    },
+    {
+      "name": "anticipation",
+      "eyes": "cheerful",
+      "brows": "neutral",
+      "cheeks": "kind",
+      "mouth": "kind",
+      "file": "animation/bridges/anticipation.png",
+      "layers": [
+        "components/cheeks_left/kind.png",
+        "components/cheeks_right/kind.png",
+        "components/eyes_left/cheerful.png",
+        "components/eyes_right/cheerful.png",
+        "components/brows_left/neutral.png",
+        "components/brows_right/neutral.png",
+        "components/nose/neutral.png",
+        "components/mouths/kind.png"
+      ]
+    },
+    {
+      "name": "relief",
+      "eyes": "kind",
+      "blink": "closed",
+      "brows": "kind",
+      "cheeks": "kind",
+      "mouth": "kind",
+      "file": "animation/bridges/relief.png",
+      "layers": [
+        "components/cheeks_left/kind.png",
+        "components/cheeks_right/kind.png",
+        "animation/blink/kind/closed/eyes.png",
+        "components/brows_left/kind.png",
+        "components/brows_right/kind.png",
+        "components/nose/neutral.png",
+        "components/mouths/kind.png"
+      ]
+    },
+    {
+      "name": "sleep_onset",
+      "eyes": "sleepy",
+      "blink": "closing_70",
+      "brows": "sleepy",
+      "cheeks": "sleepy",
+      "mouth": "sleepy",
+      "file": "animation/bridges/sleep_onset.png",
+      "layers": [
+        "components/cheeks_left/sleepy.png",
+        "components/cheeks_right/sleepy.png",
+        "animation/blink/sleepy/closing_70/eyes.png",
+        "components/brows_left/sleepy.png",
+        "components/brows_right/sleepy.png",
+        "components/nose/neutral.png",
+        "components/mouths/sleepy.png"
+      ]
+    },
+    {
+      "name": "wake_up",
+      "eyes": "neutral",
+      "blink": "closing_35",
+      "brows": "sleepy",
+      "cheeks": "neutral",
+      "mouth": "sleepy",
+      "file": "animation/bridges/wake_up.png",
+      "layers": [
+        "components/cheeks_left/neutral.png",
+        "components/cheeks_right/neutral.png",
+        "animation/blink/neutral/closing_35/eyes.png",
+        "components/brows_left/sleepy.png",
+        "components/brows_right/sleepy.png",
+        "components/nose/neutral.png",
+        "components/mouths/sleepy.png"
+      ]
+    },
+    {
+      "name": "composure",
+      "eyes": "annoyed",
+      "brows": "neutral",
+      "cheeks": "neutral",
+      "mouth": "neutral",
+      "file": "animation/bridges/composure.png",
+      "layers": [
+        "components/cheeks_left/neutral.png",
+        "components/cheeks_right/neutral.png",
+        "components/eyes_left/annoyed.png",
+        "components/eyes_right/annoyed.png",
+        "components/brows_left/neutral.png",
+        "components/brows_right/neutral.png",
+        "components/nose/neutral.png",
+        "components/mouths/neutral.png"
+      ]
+    }
+  ],
+  "blink_timing_ms": [
+    1200,
+    45,
+    40,
+    65,
+    45,
+    55,
+    850
+  ],
+  "notes": [
+    "Blink closing/opening uses the same raster frames in reverse order; do not crossfade two eye layers.",
+    "Full blink overlays REPLACE original emotion overlays. Never draw both together.",
+    "For expression changes, close with source frames, switch source/target upper-face parts while fully closed, then open target frames.",
+    "Laugh profile is already closed with a smiling crescent and does not require additional blinking.",
+    "Eye anchors keep horizontal socket alignment; eyelid bounds intentionally change during closure.",
+    "These files add blink and expression-transition assets. They do not create independent head/body layers or a runtime animator."
+  ]
+}

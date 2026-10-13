@@ -1,0 +1,4106 @@
+{
+  "canvas": [
+    1024,
+    1024
+  ],
+  "origin": [
+    0,
+    0
+  ],
+  "usage": "All PNGs share the same 1024x1024 coordinate system. Composite at x=0,y=0 with no scaling.",
+  "base": "base.png",
+  "components": {
+    "upper_face": [
+      "components/upper_face/neutral.png",
+      "components/upper_face/kind.png",
+      "components/upper_face/cheerful.png",
+      "components/upper_face/laugh.png",
+      "components/upper_face/bashful.png",
+      "components/upper_face/sleepy.png",
+      "components/upper_face/worried.png",
+      "components/upper_face/annoyed.png",
+      "components/upper_face/fierce.png"
+    ],
+    "mouths": [
+      "components/mouths/neutral.png",
+      "components/mouths/kind.png",
+      "components/mouths/cheerful.png",
+      "components/mouths/laugh.png",
+      "components/mouths/bashful.png",
+      "components/mouths/sleepy.png",
+      "components/mouths/worried.png",
+      "components/mouths/annoyed.png",
+      "components/mouths/fierce.png"
+    ],
+    "tracking": [
+      "tracking/eye_whites_lashes.png",
+      "tracking/irises_center.png",
+      "tracking/left_eye_whites_lashes.png",
+      "tracking/right_eye_whites_lashes.png",
+      "tracking/left_irises_center.png",
+      "tracking/right_irises_center.png"
+    ],
+    "animation_parts": {
+      "eyes_left": [
+        "components/eyes_left/neutral.png",
+        "components/eyes_left/kind.png",
+        "components/eyes_left/cheerful.png",
+        "components/eyes_left/laugh.png",
+        "components/eyes_left/bashful.png",
+        "components/eyes_left/sleepy.png",
+        "components/eyes_left/worried.png",
+        "components/eyes_left/annoyed.png",
+        "components/eyes_left/fierce.png"
+      ],
+      "eyes_right": [
+        "components/eyes_right/neutral.png",
+        "components/eyes_right/kind.png",
+        "components/eyes_right/cheerful.png",
+        "components/eyes_right/laugh.png",
+        "components/eyes_right/bashful.png",
+        "components/eyes_right/sleepy.png",
+        "components/eyes_right/worried.png",
+        "components/eyes_right/annoyed.png",
+        "components/eyes_right/fierce.png"
+      ],
+      "brows_left": [
+        "components/brows_left/neutral.png",
+        "components/brows_left/kind.png",
+        "components/brows_left/cheerful.png",
+        "components/brows_left/laugh.png",
+        "components/brows_left/bashful.png",
+        "components/brows_left/sleepy.png",
+        "components/brows_left/worried.png",
+        "components/brows_left/annoyed.png",
+        "components/brows_left/fierce.png"
+      ],
+      "brows_right": [
+        "components/brows_right/neutral.png",
+        "components/brows_right/kind.png",
+        "components/brows_right/cheerful.png",
+        "components/brows_right/laugh.png",
+        "components/brows_right/bashful.png",
+        "components/brows_right/sleepy.png",
+        "components/brows_right/worried.png",
+        "components/brows_right/annoyed.png",
+        "components/brows_right/fierce.png"
+      ],
+      "cheeks_left": [
+        "components/cheeks_left/neutral.png",
+        "components/cheeks_left/kind.png",
+        "components/cheeks_left/cheerful.png",
+        "components/cheeks_left/laugh.png",
+        "components/cheeks_left/bashful.png",
+        "components/cheeks_left/sleepy.png",
+        "components/cheeks_left/worried.png",
+        "components/cheeks_left/annoyed.png",
+        "components/cheeks_left/fierce.png"
+      ],
+      "cheeks_right": [
+        "components/cheeks_right/neutral.png",
+        "components/cheeks_right/kind.png",
+        "components/cheeks_right/cheerful.png",
+        "components/cheeks_right/laugh.png",
+        "components/cheeks_right/bashful.png",
+        "components/cheeks_right/sleepy.png",
+        "components/cheeks_right/worried.png",
+        "components/cheeks_right/annoyed.png",
+        "components/cheeks_right/fierce.png"
+      ],
+      "nose": [
+        "components/nose/neutral.png"
+      ]
+    }
+  },
+  "emotions": [
+    {
+      "name": "gentle_neutral",
+      "category": "kind",
+      "file": "emotions/kind/gentle_neutral.png",
+      "upper_face": "neutral",
+      "mouth": "neutral",
+      "anchors": {
+        "eye_left": [
+          376,
+          545
+        ],
+        "eye_right": [
+          648,
+          545
+        ],
+        "brow_left": [
+          376,
+          435
+        ],
+        "brow_right": [
+          648,
+          435
+        ],
+        "cheek_left": [
+          384,
+          626
+        ],
+        "cheek_right": [
+          640,
+          626
+        ],
+        "nose": [
+          512,
+          626
+        ],
+        "mouth": [
+          512,
+          681
+        ]
+      },
+      "alignment_profile": {
+        "upper_face": "neutral",
+        "mouth": "neutral"
+      }
+    },
+    {
+      "name": "kind_smile",
+      "category": "kind",
+      "file": "emotions/kind/kind_smile.png",
+      "upper_face": "kind",
+      "mouth": "kind",
+      "anchors": {
+        "eye_left": [
+          376,
+          545
+        ],
+        "eye_right": [
+          648,
+          545
+        ],
+        "brow_left": [
+          376,
+          435
+        ],
+        "brow_right": [
+          648,
+          435
+        ],
+        "cheek_left": [
+          384,
+          626
+        ],
+        "cheek_right": [
+          640,
+          626
+        ],
+        "nose": [
+          512,
+          626
+        ],
+        "mouth": [
+          512,
+          681
+        ]
+      },
+      "alignment_profile": {
+        "upper_face": "kind",
+        "mouth": "kind"
+      }
+    },
+    {
+      "name": "content",
+      "category": "kind",
+      "file": "emotions/kind/content.png",
+      "upper_face": "neutral",
+      "mouth": "kind",
+      "anchors": {
+        "eye_left": [
+          376,
+          545
+        ],
+        "eye_right": [
+          648,
+          545
+        ],
+        "brow_left": [
+          376,
+          435
+        ],
+        "brow_right": [
+          648,
+          435
+        ],
+        "cheek_left": [
+          384,
+          626
+        ],
+        "cheek_right": [
+          640,
+          626
+        ],
+        "nose": [
+          512,
+          626
+        ],
+        "mouth": [
+          512,
+          681
+        ]
+      },
+      "alignment_profile": {
+        "upper_face": "neutral",
+        "mouth": "kind"
+      }
+    },
+    {
+      "name": "soft_happy",
+      "category": "kind",
+      "file": "emotions/kind/soft_happy.png",
+      "upper_face": "kind",
+      "mouth": "cheerful",
+      "anchors": {
+        "eye_left": [
+          376,
+          545
+        ],
+        "eye_right": [
+          648,
+          545
+        ],
+        "brow_left": [
+          376,
+          435
+        ],
+        "brow_right": [
+          648,
+          435
+        ],
+        "cheek_left": [
+          384,
+          626
+        ],
+        "cheek_right": [
+          640,
+          626
+        ],
+        "nose": [
+          512,
+          626
+        ],
+        "mouth": [
+          512,
+          681
+        ]
+      },
+      "alignment_profile": {
+        "upper_face": "kind",
+        "mouth": "cheerful"
+      }
+    },
+    {
+      "name": "bashful_soft",
+      "category": "kind",
+      "file": "emotions/kind/bashful_soft.png",
+      "upper_face": "bashful",
+      "mouth": "kind",
+      "anchors": {
+        "eye_left": [
+          376,
+          545
+        ],
+        "eye_right": [
+          648,
+          545
+        ],
+        "brow_left": [
+          376,
+          435
+        ],
+        "brow_right": [
+          648,
+          435
+        ],
+        "cheek_left": [
+          384,
+          626
+        ],
+        "cheek_right": [
+          640,
+          626
+        ],
+        "nose": [
+          512,
+          626
+        ],
+        "mouth": [
+          512,
+          681
+        ]
+      },
+      "alignment_profile": {
+        "upper_face": "bashful",
+        "mouth": "kind"
+      }
+    },
+    {
+      "name": "bashful_smile",
+      "category": "kind",
+      "file": "emotions/kind/bashful_smile.png",
+      "upper_face": "bashful",
+      "mouth": "bashful",
+      "anchors": {
+        "eye_left": [
+          376,
+          545
+        ],
+        "eye_right": [
+          648,
+          545
+        ],
+        "brow_left": [
+          376,
+          435
+        ],
+        "brow_right": [
+          648,
+          435
+        ],
+        "cheek_left": [
+          384,
+          626
+        ],
+        "cheek_right": [
+          640,
+          626
+        ],
+        "nose": [
+          512,
+          626
+        ],
+        "mouth": [
+          512,
+          681
+        ]
+      },
+      "alignment_profile": {
+        "upper_face": "bashful",
+        "mouth": "bashful"
+      }
+    },
+    {
+      "name": "reassuring",
+      "category": "kind",
+      "file": "emotions/kind/reassuring.png",
+      "upper_face": "kind",
+      "mouth": "neutral",
+      "anchors": {
+        "eye_left": [
+          376,
+          545
+        ],
+        "eye_right": [
+          648,
+          545
+        ],
+        "brow_left": [
+          376,
+          435
+        ],
+        "brow_right": [
+          648,
+          435
+        ],
+        "cheek_left": [
+          384,
+          626
+        ],
+        "cheek_right": [
+          640,
+          626
+        ],
+        "nose": [
+          512,
+          626
+        ],
+        "mouth": [
+          512,
+          681
+        ]
+      },
+      "alignment_profile": {
+        "upper_face": "kind",
+        "mouth": "neutral"
+      }
+    },
+    {
+      "name": "warm_open_smile",
+      "category": "kind",
+      "file": "emotions/kind/warm_open_smile.png",
+      "upper_face": "kind",
+      "mouth": "cheerful",
+      "anchors": {
+        "eye_left": [
+          376,
+          545
+        ],
+        "eye_right": [
+          648,
+          545
+        ],
+        "brow_left": [
+          376,
+          435
+        ],
+        "brow_right": [
+          648,
+          435
+        ],
+        "cheek_left": [
+          384,
+          626
+        ],
+        "cheek_right": [
+          640,
+          626
+        ],
+        "nose": [
+          512,
+          626
+        ],
+        "mouth": [
+          512,
+          681
+        ]
+      },
+      "alignment_profile": {
+        "upper_face": "kind",
+        "mouth": "cheerful"
+      }
+    },
+    {
+      "name": "cheerful",
+      "category": "happy",
+      "file": "emotions/happy/cheerful.png",
+      "upper_face": "cheerful",
+      "mouth": "cheerful",
+      "anchors": {
+        "eye_left": [
+          376,
+          545
+        ],
+        "eye_right": [
+          648,
+          545
+        ],
+        "brow_left": [
+          376,
+          435
+        ],
+        "brow_right": [
+          648,
+          435
+        ],
+        "cheek_left": [
+          384,
+          626
+        ],
+        "cheek_right": [
+          640,
+          626
+        ],
+        "nose": [
+          512,
+          626
+        ],
+        "mouth": [
+          512,
+          681
+        ]
+      },
+      "alignment_profile": {
+        "upper_face": "cheerful",
+        "mouth": "cheerful"
+      }
+    },
+    {
+      "name": "joyful",
+      "category": "happy",
+      "file": "emotions/happy/joyful.png",
+      "upper_face": "laugh",
+      "mouth": "cheerful",
+      "anchors": {
+        "eye_left": [
+          376,
+          545
+        ],
+        "eye_right": [
+          648,
+          545
+        ],
+        "brow_left": [
+          376,
+          435
+        ],
+        "brow_right": [
+          648,
+          435
+        ],
+        "cheek_left": [
+          384,
+          626
+        ],
+        "cheek_right": [
+          640,
+          626
+        ],
+        "nose": [
+          512,
+          626
+        ],
+        "mouth": [
+          512,
+          681
+        ]
+      },
+      "alignment_profile": {
+        "upper_face": "laugh",
+        "mouth": "cheerful"
+      }
+    },
+    {
+      "name": "laughing",
+      "category": "happy",
+      "file": "emotions/happy/laughing.png",
+      "upper_face": "laugh",
+      "mouth": "laugh",
+      "anchors": {
+        "eye_left": [
+          376,
+          545
+        ],
+        "eye_right": [
+          648,
+          545
+        ],
+        "brow_left": [
+          376,
+          435
+        ],
+        "brow_right": [
+          648,
+          435
+        ],
+        "cheek_left": [
+          384,
+          626
+        ],
+        "cheek_right": [
+          640,
+          626
+        ],
+        "nose": [
+          512,
+          626
+        ],
+        "mouth": [
+          512,
+          681
+        ]
+      },
+      "alignment_profile": {
+        "upper_face": "laugh",
+        "mouth": "laugh"
+      }
+    },
+    {
+      "name": "closed_eye_soft_smile",
+      "category": "happy",
+      "file": "emotions/happy/closed_eye_soft_smile.png",
+      "upper_face": "laugh",
+      "mouth": "kind",
+      "anchors": {
+        "eye_left": [
+          376,
+          545
+        ],
+        "eye_right": [
+          648,
+          545
+        ],
+        "brow_left": [
+          376,
+          435
+        ],
+        "brow_right": [
+          648,
+          435
+        ],
+        "cheek_left": [
+          384,
+          626
+        ],
+        "cheek_right": [
+          640,
+          626
+        ],
+        "nose": [
+          512,
+          626
+        ],
+        "mouth": [
+          512,
+          681
+        ]
+      },
+      "alignment_profile": {
+        "upper_face": "laugh",
+        "mouth": "kind"
+      }
+    },
+    {
+      "name": "excited",
+      "category": "happy",
+      "file": "emotions/happy/excited.png",
+      "upper_face": "cheerful",
+      "mouth": "laugh",
+      "anchors": {
+        "eye_left": [
+          376,
+          545
+        ],
+        "eye_right": [
+          648,
+          545
+        ],
+        "brow_left": [
+          376,
+          435
+        ],
+        "brow_right": [
+          648,
+          435
+        ],
+        "cheek_left": [
+          384,
+          626
+        ],
+        "cheek_right": [
+          640,
+          626
+        ],
+        "nose": [
+          512,
+          626
+        ],
+        "mouth": [
+          512,
+          681
+        ]
+      },
+      "alignment_profile": {
+        "upper_face": "cheerful",
+        "mouth": "laugh"
+      }
+    },
+    {
+      "name": "giggly",
+      "category": "happy",
+      "file": "emotions/happy/giggly.png",
+      "upper_face": "bashful",
+      "mouth": "laugh",
+      "anchors": {
+        "eye_left": [
+          376,
+          545
+        ],
+        "eye_right": [
+          648,
+          545
+        ],
+        "brow_left": [
+          376,
+          435
+        ],
+        "brow_right": [
+          648,
+          435
+        ],
+        "cheek_left": [
+          384,
+          626
+        ],
+        "cheek_right": [
+          640,
+          626
+        ],
+        "nose": [
+          512,
+          626
+        ],
+        "mouth": [
+          512,
+          681
+        ]
+      },
+      "alignment_profile": {
+        "upper_face": "bashful",
+        "mouth": "laugh"
+      }
+    },
+    {
+      "name": "bright_smile",
+      "category": "happy",
+      "file": "emotions/happy/bright_smile.png",
+      "upper_face": "cheerful",
+      "mouth": "kind",
+      "anchors": {
+        "eye_left": [
+          376,
+          545
+        ],
+        "eye_right": [
+          648,
+          545
+        ],
+        "brow_left": [
+          376,
+          435
+        ],
+        "brow_right": [
+          648,
+          435
+        ],
+        "cheek_left": [
+          384,
+          626
+        ],
+        "cheek_right": [
+          640,
+          626
+        ],
+        "nose": [
+          512,
+          626
+        ],
+        "mouth": [
+          512,
+          681
+        ]
+      },
+      "alignment_profile": {
+        "upper_face": "cheerful",
+        "mouth": "kind"
+      }
+    },
+    {
+      "name": "happy_shy",
+      "category": "happy",
+      "file": "emotions/happy/happy_shy.png",
+      "upper_face": "bashful",
+      "mouth": "cheerful",
+      "anchors": {
+        "eye_left": [
+          376,
+          545
+        ],
+        "eye_right": [
+          648,
+          545
+        ],
+        "brow_left": [
+          376,
+          435
+        ],
+        "brow_right": [
+          648,
+          435
+        ],
+        "cheek_left": [
+          384,
+          626
+        ],
+        "cheek_right": [
+          640,
+          626
+        ],
+        "nose": [
+          512,
+          626
+        ],
+        "mouth": [
+          512,
+          681
+        ]
+      },
+      "alignment_profile": {
+        "upper_face": "bashful",
+        "mouth": "cheerful"
+      }
+    },
+    {
+      "name": "annoyed",
+      "category": "angry",
+      "file": "emotions/angry/annoyed.png",
+      "upper_face": "annoyed",
+      "mouth": "annoyed",
+      "anchors": {
+        "eye_left": [
+          376,
+          545
+        ],
+        "eye_right": [
+          648,
+          545
+        ],
+        "brow_left": [
+          376,
+          435
+        ],
+        "brow_right": [
+          648,
+          435
+        ],
+        "cheek_left": [
+          384,
+          626
+        ],
+        "cheek_right": [
+          640,
+          626
+        ],
+        "nose": [
+          512,
+          626
+        ],
+        "mouth": [
+          512,
+          681
+        ]
+      },
+      "alignment_profile": {
+        "upper_face": "annoyed",
+        "mouth": "annoyed"
+      }
+    },
+    {
+      "name": "mild_angry",
+      "category": "angry",
+      "file": "emotions/angry/mild_angry.png",
+      "upper_face": "annoyed",
+      "mouth": "neutral",
+      "anchors": {
+        "eye_left": [
+          376,
+          545
+        ],
+        "eye_right": [
+          648,
+          545
+        ],
+        "brow_left": [
+          376,
+          435
+        ],
+        "brow_right": [
+          648,
+          435
+        ],
+        "cheek_left": [
+          384,
+          626
+        ],
+        "cheek_right": [
+          640,
+          626
+        ],
+        "nose": [
+          512,
+          626
+        ],
+        "mouth": [
+          512,
+          681
+        ]
+      },
+      "alignment_profile": {
+        "upper_face": "annoyed",
+        "mouth": "neutral"
+      }
+    },
+    {
+      "name": "angry_pout",
+      "category": "angry",
+      "file": "emotions/angry/angry_pout.png",
+      "upper_face": "annoyed",
+      "mouth": "worried",
+      "anchors": {
+        "eye_left": [
+          376,
+          545
+        ],
+        "eye_right": [
+          648,
+          545
+        ],
+        "brow_left": [
+          376,
+          435
+        ],
+        "brow_right": [
+          648,
+          435
+        ],
+        "cheek_left": [
+          384,
+          626
+        ],
+        "cheek_right": [
+          640,
+          626
+        ],
+        "nose": [
+          512,
+          626
+        ],
+        "mouth": [
+          512,
+          681
+        ]
+      },
+      "alignment_profile": {
+        "upper_face": "annoyed",
+        "mouth": "worried"
+      }
+    },
+    {
+      "name": "angry_smirk",
+      "category": "angry",
+      "file": "emotions/angry/angry_smirk.png",
+      "upper_face": "annoyed",
+      "mouth": "kind",
+      "anchors": {
+        "eye_left": [
+          376,
+          545
+        ],
+        "eye_right": [
+          648,
+          545
+        ],
+        "brow_left": [
+          376,
+          435
+        ],
+        "brow_right": [
+          648,
+          435
+        ],
+        "cheek_left": [
+          384,
+          626
+        ],
+        "cheek_right": [
+          640,
+          626
+        ],
+        "nose": [
+          512,
+          626
+        ],
+        "mouth": [
+          512,
+          681
+        ]
+      },
+      "alignment_profile": {
+        "upper_face": "annoyed",
+        "mouth": "kind"
+      }
+    },
+    {
+      "name": "fierce_angry",
+      "category": "angry",
+      "file": "emotions/angry/fierce_angry.png",
+      "upper_face": "fierce",
+      "mouth": "fierce",
+      "anchors": {
+        "eye_left": [
+          376,
+          537
+        ],
+        "eye_right": [
+          648,
+          537
+        ],
+        "brow_left": [
+          376,
+          451
+        ],
+        "brow_right": [
+          648,
+          451
+        ],
+        "cheek_left": [
+          384,
+          626
+        ],
+        "cheek_right": [
+          640,
+          626
+        ],
+        "nose": [
+          512,
+          626
+        ],
+        "mouth": [
+          512,
+          681
+        ]
+      },
+      "alignment_profile": {
+        "upper_face": "fierce",
+        "mouth": "fierce"
+      }
+    },
+    {
+      "name": "determined",
+      "category": "angry",
+      "file": "emotions/angry/determined.png",
+      "upper_face": "fierce",
+      "mouth": "neutral",
+      "anchors": {
+        "eye_left": [
+          376,
+          537
+        ],
+        "eye_right": [
+          648,
+          537
+        ],
+        "brow_left": [
+          376,
+          451
+        ],
+        "brow_right": [
+          648,
+          451
+        ],
+        "cheek_left": [
+          384,
+          626
+        ],
+        "cheek_right": [
+          640,
+          626
+        ],
+        "nose": [
+          512,
+          626
+        ],
+        "mouth": [
+          512,
+          681
+        ]
+      },
+      "alignment_profile": {
+        "upper_face": "fierce",
+        "mouth": "neutral"
+      }
+    },
+    {
+      "name": "determined_smile",
+      "category": "angry",
+      "file": "emotions/angry/determined_smile.png",
+      "upper_face": "fierce",
+      "mouth": "kind",
+      "anchors": {
+        "eye_left": [
+          376,
+          537
+        ],
+        "eye_right": [
+          648,
+          537
+        ],
+        "brow_left": [
+          376,
+          451
+        ],
+        "brow_right": [
+          648,
+          451
+        ],
+        "cheek_left": [
+          384,
+          626
+        ],
+        "cheek_right": [
+          640,
+          626
+        ],
+        "nose": [
+          512,
+          626
+        ],
+        "mouth": [
+          512,
+          681
+        ]
+      },
+      "alignment_profile": {
+        "upper_face": "fierce",
+        "mouth": "kind"
+      }
+    },
+    {
+      "name": "frustrated",
+      "category": "angry",
+      "file": "emotions/angry/frustrated.png",
+      "upper_face": "fierce",
+      "mouth": "worried",
+      "anchors": {
+        "eye_left": [
+          376,
+          537
+        ],
+        "eye_right": [
+          648,
+          537
+        ],
+        "brow_left": [
+          376,
+          451
+        ],
+        "brow_right": [
+          648,
+          451
+        ],
+        "cheek_left": [
+          384,
+          626
+        ],
+        "cheek_right": [
+          640,
+          626
+        ],
+        "nose": [
+          512,
+          626
+        ],
+        "mouth": [
+          512,
+          681
+        ]
+      },
+      "alignment_profile": {
+        "upper_face": "fierce",
+        "mouth": "worried"
+      }
+    },
+    {
+      "name": "angry_open",
+      "category": "angry",
+      "file": "emotions/angry/angry_open.png",
+      "upper_face": "fierce",
+      "mouth": "cheerful",
+      "anchors": {
+        "eye_left": [
+          376,
+          537
+        ],
+        "eye_right": [
+          648,
+          537
+        ],
+        "brow_left": [
+          376,
+          451
+        ],
+        "brow_right": [
+          648,
+          451
+        ],
+        "cheek_left": [
+          384,
+          626
+        ],
+        "cheek_right": [
+          640,
+          626
+        ],
+        "nose": [
+          512,
+          626
+        ],
+        "mouth": [
+          512,
+          681
+        ]
+      },
+      "alignment_profile": {
+        "upper_face": "fierce",
+        "mouth": "cheerful"
+      }
+    },
+    {
+      "name": "worried",
+      "category": "sad_tired",
+      "file": "emotions/sad_tired/worried.png",
+      "upper_face": "worried",
+      "mouth": "worried",
+      "anchors": {
+        "eye_left": [
+          376,
+          545
+        ],
+        "eye_right": [
+          648,
+          545
+        ],
+        "brow_left": [
+          376,
+          435
+        ],
+        "brow_right": [
+          648,
+          435
+        ],
+        "cheek_left": [
+          384,
+          626
+        ],
+        "cheek_right": [
+          640,
+          626
+        ],
+        "nose": [
+          512,
+          626
+        ],
+        "mouth": [
+          512,
+          681
+        ]
+      },
+      "alignment_profile": {
+        "upper_face": "worried",
+        "mouth": "worried"
+      }
+    },
+    {
+      "name": "sad_flat",
+      "category": "sad_tired",
+      "file": "emotions/sad_tired/sad_flat.png",
+      "upper_face": "worried",
+      "mouth": "sleepy",
+      "anchors": {
+        "eye_left": [
+          376,
+          545
+        ],
+        "eye_right": [
+          648,
+          545
+        ],
+        "brow_left": [
+          376,
+          435
+        ],
+        "brow_right": [
+          648,
+          435
+        ],
+        "cheek_left": [
+          384,
+          626
+        ],
+        "cheek_right": [
+          640,
+          626
+        ],
+        "nose": [
+          512,
+          626
+        ],
+        "mouth": [
+          512,
+          681
+        ]
+      },
+      "alignment_profile": {
+        "upper_face": "worried",
+        "mouth": "sleepy"
+      }
+    },
+    {
+      "name": "sad_quiet",
+      "category": "sad_tired",
+      "file": "emotions/sad_tired/sad_quiet.png",
+      "upper_face": "worried",
+      "mouth": "neutral",
+      "anchors": {
+        "eye_left": [
+          376,
+          545
+        ],
+        "eye_right": [
+          648,
+          545
+        ],
+        "brow_left": [
+          376,
+          435
+        ],
+        "brow_right": [
+          648,
+          435
+        ],
+        "cheek_left": [
+          384,
+          626
+        ],
+        "cheek_right": [
+          640,
+          626
+        ],
+        "nose": [
+          512,
+          626
+        ],
+        "mouth": [
+          512,
+          681
+        ]
+      },
+      "alignment_profile": {
+        "upper_face": "worried",
+        "mouth": "neutral"
+      }
+    },
+    {
+      "name": "nervous",
+      "category": "sad_tired",
+      "file": "emotions/sad_tired/nervous.png",
+      "upper_face": "worried",
+      "mouth": "bashful",
+      "anchors": {
+        "eye_left": [
+          376,
+          545
+        ],
+        "eye_right": [
+          648,
+          545
+        ],
+        "brow_left": [
+          376,
+          435
+        ],
+        "brow_right": [
+          648,
+          435
+        ],
+        "cheek_left": [
+          384,
+          626
+        ],
+        "cheek_right": [
+          640,
+          626
+        ],
+        "nose": [
+          512,
+          626
+        ],
+        "mouth": [
+          512,
+          681
+        ]
+      },
+      "alignment_profile": {
+        "upper_face": "worried",
+        "mouth": "bashful"
+      }
+    },
+    {
+      "name": "panic",
+      "category": "sad_tired",
+      "file": "emotions/sad_tired/panic.png",
+      "upper_face": "worried",
+      "mouth": "fierce",
+      "anchors": {
+        "eye_left": [
+          376,
+          545
+        ],
+        "eye_right": [
+          648,
+          545
+        ],
+        "brow_left": [
+          376,
+          435
+        ],
+        "brow_right": [
+          648,
+          435
+        ],
+        "cheek_left": [
+          384,
+          626
+        ],
+        "cheek_right": [
+          640,
+          626
+        ],
+        "nose": [
+          512,
+          626
+        ],
+        "mouth": [
+          512,
+          681
+        ]
+      },
+      "alignment_profile": {
+        "upper_face": "worried",
+        "mouth": "fierce"
+      }
+    },
+    {
+      "name": "sleepy",
+      "category": "sad_tired",
+      "file": "emotions/sad_tired/sleepy.png",
+      "upper_face": "sleepy",
+      "mouth": "sleepy",
+      "anchors": {
+        "eye_left": [
+          376,
+          545
+        ],
+        "eye_right": [
+          648,
+          545
+        ],
+        "brow_left": [
+          376,
+          435
+        ],
+        "brow_right": [
+          648,
+          435
+        ],
+        "cheek_left": [
+          384,
+          626
+        ],
+        "cheek_right": [
+          640,
+          626
+        ],
+        "nose": [
+          512,
+          626
+        ],
+        "mouth": [
+          512,
+          681
+        ]
+      },
+      "alignment_profile": {
+        "upper_face": "sleepy",
+        "mouth": "sleepy"
+      }
+    },
+    {
+      "name": "tired_neutral",
+      "category": "sad_tired",
+      "file": "emotions/sad_tired/tired_neutral.png",
+      "upper_face": "sleepy",
+      "mouth": "neutral",
+      "anchors": {
+        "eye_left": [
+          376,
+          545
+        ],
+        "eye_right": [
+          648,
+          545
+        ],
+        "brow_left": [
+          376,
+          435
+        ],
+        "brow_right": [
+          648,
+          435
+        ],
+        "cheek_left": [
+          384,
+          626
+        ],
+        "cheek_right": [
+          640,
+          626
+        ],
+        "nose": [
+          512,
+          626
+        ],
+        "mouth": [
+          512,
+          681
+        ]
+      },
+      "alignment_profile": {
+        "upper_face": "sleepy",
+        "mouth": "neutral"
+      }
+    },
+    {
+      "name": "tired_smile",
+      "category": "sad_tired",
+      "file": "emotions/sad_tired/tired_smile.png",
+      "upper_face": "sleepy",
+      "mouth": "kind",
+      "anchors": {
+        "eye_left": [
+          376,
+          545
+        ],
+        "eye_right": [
+          648,
+          545
+        ],
+        "brow_left": [
+          376,
+          435
+        ],
+        "brow_right": [
+          648,
+          435
+        ],
+        "cheek_left": [
+          384,
+          626
+        ],
+        "cheek_right": [
+          640,
+          626
+        ],
+        "nose": [
+          512,
+          626
+        ],
+        "mouth": [
+          512,
+          681
+        ]
+      },
+      "alignment_profile": {
+        "upper_face": "sleepy",
+        "mouth": "kind"
+      }
+    },
+    {
+      "name": "deadpan",
+      "category": "sad_tired",
+      "file": "emotions/sad_tired/deadpan.png",
+      "upper_face": "sleepy",
+      "mouth": "annoyed",
+      "anchors": {
+        "eye_left": [
+          376,
+          545
+        ],
+        "eye_right": [
+          648,
+          545
+        ],
+        "brow_left": [
+          376,
+          435
+        ],
+        "brow_right": [
+          648,
+          435
+        ],
+        "cheek_left": [
+          384,
+          626
+        ],
+        "cheek_right": [
+          640,
+          626
+        ],
+        "nose": [
+          512,
+          626
+        ],
+        "mouth": [
+          512,
+          681
+        ]
+      },
+      "alignment_profile": {
+        "upper_face": "sleepy",
+        "mouth": "annoyed"
+      }
+    },
+    {
+      "name": "mischievous",
+      "category": "special",
+      "file": "emotions/special/mischievous.png",
+      "upper_face": "annoyed",
+      "mouth": "kind",
+      "anchors": {
+        "eye_left": [
+          376,
+          545
+        ],
+        "eye_right": [
+          648,
+          545
+        ],
+        "brow_left": [
+          376,
+          435
+        ],
+        "brow_right": [
+          648,
+          435
+        ],
+        "cheek_left": [
+          384,
+          626
+        ],
+        "cheek_right": [
+          640,
+          626
+        ],
+        "nose": [
+          512,
+          626
+        ],
+        "mouth": [
+          512,
+          681
+        ]
+      },
+      "alignment_profile": {
+        "upper_face": "annoyed",
+        "mouth": "kind"
+      }
+    },
+    {
+      "name": "smug",
+      "category": "special",
+      "file": "emotions/special/smug.png",
+      "upper_face": "sleepy",
+      "mouth": "kind",
+      "anchors": {
+        "eye_left": [
+          376,
+          545
+        ],
+        "eye_right": [
+          648,
+          545
+        ],
+        "brow_left": [
+          376,
+          435
+        ],
+        "brow_right": [
+          648,
+          435
+        ],
+        "cheek_left": [
+          384,
+          626
+        ],
+        "cheek_right": [
+          640,
+          626
+        ],
+        "nose": [
+          512,
+          626
+        ],
+        "mouth": [
+          512,
+          681
+        ]
+      },
+      "alignment_profile": {
+        "upper_face": "sleepy",
+        "mouth": "kind"
+      }
+    },
+    {
+      "name": "confused",
+      "category": "special",
+      "file": "emotions/special/confused.png",
+      "upper_face": "worried",
+      "mouth": "neutral",
+      "anchors": {
+        "eye_left": [
+          376,
+          545
+        ],
+        "eye_right": [
+          648,
+          545
+        ],
+        "brow_left": [
+          376,
+          435
+        ],
+        "brow_right": [
+          648,
+          435
+        ],
+        "cheek_left": [
+          384,
+          626
+        ],
+        "cheek_right": [
+          640,
+          626
+        ],
+        "nose": [
+          512,
+          626
+        ],
+        "mouth": [
+          512,
+          681
+        ]
+      },
+      "alignment_profile": {
+        "upper_face": "worried",
+        "mouth": "neutral"
+      }
+    },
+    {
+      "name": "surprised",
+      "category": "special",
+      "file": "emotions/special/surprised.png",
+      "upper_face": "neutral",
+      "mouth": "fierce",
+      "anchors": {
+        "eye_left": [
+          376,
+          545
+        ],
+        "eye_right": [
+          648,
+          545
+        ],
+        "brow_left": [
+          376,
+          435
+        ],
+        "brow_right": [
+          648,
+          435
+        ],
+        "cheek_left": [
+          384,
+          626
+        ],
+        "cheek_right": [
+          640,
+          626
+        ],
+        "nose": [
+          512,
+          626
+        ],
+        "mouth": [
+          512,
+          681
+        ]
+      },
+      "alignment_profile": {
+        "upper_face": "neutral",
+        "mouth": "fierce"
+      }
+    },
+    {
+      "name": "shocked",
+      "category": "special",
+      "file": "emotions/special/shocked.png",
+      "upper_face": "cheerful",
+      "mouth": "fierce",
+      "anchors": {
+        "eye_left": [
+          376,
+          545
+        ],
+        "eye_right": [
+          648,
+          545
+        ],
+        "brow_left": [
+          376,
+          435
+        ],
+        "brow_right": [
+          648,
+          435
+        ],
+        "cheek_left": [
+          384,
+          626
+        ],
+        "cheek_right": [
+          640,
+          626
+        ],
+        "nose": [
+          512,
+          626
+        ],
+        "mouth": [
+          512,
+          681
+        ]
+      },
+      "alignment_profile": {
+        "upper_face": "cheerful",
+        "mouth": "fierce"
+      }
+    },
+    {
+      "name": "serious",
+      "category": "special",
+      "file": "emotions/special/serious.png",
+      "upper_face": "neutral",
+      "mouth": "sleepy",
+      "anchors": {
+        "eye_left": [
+          376,
+          545
+        ],
+        "eye_right": [
+          648,
+          545
+        ],
+        "brow_left": [
+          376,
+          435
+        ],
+        "brow_right": [
+          648,
+          435
+        ],
+        "cheek_left": [
+          384,
+          626
+        ],
+        "cheek_right": [
+          640,
+          626
+        ],
+        "nose": [
+          512,
+          626
+        ],
+        "mouth": [
+          512,
+          681
+        ]
+      },
+      "alignment_profile": {
+        "upper_face": "neutral",
+        "mouth": "sleepy"
+      }
+    },
+    {
+      "name": "focused",
+      "category": "special",
+      "file": "emotions/special/focused.png",
+      "upper_face": "fierce",
+      "mouth": "sleepy",
+      "anchors": {
+        "eye_left": [
+          376,
+          537
+        ],
+        "eye_right": [
+          648,
+          537
+        ],
+        "brow_left": [
+          376,
+          451
+        ],
+        "brow_right": [
+          648,
+          451
+        ],
+        "cheek_left": [
+          384,
+          626
+        ],
+        "cheek_right": [
+          640,
+          626
+        ],
+        "nose": [
+          512,
+          626
+        ],
+        "mouth": [
+          512,
+          681
+        ]
+      },
+      "alignment_profile": {
+        "upper_face": "fierce",
+        "mouth": "sleepy"
+      }
+    },
+    {
+      "name": "cute_pout",
+      "category": "special",
+      "file": "emotions/special/cute_pout.png",
+      "upper_face": "bashful",
+      "mouth": "annoyed",
+      "anchors": {
+        "eye_left": [
+          376,
+          545
+        ],
+        "eye_right": [
+          648,
+          545
+        ],
+        "brow_left": [
+          376,
+          435
+        ],
+        "brow_right": [
+          648,
+          435
+        ],
+        "cheek_left": [
+          384,
+          626
+        ],
+        "cheek_right": [
+          640,
+          626
+        ],
+        "nose": [
+          512,
+          626
+        ],
+        "mouth": [
+          512,
+          681
+        ]
+      },
+      "alignment_profile": {
+        "upper_face": "bashful",
+        "mouth": "annoyed"
+      }
+    },
+    {
+      "name": "embarrassed",
+      "category": "special",
+      "file": "emotions/special/embarrassed.png",
+      "upper_face": "bashful",
+      "mouth": "worried",
+      "anchors": {
+        "eye_left": [
+          376,
+          545
+        ],
+        "eye_right": [
+          648,
+          545
+        ],
+        "brow_left": [
+          376,
+          435
+        ],
+        "brow_right": [
+          648,
+          435
+        ],
+        "cheek_left": [
+          384,
+          626
+        ],
+        "cheek_right": [
+          640,
+          626
+        ],
+        "nose": [
+          512,
+          626
+        ],
+        "mouth": [
+          512,
+          681
+        ]
+      },
+      "alignment_profile": {
+        "upper_face": "bashful",
+        "mouth": "worried"
+      }
+    }
+  ],
+  "random_preview": {
+    "emotion": "gentle_neutral",
+    "category": "kind",
+    "file": "random_emotion_assembled.png",
+    "display_file": "random_emotion_preview.png"
+  },
+  "fit_adjustment": {
+    "reference": "image-1791311857482.jpg",
+    "base_changed": true,
+    "resampling": "Lanczos",
+    "notes": "The final PNGs include all scaling and alignment adjustments. Composite at (0,0) without further scaling. Final landmark targets and per-template transforms are in animation_alignment."
+  },
+  "preview_sheet": "all_emotions_preview.jpg",
+  "animation_alignment": {
+    "anchors": {
+      "eye_left": [
+        376,
+        545
+      ],
+      "eye_right": [
+        648,
+        545
+      ],
+      "brow_left": [
+        376,
+        435
+      ],
+      "brow_right": [
+        648,
+        435
+      ],
+      "cheek_left": [
+        384,
+        626
+      ],
+      "cheek_right": [
+        640,
+        626
+      ],
+      "nose": [
+        512,
+        626
+      ],
+      "mouth": [
+        512,
+        681
+      ]
+    },
+    "reference_mapping": {
+      "file": "image-1791311857482.jpg",
+      "portrait": "large frontal portrait at upper right",
+      "nose_center": [
+        1151,
+        462
+      ],
+      "reference_landmarks": {
+        "central_fringe": [
+          1151,
+          370
+        ],
+        "chin": [
+          1151,
+          578
+        ]
+      },
+      "base_landmarks": {
+        "central_fringe": [
+          512,
+          505
+        ],
+        "chin": [
+          512,
+          778
+        ]
+      },
+      "mapping": "Base Y = 505 + (reference Y - 370) * (778 - 505) / (578 - 370); X = frontal face midline. Rounded to nearest pixel."
+    },
+    "eye_socket_width": 144,
+    "brow_width": 124,
+    "mouth_max_size": [
+      88,
+      52
+    ],
+    "profiles": {
+      "neutral": {
+        "eye_left": {
+          "source_bbox": [
+            301,
+            483,
+            445,
+            595
+          ],
+          "source_anchor": [
+            373,
+            544.5
+          ],
+          "target_anchor": [
+            376,
+            545
+          ],
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            11,
+            1
+          ],
+          "eye_spacing_translation": [
+            -8,
+            0
+          ]
+        },
+        "brow_left": {
+          "source_bbox": [
+            321,
+            419,
+            445,
+            450
+          ],
+          "source_anchor": [
+            383,
+            434.5
+          ],
+          "target_anchor": [
+            376,
+            435
+          ],
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            1,
+            1
+          ],
+          "eye_spacing_translation": [
+            -8,
+            0
+          ]
+        },
+        "cheek_left": {
+          "source_bbox": [
+            338,
+            588,
+            410,
+            654
+          ],
+          "source_anchor": [
+            374,
+            621
+          ],
+          "target_anchor": [
+            384,
+            626
+          ],
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            10,
+            5
+          ],
+          "alpha_repair": {
+            "source_strokes": "neutral original",
+            "target_anchor": [
+              384,
+              626
+            ],
+            "opacity_factor": 0.6,
+            "background_alpha": 0
+          }
+        },
+        "eye_right": {
+          "source_bbox": [
+            579,
+            483,
+            723,
+            595
+          ],
+          "source_anchor": [
+            651,
+            544.5
+          ],
+          "target_anchor": [
+            648,
+            545
+          ],
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            -11,
+            1
+          ],
+          "eye_spacing_translation": [
+            8,
+            0
+          ]
+        },
+        "brow_right": {
+          "source_bbox": [
+            579,
+            419,
+            704,
+            450
+          ],
+          "source_anchor": [
+            641.5,
+            434.5
+          ],
+          "target_anchor": [
+            648,
+            435
+          ],
+          "scale": [
+            0.9924812030075187,
+            1
+          ],
+          "translation": [
+            3.323308270676762,
+            1
+          ],
+          "eye_spacing_translation": [
+            8,
+            0
+          ]
+        },
+        "cheek_right": {
+          "source_bbox": [
+            614,
+            588,
+            684,
+            654
+          ],
+          "source_anchor": [
+            649,
+            621
+          ],
+          "target_anchor": [
+            640,
+            626
+          ],
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            -9,
+            5
+          ],
+          "alpha_repair": {
+            "source_strokes": "neutral original",
+            "target_anchor": [
+              640,
+              626
+            ],
+            "opacity_factor": 0.6,
+            "background_alpha": 0
+          }
+        },
+        "layers": [
+          "components/cheeks_left/neutral.png",
+          "components/eyes_left/neutral.png",
+          "components/brows_left/neutral.png",
+          "components/cheeks_right/neutral.png",
+          "components/eyes_right/neutral.png",
+          "components/brows_right/neutral.png"
+        ],
+        "mouth": {
+          "source_bbox": [
+            483,
+            692,
+            542,
+            699
+          ],
+          "source_anchor": [
+            512.5,
+            695.5
+          ],
+          "target_anchor": [
+            512,
+            681
+          ],
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            0,
+            -14
+          ]
+        }
+      },
+      "kind": {
+        "eye_left": {
+          "source_bbox": [
+            298,
+            481,
+            442,
+            589
+          ],
+          "source_anchor": [
+            370,
+            539
+          ],
+          "target_anchor": [
+            376,
+            545
+          ],
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            14,
+            6
+          ],
+          "eye_spacing_translation": [
+            -8,
+            0
+          ]
+        },
+        "brow_left": {
+          "source_bbox": [
+            335,
+            409,
+            437,
+            436
+          ],
+          "source_anchor": [
+            386,
+            422.5
+          ],
+          "target_anchor": [
+            376,
+            435
+          ],
+          "scale": [
+            1.2181818181818183,
+            1.2285714285714286
+          ],
+          "translation": [
+            -86.21818181818185,
+            -83.57142857142861
+          ],
+          "eye_spacing_translation": [
+            -8,
+            0
+          ]
+        },
+        "cheek_left": {
+          "source_bbox": [
+            341,
+            603,
+            404,
+            646
+          ],
+          "source_anchor": [
+            372.5,
+            624.5
+          ],
+          "target_anchor": [
+            384,
+            626
+          ],
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            12,
+            2
+          ],
+          "alpha_repair": {
+            "source_strokes": "neutral original",
+            "target_anchor": [
+              384,
+              626
+            ],
+            "opacity_factor": 0.6,
+            "background_alpha": 0
+          }
+        },
+        "eye_right": {
+          "source_bbox": [
+            583,
+            481,
+            728,
+            589
+          ],
+          "source_anchor": [
+            655.5,
+            539
+          ],
+          "target_anchor": [
+            648,
+            545
+          ],
+          "scale": [
+            0.9934640522875817,
+            0.9913793103448276
+          ],
+          "translation": [
+            -11.215686274509835,
+            11.11206896551721
+          ],
+          "eye_spacing_translation": [
+            8,
+            0
+          ]
+        },
+        "brow_right": {
+          "source_bbox": [
+            589,
+            406,
+            692,
+            436
+          ],
+          "source_anchor": [
+            640.5,
+            421
+          ],
+          "target_anchor": [
+            648,
+            435
+          ],
+          "scale": [
+            1.2072072072072073,
+            1.2105263157894737
+          ],
+          "translation": [
+            -133.21621621621625,
+            -74.63157894736844
+          ],
+          "eye_spacing_translation": [
+            8,
+            0
+          ]
+        },
+        "cheek_right": {
+          "source_bbox": [
+            619,
+            583,
+            683,
+            648
+          ],
+          "source_anchor": [
+            651,
+            615.5
+          ],
+          "target_anchor": [
+            640,
+            626
+          ],
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            -11,
+            11
+          ],
+          "alpha_repair": {
+            "source_strokes": "neutral original",
+            "target_anchor": [
+              640,
+              626
+            ],
+            "opacity_factor": 0.6,
+            "background_alpha": 0
+          }
+        },
+        "layers": [
+          "components/cheeks_left/kind.png",
+          "components/eyes_left/kind.png",
+          "components/brows_left/kind.png",
+          "components/cheeks_right/kind.png",
+          "components/eyes_right/kind.png",
+          "components/brows_right/kind.png"
+        ],
+        "mouth": {
+          "source_bbox": [
+            485,
+            691,
+            541,
+            698
+          ],
+          "source_anchor": [
+            513,
+            694.5
+          ],
+          "target_anchor": [
+            512,
+            681
+          ],
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            -1,
+            -13
+          ]
+        }
+      },
+      "cheerful": {
+        "eye_left": {
+          "source_bbox": [
+            282,
+            477,
+            443,
+            612
+          ],
+          "source_anchor": [
+            362.5,
+            549.5
+          ],
+          "target_anchor": [
+            376,
+            545
+          ],
+          "scale": [
+            0.893491124260355,
+            0.8951048951048951
+          ],
+          "translation": [
+            60.609467455621285,
+            53.61538461538464
+          ],
+          "eye_spacing_translation": [
+            -8,
+            0
+          ]
+        },
+        "brow_left": {
+          "source_bbox": [
+            308,
+            404,
+            438,
+            445
+          ],
+          "source_anchor": [
+            373,
+            424.5
+          ],
+          "target_anchor": [
+            376,
+            435
+          ],
+          "scale": [
+            0.9565217391304348,
+            0.9591836734693877
+          ],
+          "translation": [
+            27.217391304347814,
+            28.326530612244937
+          ],
+          "eye_spacing_translation": [
+            -8,
+            0
+          ]
+        },
+        "cheek_left": {
+          "source_bbox": [
+            312,
+            589,
+            410,
+            676
+          ],
+          "source_anchor": [
+            361,
+            632.5
+          ],
+          "target_anchor": [
+            384,
+            626
+          ],
+          "scale": [
+            0.7358490566037735,
+            0.7368421052631579
+          ],
+          "translation": [
+            118.35849056603774,
+            159.94736842105266
+          ],
+          "alpha_repair": {
+            "source_strokes": "neutral original",
+            "target_anchor": [
+              384,
+              626
+            ],
+            "opacity_factor": 0.68,
+            "background_alpha": 0
+          }
+        },
+        "eye_right": {
+          "source_bbox": [
+            580,
+            477,
+            742,
+            614
+          ],
+          "source_anchor": [
+            661,
+            549
+          ],
+          "target_anchor": [
+            648,
+            545
+          ],
+          "scale": [
+            0.888235294117647,
+            0.8896551724137931
+          ],
+          "translation": [
+            53.37647058823529,
+            56.19310344827585
+          ],
+          "final_pixel_correction": [
+            0,
+            1
+          ],
+          "eye_spacing_translation": [
+            8,
+            0
+          ]
+        },
+        "brow_right": {
+          "source_bbox": [
+            585,
+            404,
+            715,
+            444
+          ],
+          "source_anchor": [
+            650,
+            424
+          ],
+          "target_anchor": [
+            648,
+            435
+          ],
+          "scale": [
+            0.9565217391304348,
+            0.9583333333333334
+          ],
+          "translation": [
+            18.260869565217376,
+            28.66666666666663
+          ],
+          "eye_spacing_translation": [
+            8,
+            0
+          ]
+        },
+        "cheek_right": {
+          "source_bbox": [
+            617,
+            581,
+            715,
+            676
+          ],
+          "source_anchor": [
+            666,
+            628.5
+          ],
+          "target_anchor": [
+            640,
+            626
+          ],
+          "scale": [
+            0.7358490566037735,
+            0.7378640776699029
+          ],
+          "translation": [
+            149.92452830188682,
+            162.252427184466
+          ],
+          "alpha_repair": {
+            "source_strokes": "neutral original",
+            "target_anchor": [
+              640,
+              626
+            ],
+            "opacity_factor": 0.68,
+            "background_alpha": 0
+          }
+        },
+        "layers": [
+          "components/cheeks_left/cheerful.png",
+          "components/eyes_left/cheerful.png",
+          "components/brows_left/cheerful.png",
+          "components/cheeks_right/cheerful.png",
+          "components/eyes_right/cheerful.png",
+          "components/brows_right/cheerful.png"
+        ],
+        "mouth": {
+          "source_bbox": [
+            462,
+            683,
+            564,
+            755
+          ],
+          "source_anchor": [
+            513,
+            719
+          ],
+          "target_anchor": [
+            512,
+            681
+          ],
+          "scale": [
+            0.7181818181818181,
+            0.725
+          ],
+          "translation": [
+            144.07272727272726,
+            159.72500000000002
+          ]
+        }
+      },
+      "laugh": {
+        "eye_left": {
+          "source_bbox": [
+            308,
+            536,
+            453,
+            594
+          ],
+          "source_anchor": [
+            380.5,
+            568.5
+          ],
+          "target_anchor": [
+            376,
+            545
+          ],
+          "scale": [
+            0.9934640522875817,
+            1
+          ],
+          "translation": [
+            5.986928104575156,
+            -23
+          ],
+          "eye_spacing_translation": [
+            -8,
+            0
+          ]
+        },
+        "brow_left": {
+          "source_bbox": [
+            337,
+            437,
+            444,
+            472
+          ],
+          "source_anchor": [
+            390.5,
+            454.5
+          ],
+          "target_anchor": [
+            376,
+            435
+          ],
+          "scale": [
+            1.1565217391304348,
+            1.1627906976744187
+          ],
+          "translation": [
+            -67.12173913043478,
+            -93.48837209302326
+          ],
+          "eye_spacing_translation": [
+            -8,
+            0
+          ]
+        },
+        "cheek_left": {
+          "source_bbox": [
+            314,
+            596,
+            418,
+            676
+          ],
+          "source_anchor": [
+            366,
+            636
+          ],
+          "target_anchor": [
+            384,
+            626
+          ],
+          "scale": [
+            0.6964285714285714,
+            0.6931818181818182
+          ],
+          "translation": [
+            129.10714285714286,
+            185.63636363636363
+          ],
+          "alpha_repair": {
+            "source_strokes": "neutral original",
+            "target_anchor": [
+              384,
+              626
+            ],
+            "opacity_factor": 0.75,
+            "background_alpha": 0
+          }
+        },
+        "eye_right": {
+          "source_bbox": [
+            572,
+            534,
+            717,
+            594
+          ],
+          "source_anchor": [
+            644.5,
+            568
+          ],
+          "target_anchor": [
+            648,
+            545
+          ],
+          "scale": [
+            0.9934640522875817,
+            1
+          ],
+          "translation": [
+            -0.28758169934644684,
+            -23
+          ],
+          "eye_spacing_translation": [
+            8,
+            0
+          ]
+        },
+        "brow_right": {
+          "source_bbox": [
+            583,
+            437,
+            689,
+            472
+          ],
+          "source_anchor": [
+            636,
+            454.5
+          ],
+          "target_anchor": [
+            648,
+            435
+          ],
+          "scale": [
+            1.1666666666666667,
+            1.1627906976744187
+          ],
+          "translation": [
+            -101.5,
+            -93.48837209302326
+          ],
+          "eye_spacing_translation": [
+            8,
+            0
+          ]
+        },
+        "cheek_right": {
+          "source_bbox": [
+            603,
+            594,
+            709,
+            673
+          ],
+          "source_anchor": [
+            656,
+            633.5
+          ],
+          "target_anchor": [
+            640,
+            626
+          ],
+          "scale": [
+            0.6754385964912281,
+            0.6781609195402298
+          ],
+          "translation": [
+            197.4122807017544,
+            196.88505747126442
+          ],
+          "alpha_repair": {
+            "source_strokes": "neutral original",
+            "target_anchor": [
+              640,
+              626
+            ],
+            "opacity_factor": 0.75,
+            "background_alpha": 0
+          }
+        },
+        "layers": [
+          "components/cheeks_left/laugh.png",
+          "components/eyes_left/laugh.png",
+          "components/brows_left/laugh.png",
+          "components/cheeks_right/laugh.png",
+          "components/eyes_right/laugh.png",
+          "components/brows_right/laugh.png"
+        ],
+        "mouth": {
+          "source_bbox": [
+            467,
+            690,
+            558,
+            749
+          ],
+          "source_anchor": [
+            512.5,
+            719.5
+          ],
+          "target_anchor": [
+            512,
+            681
+          ],
+          "scale": [
+            0.8787878787878788,
+            0.8805970149253731
+          ],
+          "translation": [
+            62.121212121212125,
+            47.910447761194064
+          ]
+        }
+      },
+      "bashful": {
+        "eye_left": {
+          "source_bbox": [
+            314,
+            493,
+            454,
+            607
+          ],
+          "source_anchor": [
+            384,
+            556.5
+          ],
+          "target_anchor": [
+            376,
+            545
+          ],
+          "scale": [
+            1.027027027027027,
+            1.0245901639344261
+          ],
+          "translation": [
+            -10.378378378378386,
+            -25.024590163934363
+          ],
+          "eye_spacing_translation": [
+            -8,
+            0
+          ]
+        },
+        "brow_left": {
+          "source_bbox": [
+            362,
+            434,
+            456,
+            466
+          ],
+          "source_anchor": [
+            409,
+            450
+          ],
+          "target_anchor": [
+            376,
+            435
+          ],
+          "scale": [
+            1.3235294117647058,
+            1.325
+          ],
+          "translation": [
+            -156.8235294117647,
+            -160.75
+          ],
+          "eye_spacing_translation": [
+            -8,
+            0
+          ]
+        },
+        "cheek_left": {
+          "source_bbox": [
+            347,
+            587,
+            430,
+            660
+          ],
+          "source_anchor": [
+            388.5,
+            623.5
+          ],
+          "target_anchor": [
+            384,
+            626
+          ],
+          "scale": [
+            0.8681318681318682,
+            0.8641975308641975
+          ],
+          "translation": [
+            47.230769230769226,
+            87.17283950617286
+          ],
+          "alpha_repair": {
+            "source_strokes": "neutral original",
+            "target_anchor": [
+              384,
+              626
+            ],
+            "opacity_factor": 0.82,
+            "background_alpha": 0
+          }
+        },
+        "eye_right": {
+          "source_bbox": [
+            571,
+            493,
+            710,
+            607
+          ],
+          "source_anchor": [
+            640.5,
+            556.5
+          ],
+          "target_anchor": [
+            648,
+            545
+          ],
+          "scale": [
+            1.034013605442177,
+            1.0327868852459017
+          ],
+          "translation": [
+            -22.285714285714334,
+            -30.032786885245912
+          ],
+          "final_pixel_correction": [
+            0,
+            1
+          ],
+          "eye_spacing_translation": [
+            8,
+            0
+          ]
+        },
+        "brow_right": {
+          "source_bbox": [
+            568,
+            433,
+            663,
+            466
+          ],
+          "source_anchor": [
+            615.5,
+            449.5
+          ],
+          "target_anchor": [
+            648,
+            435
+          ],
+          "scale": [
+            1.3009708737864079,
+            1.3170731707317074
+          ],
+          "translation": [
+            -160.747572815534,
+            -157.02439024390242
+          ],
+          "eye_spacing_translation": [
+            8,
+            0
+          ]
+        },
+        "cheek_right": {
+          "source_bbox": [
+            591,
+            587,
+            675,
+            658
+          ],
+          "source_anchor": [
+            633,
+            622.5
+          ],
+          "target_anchor": [
+            640,
+            626
+          ],
+          "scale": [
+            0.8586956521739131,
+            0.8607594936708861
+          ],
+          "translation": [
+            96.945652173913,
+            90.17721518987338
+          ],
+          "alpha_repair": {
+            "source_strokes": "neutral original",
+            "target_anchor": [
+              640,
+              626
+            ],
+            "opacity_factor": 0.82,
+            "background_alpha": 0
+          }
+        },
+        "layers": [
+          "components/cheeks_left/bashful.png",
+          "components/eyes_left/bashful.png",
+          "components/brows_left/bashful.png",
+          "components/cheeks_right/bashful.png",
+          "components/eyes_right/bashful.png",
+          "components/brows_right/bashful.png"
+        ],
+        "mouth": {
+          "source_bbox": [
+            483,
+            690,
+            542,
+            697
+          ],
+          "source_anchor": [
+            512.5,
+            693.5
+          ],
+          "target_anchor": [
+            512,
+            681
+          ],
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            0,
+            -12
+          ]
+        }
+      },
+      "sleepy": {
+        "eye_left": {
+          "source_bbox": [
+            284,
+            501,
+            457,
+            587
+          ],
+          "source_anchor": [
+            370.5,
+            550.5
+          ],
+          "target_anchor": [
+            376,
+            545
+          ],
+          "scale": [
+            0.8342541436464088,
+            0.8297872340425532
+          ],
+          "translation": [
+            75.40883977900552,
+            88.59574468085106
+          ],
+          "eye_spacing_translation": [
+            -8,
+            0
+          ]
+        },
+        "brow_left": {
+          "source_bbox": [
+            319,
+            426,
+            442,
+            445
+          ],
+          "source_anchor": [
+            380.5,
+            435.5
+          ],
+          "target_anchor": [
+            376,
+            435
+          ],
+          "scale": [
+            1.0076335877862594,
+            1
+          ],
+          "translation": [
+            0.5954198473282872,
+            0
+          ],
+          "eye_spacing_translation": [
+            -8,
+            0
+          ]
+        },
+        "cheek_left": {
+          "empty": true,
+          "alpha_repair": {
+            "source_strokes": "neutral original",
+            "target_anchor": [
+              384,
+              626
+            ],
+            "opacity_factor": 0,
+            "background_alpha": 0
+          }
+        },
+        "eye_right": {
+          "source_bbox": [
+            577,
+            501,
+            745,
+            588
+          ],
+          "source_anchor": [
+            661,
+            551
+          ],
+          "target_anchor": [
+            648,
+            545
+          ],
+          "scale": [
+            0.8579545454545454,
+            0.8526315789473684
+          ],
+          "translation": [
+            73.3920454545455,
+            75.2421052631579
+          ],
+          "eye_spacing_translation": [
+            8,
+            0
+          ]
+        },
+        "brow_right": {
+          "source_bbox": [
+            583,
+            426,
+            707,
+            445
+          ],
+          "source_anchor": [
+            645,
+            435.5
+          ],
+          "target_anchor": [
+            648,
+            435
+          ],
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            -5,
+            0
+          ],
+          "eye_spacing_translation": [
+            8,
+            0
+          ]
+        },
+        "cheek_right": {
+          "empty": true,
+          "alpha_repair": {
+            "source_strokes": "neutral original",
+            "target_anchor": [
+              640,
+              626
+            ],
+            "opacity_factor": 0,
+            "background_alpha": 0
+          }
+        },
+        "layers": [
+          "components/cheeks_left/sleepy.png",
+          "components/eyes_left/sleepy.png",
+          "components/brows_left/sleepy.png",
+          "components/cheeks_right/sleepy.png",
+          "components/eyes_right/sleepy.png",
+          "components/brows_right/sleepy.png"
+        ],
+        "mouth": {
+          "source_bbox": [
+            491,
+            696,
+            535,
+            701
+          ],
+          "source_anchor": [
+            513,
+            698.5
+          ],
+          "target_anchor": [
+            512,
+            681
+          ],
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            -1,
+            -17
+          ]
+        }
+      },
+      "worried": {
+        "eye_left": {
+          "source_bbox": [
+            292,
+            461,
+            450,
+            585
+          ],
+          "source_anchor": [
+            371,
+            530.5
+          ],
+          "target_anchor": [
+            376,
+            545
+          ],
+          "scale": [
+            0.9096385542168675,
+            0.9090909090909091
+          ],
+          "translation": [
+            47.02409638554218,
+            62.54545454545456
+          ],
+          "eye_spacing_translation": [
+            -8,
+            0
+          ]
+        },
+        "brow_left": {
+          "source_bbox": [
+            324,
+            393,
+            443,
+            444
+          ],
+          "source_anchor": [
+            383.5,
+            418.5
+          ],
+          "target_anchor": [
+            376,
+            435
+          ],
+          "scale": [
+            1.0393700787401574,
+            1.0338983050847457
+          ],
+          "translation": [
+            -14.598425196850371,
+            2.8135593220339388
+          ],
+          "eye_spacing_translation": [
+            -8,
+            0
+          ]
+        },
+        "cheek_left": {
+          "source_bbox": [
+            339,
+            602,
+            397,
+            643
+          ],
+          "source_anchor": [
+            368,
+            622.5
+          ],
+          "target_anchor": [
+            384,
+            626
+          ],
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            16,
+            4
+          ],
+          "alpha_repair": {
+            "source_strokes": "neutral original",
+            "target_anchor": [
+              384,
+              626
+            ],
+            "opacity_factor": 0.52,
+            "background_alpha": 0
+          }
+        },
+        "eye_right": {
+          "source_bbox": [
+            583,
+            461,
+            743,
+            586
+          ],
+          "source_anchor": [
+            663,
+            531
+          ],
+          "target_anchor": [
+            648,
+            545
+          ],
+          "scale": [
+            0.8988095238095238,
+            0.9022556390977443
+          ],
+          "translation": [
+            44.589285714285666,
+            65.66917293233087
+          ],
+          "final_pixel_correction": [
+            -1,
+            0
+          ],
+          "eye_spacing_translation": [
+            8,
+            0
+          ]
+        },
+        "brow_right": {
+          "source_bbox": [
+            585,
+            393,
+            704,
+            442
+          ],
+          "source_anchor": [
+            644.5,
+            417.5
+          ],
+          "target_anchor": [
+            648,
+            435
+          ],
+          "scale": [
+            1.0393700787401574,
+            1.0350877192982457
+          ],
+          "translation": [
+            -29.87401574803141,
+            3.3508771929824093
+          ],
+          "eye_spacing_translation": [
+            8,
+            0
+          ]
+        },
+        "cheek_right": {
+          "source_bbox": [
+            638,
+            602,
+            700,
+            643
+          ],
+          "source_anchor": [
+            669,
+            622.5
+          ],
+          "target_anchor": [
+            640,
+            626
+          ],
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            -29,
+            4
+          ],
+          "alpha_repair": {
+            "source_strokes": "neutral original",
+            "target_anchor": [
+              640,
+              626
+            ],
+            "opacity_factor": 0.52,
+            "background_alpha": 0
+          }
+        },
+        "layers": [
+          "components/cheeks_left/worried.png",
+          "components/eyes_left/worried.png",
+          "components/brows_left/worried.png",
+          "components/cheeks_right/worried.png",
+          "components/eyes_right/worried.png",
+          "components/brows_right/worried.png"
+        ],
+        "mouth": {
+          "source_bbox": [
+            490,
+            696,
+            542,
+            707
+          ],
+          "source_anchor": [
+            516,
+            701.5
+          ],
+          "target_anchor": [
+            512,
+            681
+          ],
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            -4,
+            -20
+          ]
+        }
+      },
+      "annoyed": {
+        "eye_left": {
+          "source_bbox": [
+            291,
+            506,
+            459,
+            594
+          ],
+          "source_anchor": [
+            375,
+            554.5
+          ],
+          "target_anchor": [
+            376,
+            545
+          ],
+          "scale": [
+            0.8579545454545454,
+            0.8541666666666666
+          ],
+          "translation": [
+            62.76704545454547,
+            71.20833333333337
+          ],
+          "eye_spacing_translation": [
+            -8,
+            0
+          ]
+        },
+        "brow_left": {
+          "source_bbox": [
+            328,
+            459,
+            461,
+            502
+          ],
+          "source_anchor": [
+            394.5,
+            480.5
+          ],
+          "target_anchor": [
+            376,
+            435
+          ],
+          "scale": [
+            0.9290780141843972,
+            0.9411764705882353
+          ],
+          "translation": [
+            17.978723404255334,
+            -17.235294117647072
+          ],
+          "eye_spacing_translation": [
+            -8,
+            0
+          ]
+        },
+        "cheek_left": {
+          "source_bbox": [
+            338,
+            587,
+            399,
+            642
+          ],
+          "source_anchor": [
+            368.5,
+            614.5
+          ],
+          "target_anchor": [
+            384,
+            626
+          ],
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            16,
+            12
+          ],
+          "alpha_repair": {
+            "source_strokes": "neutral original",
+            "target_anchor": [
+              384,
+              626
+            ],
+            "opacity_factor": 0.56,
+            "background_alpha": 0
+          }
+        },
+        "eye_right": {
+          "source_bbox": [
+            563,
+            507,
+            728,
+            593
+          ],
+          "source_anchor": [
+            645.5,
+            554
+          ],
+          "target_anchor": [
+            648,
+            545
+          ],
+          "scale": [
+            0.8728323699421965,
+            0.8723404255319149
+          ],
+          "translation": [
+            77.08670520231215,
+            62.21276595744678
+          ],
+          "final_pixel_correction": [
+            -1,
+            -1
+          ],
+          "eye_spacing_translation": [
+            8,
+            0
+          ]
+        },
+        "brow_right": {
+          "source_bbox": [
+            562,
+            460,
+            692,
+            502
+          ],
+          "source_anchor": [
+            627,
+            481
+          ],
+          "target_anchor": [
+            648,
+            435
+          ],
+          "scale": [
+            0.9565217391304348,
+            0.96
+          ],
+          "translation": [
+            40.26086956521738,
+            -26.75999999999999
+          ],
+          "eye_spacing_translation": [
+            8,
+            0
+          ]
+        },
+        "cheek_right": {
+          "source_bbox": [
+            614,
+            609,
+            674,
+            641
+          ],
+          "source_anchor": [
+            644,
+            625
+          ],
+          "target_anchor": [
+            640,
+            626
+          ],
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            -4,
+            1
+          ],
+          "alpha_repair": {
+            "source_strokes": "neutral original",
+            "target_anchor": [
+              640,
+              626
+            ],
+            "opacity_factor": 0.56,
+            "background_alpha": 0
+          }
+        },
+        "layers": [
+          "components/cheeks_left/annoyed.png",
+          "components/eyes_left/annoyed.png",
+          "components/brows_left/annoyed.png",
+          "components/cheeks_right/annoyed.png",
+          "components/eyes_right/annoyed.png",
+          "components/brows_right/annoyed.png"
+        ],
+        "mouth": {
+          "source_bbox": [
+            500,
+            695,
+            529,
+            705
+          ],
+          "source_anchor": [
+            514.5,
+            700
+          ],
+          "target_anchor": [
+            512,
+            681
+          ],
+          "scale": [
+            1,
+            1
+          ],
+          "translation": [
+            -2,
+            -19
+          ]
+        }
+      },
+      "fierce": {
+        "eye_left": {
+          "source_bbox": [
+            247,
+            463,
+            493,
+            595
+          ],
+          "source_anchor": [
+            351,
+            529
+          ],
+          "target_anchor": [
+            376,
+            537
+          ],
+          "scale": [
+            0.6929133858267716,
+            0.6928571428571428
+          ],
+          "translation": [
+            140.6220472440945,
+            178.97857142857146
+          ],
+          "final_pixel_correction": [
+            0,
+            -1
+          ],
+          "eye_spacing_translation": [
+            -8,
+            0
+          ],
+          "expression_translation": [
+            0,
+            -8
+          ]
+        },
+        "brow_left": {
+          "source_bbox": [
+            268,
+            404,
+            474,
+            501
+          ],
+          "source_anchor": [
+            371,
+            452.5
+          ],
+          "target_anchor": [
+            376,
+            451
+          ],
+          "scale": [
+            0.602803738317757,
+            0.6
+          ],
+          "translation": [
+            160.85981308411215,
+            164
+          ],
+          "eye_spacing_translation": [
+            -8,
+            0
+          ],
+          "expression_translation": [
+            0,
+            16
+          ]
+        },
+        "cheek_left": {
+          "empty": true,
+          "alpha_repair": {
+            "source_strokes": "neutral original",
+            "target_anchor": [
+              384,
+              626
+            ],
+            "opacity_factor": 0,
+            "background_alpha": 0
+          }
+        },
+        "eye_right": {
+          "source_bbox": [
+            534,
+            463,
+            778,
+            595
+          ],
+          "source_anchor": [
+            674.5,
+            529
+          ],
+          "target_anchor": [
+            648,
+            537
+          ],
+          "scale": [
+            0.6944444444444444,
+            0.6928571428571428
+          ],
+          "translation": [
+            171.94444444444446,
+            178.97857142857146
+          ],
+          "eye_spacing_translation": [
+            8,
+            0
+          ],
+          "expression_translation": [
+            0,
+            -8
+          ]
+        },
+        "brow_right": {
+          "source_bbox": [
+            555,
+            404,
+            753,
+            501
+          ],
+          "source_anchor": [
+            654,
+            452.5
+          ],
+          "target_anchor": [
+            648,
+            451
+          ],
+          "scale": [
+            0.6262135922330098,
+            0.6285714285714286
+          ],
+          "translation": [
+            230.95631067961165,
+            150.57142857142858
+          ],
+          "eye_spacing_translation": [
+            8,
+            0
+          ],
+          "expression_translation": [
+            0,
+            16
+          ]
+        },
+        "cheek_right": {
+          "empty": true,
+          "alpha_repair": {
+            "source_strokes": "neutral original",
+            "target_anchor": [
+              640,
+              626
+            ],
+            "opacity_factor": 0,
+            "background_alpha": 0
+          }
+        },
+        "layers": [
+          "components/cheeks_left/fierce.png",
+          "components/eyes_left/fierce.png",
+          "components/brows_left/fierce.png",
+          "components/cheeks_right/fierce.png",
+          "components/eyes_right/fierce.png",
+          "components/brows_right/fierce.png"
+        ],
+        "mouth": {
+          "source_bbox": [
+            456,
+            690,
+            571,
+            789
+          ],
+          "source_anchor": [
+            513.5,
+            739.5
+          ],
+          "target_anchor": [
+            512,
+            681
+          ],
+          "scale": [
+            0.5284552845528455,
+            0.5233644859813084
+          ],
+          "translation": [
+            241.13821138211384,
+            293.97196261682245
+          ]
+        }
+      }
+    },
+    "notes": "Coordinates are baked into each PNG. Eye anchors refer to the main eye socket bounds; closed eyes share the same socket. Expression shapes remain distinct. Mouth and all anatomical anchors are fixed. Blush may be absent. All overlays rebuilt and individually listed.",
+    "eye_spacing_adjustment": {
+      "per_side_pixels": 8,
+      "directions": {
+        "left": -8,
+        "right": 8
+      },
+      "related_parts": [
+        "eyes",
+        "brows",
+        "tracking whites",
+        "tracking irises"
+      ],
+      "nose_and_mouth_changed": false
+    },
+    "expression_refinement": {
+      "profile": "fierce",
+      "eye_vertical_offset": -8,
+      "brow_vertical_offset": 16,
+      "nose_and_mouth_changed": false,
+      "reason": "Align perceived eye line and keep angry brows nearer upper eyelids. Fixed centers alone do not account for expression shape."
+    },
+    "blush_alpha_repair": {
+      "background": "fully transparent",
+      "marks": "three original diagonal stroke shapes, no ellipse or skin-color patch",
+      "support_pixels_neutral_left": 483,
+      "intensity": {
+        "neutral": 0.6,
+        "kind": 0.6,
+        "cheerful": 0.68,
+        "bashful": 0.82,
+        "worried": 0.52,
+        "annoyed": 0.56,
+        "laugh": 0.75,
+        "sleepy": 0,
+        "fierce": 0
+      },
+      "canonical_center_left": [
+        384,
+        626
+      ],
+      "canonical_center_right": [
+        640,
+        626
+      ]
+    }
+  },
+  "validation_examples": [
+    {
+      "emotion": "gentle_neutral",
+      "title": "Нейтральное",
+      "upper_face": "neutral",
+      "mouth": "neutral",
+      "transparent": "previews/01_gentle_neutral.png",
+      "preview": "previews/01_gentle_neutral_light.png"
+    },
+    {
+      "emotion": "cheerful",
+      "title": "Радостное",
+      "upper_face": "cheerful",
+      "mouth": "cheerful",
+      "transparent": "previews/02_cheerful.png",
+      "preview": "previews/02_cheerful_light.png"
+    },
+    {
+      "emotion": "laughing",
+      "title": "Смех",
+      "upper_face": "laugh",
+      "mouth": "laugh",
+      "transparent": "previews/03_laughing.png",
+      "preview": "previews/03_laughing_light.png"
+    },
+    {
+      "emotion": "sleepy",
+      "title": "Сонное",
+      "upper_face": "sleepy",
+      "mouth": "sleepy",
+      "transparent": "previews/04_sleepy.png",
+      "preview": "previews/04_sleepy_light.png"
+    },
+    {
+      "emotion": "fierce_angry",
+      "title": "Сердитое",
+      "upper_face": "fierce",
+      "mouth": "fierce",
+      "transparent": "previews/05_fierce_angry.png",
+      "preview": "previews/05_fierce_angry_light.png"
+    }
+  ],
+  "five_face_preview": "five_faces_preview.png",
+  "hair": {
+    "base": "base.png",
+    "ascii_mask": "hair_ascii_mask.png",
+    "texture": "none",
+    "method": "Built-in imagegen texture removal; resized to original canvas; protected original skin, clothing, hairclip and silhouette alpha restored exactly.",
+    "notes": "ASCII mask uses white RGB with coverage in alpha, and excludes skin, dark hair outlines and hairclip. Runtime ASCII rendering is not included."
+  },
+  "animation_extensions": {
+    "manifest": "animation/manifest.json",
+    "readme": "animation/README_RU.md",
+    "blink_profiles": 8,
+    "blink_stages": [
+      "closing_35",
+      "closing_70",
+      "closed"
+    ],
+    "intermediate_emotion_overlays": 120,
+    "transition_bridges": 8
+  }
+}

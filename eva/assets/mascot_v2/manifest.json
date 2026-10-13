@@ -1,0 +1,2272 @@
+{
+  "version": 2,
+  "canvas": [
+    1024,
+    1024
+  ],
+  "origin": [
+    0,
+    0
+  ],
+  "color_space": "sRGB",
+  "alpha": "straight",
+  "source": "reference/mascot/base.png",
+  "tiers": {
+    "A": {
+      "layers": [
+        {
+          "name": "hair_back",
+          "file": "tier_a/hair_back.png",
+          "z": 0,
+          "depth": 0.1,
+          "parent": "head",
+          "pivot": [
+            512,
+            180
+          ],
+          "sway": 0,
+          "bbox": [
+            51,
+            34,
+            931,
+            847
+          ],
+          "visible_source_pixels": 21093,
+          "hidden_pixels": 466454,
+          "underpainting_max_extension_pixels": 410.51,
+          "underpainting_requested_pixels": 40,
+          "method": "Original visible composition retained; native contour ownership and straight-alpha cut boundaries; clean part-local hidden material.",
+          "ascii_mask": "masks/hair/hair_back.png",
+          "separation": "hand_traced_curved_hair_contours",
+          "root_fixed": true,
+          "underpainting_rule": "44px chamfer overlap, independently audited against a 40px Euclidean band where a higher layer covers the source silhouette"
+        },
+        {
+          "name": "hair_top",
+          "file": "tier_a/hair_top.png",
+          "z": 1,
+          "depth": 0.7,
+          "parent": "head",
+          "pivot": [
+            512,
+            180
+          ],
+          "sway": 0,
+          "bbox": [
+            168,
+            28,
+            939,
+            323
+          ],
+          "visible_source_pixels": 13676,
+          "hidden_pixels": 122590,
+          "underpainting_max_extension_pixels": 223.6,
+          "underpainting_requested_pixels": 40,
+          "method": "Built-in imagegen repaired complete part; original visible RGBA retained; concealed 44px reserve in a companion PNG, rendered before the part with the identical transform.",
+          "ascii_mask": "masks/hair/hair_top.png",
+          "repair_source": "generation/complete_hair_top.png",
+          "underpainting_file": "tier_a_underpainting/hair_top.png",
+          "underpainting_draw_order": "before_file_with_identical_transform",
+          "underpainting_pixels": 3731,
+          "separation": "hand_traced_curved_hair_contours",
+          "root_fixed": true,
+          "underpainting_rule": "44px chamfer overlap, independently audited against a 40px Euclidean band where a higher layer covers the source silhouette"
+        },
+        {
+          "name": "body",
+          "file": "tier_a/body.png",
+          "z": 2,
+          "depth": 0,
+          "parent": "body",
+          "pivot": [
+            512,
+            950
+          ],
+          "sway": 0,
+          "bbox": [
+            48,
+            812,
+            919,
+            1001
+          ],
+          "visible_source_pixels": 51325,
+          "hidden_pixels": 43788,
+          "underpainting_max_extension_pixels": 110.74,
+          "underpainting_requested_pixels": 40,
+          "method": "Original visible composition retained; native contour ownership and straight-alpha cut boundaries; clean part-local hidden material."
+        },
+        {
+          "name": "neck",
+          "file": "tier_a/neck.png",
+          "z": 3,
+          "depth": 0.3,
+          "parent": "body",
+          "pivot": [
+            512,
+            845
+          ],
+          "sway": 0,
+          "bbox": [
+            345,
+            675,
+            677,
+            1001
+          ],
+          "visible_source_pixels": 44337,
+          "hidden_pixels": 23884,
+          "underpainting_max_extension_pixels": 99,
+          "underpainting_requested_pixels": 40,
+          "method": "Original visible composition retained; native contour ownership and straight-alpha cut boundaries; clean part-local hidden material."
+        },
+        {
+          "name": "neck_shadow",
+          "file": "tier_a/neck_shadow.png",
+          "z": 4,
+          "depth": 0.3,
+          "parent": "head",
+          "pivot": [
+            512,
+            845
+          ],
+          "sway": 0,
+          "bbox": [
+            411,
+            700,
+            613,
+            839
+          ],
+          "visible_source_pixels": 8073,
+          "hidden_pixels": 10450,
+          "underpainting_max_extension_pixels": 77.64,
+          "underpainting_requested_pixels": 40,
+          "method": "Original neck shadow separated by solving straight-alpha over the unshadowed neck; hidden extension beneath head.",
+          "follows": "head"
+        },
+        {
+          "name": "hair_side_left_1",
+          "file": "tier_a/hair_side_left_1.png",
+          "z": 5,
+          "depth": 0.9,
+          "parent": "head",
+          "pivot": [
+            474,
+            41
+          ],
+          "sway": 0.65,
+          "bbox": [
+            91,
+            40,
+            480,
+            793
+          ],
+          "visible_source_pixels": 38967,
+          "hidden_pixels": 32803,
+          "underpainting_max_extension_pixels": 44,
+          "underpainting_requested_pixels": 40,
+          "method": "Original visible composition retained; native contour ownership and straight-alpha cut boundaries; clean part-local hidden material.",
+          "ascii_mask": "masks/hair/hair_side_left_1.png",
+          "separation": "hand_traced_curved_hair_contours",
+          "root_fixed": true,
+          "underpainting_rule": "44px chamfer overlap, independently audited against a 40px Euclidean band where a higher layer covers the source silhouette"
+        },
+        {
+          "name": "hair_side_left_2",
+          "file": "tier_a/hair_side_left_2.png",
+          "z": 6,
+          "depth": 0.9,
+          "parent": "head",
+          "pivot": [
+            477,
+            83
+          ],
+          "sway": 0.65,
+          "bbox": [
+            163,
+            82,
+            530,
+            831
+          ],
+          "visible_source_pixels": 34981,
+          "hidden_pixels": 41047,
+          "underpainting_max_extension_pixels": 71.3,
+          "underpainting_requested_pixels": 40,
+          "method": "Built-in imagegen repaired complete part; original visible RGBA retained; concealed 44px reserve in a companion PNG, rendered before the part with the identical transform.",
+          "ascii_mask": "masks/hair/hair_side_left_2.png",
+          "repair_source": "generation/complete_hair_side_left_2.png",
+          "underpainting_file": "tier_a_underpainting/hair_side_left_2.png",
+          "underpainting_draw_order": "before_file_with_identical_transform",
+          "underpainting_pixels": 2277,
+          "separation": "hand_traced_curved_hair_contours",
+          "root_fixed": true,
+          "underpainting_rule": "44px chamfer overlap, independently audited against a 40px Euclidean band where a higher layer covers the source silhouette"
+        },
+        {
+          "name": "hair_side_right_1",
+          "file": "tier_a/hair_side_right_1.png",
+          "z": 7,
+          "depth": 0.9,
+          "parent": "head",
+          "pivot": [
+            550,
+            41
+          ],
+          "sway": 0.65,
+          "bbox": [
+            543,
+            40,
+            931,
+            797
+          ],
+          "visible_source_pixels": 36349,
+          "hidden_pixels": 32952,
+          "underpainting_max_extension_pixels": 44,
+          "underpainting_requested_pixels": 40,
+          "method": "Original visible composition retained; native contour ownership and straight-alpha cut boundaries; clean part-local hidden material.",
+          "ascii_mask": "masks/hair/hair_side_right_1.png",
+          "separation": "hand_traced_curved_hair_contours",
+          "root_fixed": true,
+          "underpainting_rule": "44px chamfer overlap, independently audited against a 40px Euclidean band where a higher layer covers the source silhouette"
+        },
+        {
+          "name": "hair_side_right_2",
+          "file": "tier_a/hair_side_right_2.png",
+          "z": 8,
+          "depth": 0.9,
+          "parent": "head",
+          "pivot": [
+            547,
+            83
+          ],
+          "sway": 0.65,
+          "bbox": [
+            491,
+            82,
+            864,
+            831
+          ],
+          "visible_source_pixels": 42071,
+          "hidden_pixels": 39026,
+          "underpainting_max_extension_pixels": 44.84,
+          "underpainting_requested_pixels": 40,
+          "method": "Built-in imagegen repaired complete part; original visible RGBA retained; concealed 44px reserve in a companion PNG, rendered before the part with the identical transform.",
+          "ascii_mask": "masks/hair/hair_side_right_2.png",
+          "repair_source": "generation/complete_hair_side_right_2.png",
+          "underpainting_file": "tier_a_underpainting/hair_side_right_2.png",
+          "underpainting_draw_order": "before_file_with_identical_transform",
+          "underpainting_pixels": 15566,
+          "separation": "hand_traced_curved_hair_contours",
+          "root_fixed": true,
+          "underpainting_rule": "44px chamfer overlap, independently audited against a 40px Euclidean band where a higher layer covers the source silhouette"
+        },
+        {
+          "name": "ear_left",
+          "file": "tier_a/ear_left.png",
+          "z": 9,
+          "depth": 0.5,
+          "parent": "head",
+          "pivot": [
+            512,
+            180
+          ],
+          "sway": 0,
+          "bbox": [
+            207,
+            498,
+            374,
+            654
+          ],
+          "visible_source_pixels": 0,
+          "hidden_pixels": 17253,
+          "underpainting_max_extension_pixels": 46.43,
+          "underpainting_requested_pixels": 40,
+          "method": "Generated connected hidden attachment with original visible ear contour retained in its exact source position. Concealed 44px reserve rendered with the identical transform.",
+          "repair_source": "generation/complete_ear_left.png",
+          "underpainting_file": "tier_a_underpainting/ear_left.png",
+          "underpainting_draw_order": "before_file_with_identical_transform",
+          "underpainting_pixels": 9657,
+          "underpainting_rule": "Complete generated anatomical ear plus separate concealed 44px reserve, audited against the full 40px Euclidean band.",
+          "alignment": "Original source-visible cartilage in its original position; connected generated hidden attachment behind the foreground lock and head.",
+          "occluded_by": "hair_side_left_3",
+          "attachment_material": "Smooth bridge sampled from generated head skin; no cartilage crease in the head attachment.",
+          "reference_owned_pixels": 2402
+        },
+        {
+          "name": "ear_right",
+          "file": "tier_a/ear_right.png",
+          "z": 10,
+          "depth": 0.5,
+          "parent": "head",
+          "pivot": [
+            512,
+            180
+          ],
+          "sway": 0,
+          "bbox": [
+            649,
+            496,
+            807,
+            654
+          ],
+          "visible_source_pixels": 0,
+          "hidden_pixels": 15848,
+          "underpainting_max_extension_pixels": 44,
+          "underpainting_requested_pixels": 40,
+          "method": "Generated connected hidden attachment with original visible ear contour retained in its exact source position. Concealed 44px reserve rendered with the identical transform.",
+          "repair_source": "generation/complete_ear_right.png",
+          "underpainting_file": "tier_a_underpainting/ear_right.png",
+          "underpainting_draw_order": "before_file_with_identical_transform",
+          "underpainting_pixels": 9765,
+          "underpainting_rule": "Complete generated anatomical ear plus separate concealed 44px reserve, audited against the full 40px Euclidean band.",
+          "alignment": "Original source-visible cartilage in its original position; connected generated hidden attachment behind the foreground lock and head.",
+          "occluded_by": "hair_side_right_3",
+          "attachment_material": "Smooth bridge sampled from generated head skin; no cartilage crease in the head attachment.",
+          "reference_owned_pixels": 3094
+        },
+        {
+          "name": "head_skin",
+          "file": "tier_a/head_skin.png",
+          "z": 11,
+          "depth": 0.5,
+          "parent": "head",
+          "pivot": [
+            512,
+            180
+          ],
+          "sway": 0,
+          "bbox": [
+            262,
+            143,
+            763,
+            779
+          ],
+          "visible_source_pixels": 104525,
+          "hidden_pixels": 142247,
+          "underpainting_max_extension_pixels": 204.18,
+          "underpainting_requested_pixels": 40,
+          "method": "Original visible face/jaw with anatomically clipped hidden scalp material; concealed side reserve follows the head transform.",
+          "underpainting_file": "tier_a_underpainting/head_skin.png",
+          "underpainting_draw_order": "before_file_with_identical_transform",
+          "underpainting_pixels": 15737
+        },
+        {
+          "name": "face_shadow",
+          "file": "tier_a/face_shadow.png",
+          "z": 12,
+          "depth": 0.5,
+          "parent": "head",
+          "pivot": [
+            512,
+            180
+          ],
+          "sway": 0,
+          "bbox": [
+            297,
+            241,
+            733,
+            511
+          ],
+          "visible_source_pixels": 471,
+          "hidden_pixels": 68090,
+          "underpainting_max_extension_pixels": 114.83,
+          "underpainting_requested_pixels": 40,
+          "method": "Original warm fringe cast shadows separated by solving straight alpha over the clean head skin; concealed extension beneath hair.",
+          "follows": "bangs_group"
+        },
+        {
+          "name": "bangs_1",
+          "file": "tier_a/bangs_1.png",
+          "z": 13,
+          "depth": 0.9,
+          "parent": "head",
+          "pivot": [
+            488,
+            97
+          ],
+          "sway": 0.45,
+          "bbox": [
+            296,
+            89,
+            529,
+            510
+          ],
+          "visible_source_pixels": 1653,
+          "hidden_pixels": 27327,
+          "underpainting_max_extension_pixels": 61.66,
+          "underpainting_requested_pixels": 40,
+          "method": "Built-in imagegen repaired complete part; original visible RGBA retained; concealed 44px reserve in a companion PNG, rendered before the part with the identical transform.",
+          "ascii_mask": "masks/hair/bangs_1.png",
+          "repair_source": "generation/complete_bangs_1.png",
+          "underpainting_file": "tier_a_underpainting/bangs_1.png",
+          "underpainting_draw_order": "before_file_with_identical_transform",
+          "underpainting_pixels": 18973,
+          "separation": "hand_traced_curved_hair_contours",
+          "root_fixed": true,
+          "underpainting_rule": "44px chamfer overlap, independently audited against a 40px Euclidean band where a higher layer covers the source silhouette"
+        },
+        {
+          "name": "bangs_2",
+          "file": "tier_a/bangs_2.png",
+          "z": 14,
+          "depth": 0.9,
+          "parent": "head",
+          "pivot": [
+            462,
+            150
+          ],
+          "sway": 0.45,
+          "bbox": [
+            313,
+            89,
+            535,
+            507
+          ],
+          "visible_source_pixels": 9813,
+          "hidden_pixels": 32166,
+          "underpainting_max_extension_pixels": 44,
+          "underpainting_requested_pixels": 40,
+          "method": "Original visible composition retained; native contour ownership and straight-alpha cut boundaries; clean part-local hidden material.",
+          "ascii_mask": "masks/hair/bangs_2.png",
+          "separation": "hand_traced_curved_hair_contours",
+          "root_fixed": true,
+          "underpainting_rule": "44px chamfer overlap, independently audited against a 40px Euclidean band where a higher layer covers the source silhouette"
+        },
+        {
+          "name": "bangs_3",
+          "file": "tier_a/bangs_3.png",
+          "z": 15,
+          "depth": 0.9,
+          "parent": "head",
+          "pivot": [
+            485,
+            150
+          ],
+          "sway": 0.45,
+          "bbox": [
+            389,
+            89,
+            551,
+            511
+          ],
+          "visible_source_pixels": 12971,
+          "hidden_pixels": 24232,
+          "underpainting_max_extension_pixels": 44,
+          "underpainting_requested_pixels": 40,
+          "method": "Original visible composition retained; native contour ownership and straight-alpha cut boundaries; clean part-local hidden material.",
+          "ascii_mask": "masks/hair/bangs_3.png",
+          "separation": "hand_traced_curved_hair_contours",
+          "root_fixed": true,
+          "underpainting_rule": "44px chamfer overlap, independently audited against a 40px Euclidean band where a higher layer covers the source silhouette"
+        },
+        {
+          "name": "bangs_4",
+          "file": "tier_a/bangs_4.png",
+          "z": 16,
+          "depth": 0.9,
+          "parent": "head",
+          "pivot": [
+            521,
+            150
+          ],
+          "sway": 0.45,
+          "bbox": [
+            435,
+            89,
+            592,
+            511
+          ],
+          "visible_source_pixels": 19590,
+          "hidden_pixels": 19010,
+          "underpainting_max_extension_pixels": 44,
+          "underpainting_requested_pixels": 40,
+          "method": "Original visible composition retained; native contour ownership and straight-alpha cut boundaries; clean part-local hidden material.",
+          "ascii_mask": "masks/hair/bangs_4.png",
+          "separation": "hand_traced_curved_hair_contours",
+          "root_fixed": true,
+          "underpainting_rule": "44px chamfer overlap, independently audited against a 40px Euclidean band where a higher layer covers the source silhouette"
+        },
+        {
+          "name": "bangs_5",
+          "file": "tier_a/bangs_5.png",
+          "z": 17,
+          "depth": 0.9,
+          "parent": "head",
+          "pivot": [
+            544,
+            150
+          ],
+          "sway": 0.45,
+          "bbox": [
+            475,
+            89,
+            604,
+            509
+          ],
+          "visible_source_pixels": 11627,
+          "hidden_pixels": 15904,
+          "underpainting_max_extension_pixels": 44,
+          "underpainting_requested_pixels": 40,
+          "method": "Original visible composition retained; native contour ownership and straight-alpha cut boundaries; clean part-local hidden material.",
+          "ascii_mask": "masks/hair/bangs_5.png",
+          "separation": "hand_traced_curved_hair_contours",
+          "root_fixed": true,
+          "underpainting_rule": "44px chamfer overlap, independently audited against a 40px Euclidean band where a higher layer covers the source silhouette"
+        },
+        {
+          "name": "bangs_6",
+          "file": "tier_a/bangs_6.png",
+          "z": 18,
+          "depth": 0.9,
+          "parent": "head",
+          "pivot": [
+            563,
+            150
+          ],
+          "sway": 0.45,
+          "bbox": [
+            535,
+            91,
+            634,
+            505
+          ],
+          "visible_source_pixels": 11269,
+          "hidden_pixels": 12026,
+          "underpainting_max_extension_pixels": 44,
+          "underpainting_requested_pixels": 40,
+          "method": "Original visible composition retained; native contour ownership and straight-alpha cut boundaries; clean part-local hidden material.",
+          "ascii_mask": "masks/hair/bangs_6.png",
+          "separation": "hand_traced_curved_hair_contours",
+          "root_fixed": true,
+          "underpainting_rule": "44px chamfer overlap, independently audited against a 40px Euclidean band where a higher layer covers the source silhouette"
+        },
+        {
+          "name": "bangs_7",
+          "file": "tier_a/bangs_7.png",
+          "z": 19,
+          "depth": 0.9,
+          "parent": "head",
+          "pivot": [
+            580,
+            150
+          ],
+          "sway": 0.45,
+          "bbox": [
+            539,
+            91,
+            742,
+            536
+          ],
+          "visible_source_pixels": 6694,
+          "hidden_pixels": 17667,
+          "underpainting_max_extension_pixels": 44,
+          "underpainting_requested_pixels": 40,
+          "method": "Original visible composition retained; native contour ownership and straight-alpha cut boundaries; clean part-local hidden material.",
+          "ascii_mask": "masks/hair/bangs_7.png",
+          "separation": "hand_traced_curved_hair_contours",
+          "root_fixed": true,
+          "underpainting_rule": "44px chamfer overlap, independently audited against a 40px Euclidean band where a higher layer covers the source silhouette"
+        },
+        {
+          "name": "hair_side_left_3",
+          "file": "tier_a/hair_side_left_3.png",
+          "z": 20,
+          "depth": 0.9,
+          "parent": "head",
+          "pivot": [
+            486,
+            89
+          ],
+          "sway": 0.65,
+          "bbox": [
+            228,
+            89,
+            487,
+            837
+          ],
+          "visible_source_pixels": 68976,
+          "hidden_pixels": 0,
+          "underpainting_max_extension_pixels": 0,
+          "underpainting_requested_pixels": 40,
+          "method": "Original visible ink and lock geometry retained; hidden continuation is separate.",
+          "ascii_mask": "masks/hair/hair_side_left_3.png",
+          "extraction_mask": "masks/foreground/hair_side_left_3.png",
+          "extraction_mask_region": [
+            190,
+            490,
+            350,
+            666
+          ],
+          "extraction_mask_rule": "Source contour ownership diagnostic; do not apply at render time.",
+          "separation": "hand_traced_curved_hair_contours",
+          "root_fixed": true,
+          "underpainting_rule": "44px chamfer overlap, independently audited against a 40px Euclidean band where a higher layer covers the source silhouette"
+        },
+        {
+          "name": "hair_side_right_3",
+          "file": "tier_a/hair_side_right_3.png",
+          "z": 21,
+          "depth": 0.9,
+          "parent": "head",
+          "pivot": [
+            539,
+            91
+          ],
+          "sway": 0.65,
+          "bbox": [
+            539,
+            91,
+            793,
+            837
+          ],
+          "visible_source_pixels": 57272,
+          "hidden_pixels": 6438,
+          "underpainting_max_extension_pixels": 41.28,
+          "underpainting_requested_pixels": 40,
+          "method": "Original visible ink and lock geometry retained; hidden continuation is separate.",
+          "ascii_mask": "masks/hair/hair_side_right_3.png",
+          "extraction_mask": "masks/foreground/hair_side_right_3.png",
+          "extraction_mask_region": [
+            674,
+            490,
+            824,
+            666
+          ],
+          "extraction_mask_rule": "Source contour ownership diagnostic; do not apply at render time.",
+          "separation": "hand_traced_curved_hair_contours",
+          "root_fixed": true,
+          "underpainting_rule": "44px chamfer overlap, independently audited against a 40px Euclidean band where a higher layer covers the source silhouette"
+        },
+        {
+          "name": "hair_clip",
+          "file": "tier_a/hair_clip.png",
+          "z": 22,
+          "depth": 0.5,
+          "parent": "head",
+          "pivot": [
+            512,
+            180
+          ],
+          "sway": 0,
+          "bbox": [
+            690,
+            291,
+            793,
+            392
+          ],
+          "visible_source_pixels": 6438,
+          "hidden_pixels": 0,
+          "underpainting_max_extension_pixels": 0,
+          "underpainting_requested_pixels": 40,
+          "method": "Original visible composition retained; native contour ownership and straight-alpha cut boundaries; clean part-local hidden material.",
+          "follows": "hair_side_right_3"
+        }
+      ],
+      "fidelity": {
+        "mode": "original_visible_restored",
+        "revision": "review_repair_in_progress",
+        "revised_region_rects": [
+          [
+            190,
+            490,
+            350,
+            666
+          ],
+          [
+            674,
+            490,
+            824,
+            666
+          ]
+        ],
+        "corrected_layers": [
+          "head_skin",
+          "hair_side_left_3",
+          "hair_side_right_3"
+        ],
+        "replaced_layers": [
+          "ear_left",
+          "ear_right"
+        ],
+        "reason": "Review requires original visible geometry/ink restored, continuous hidden ear attachment, unique contour ownership and natural underpainting. Full neutral comparison remains authoritative; motion/overlap review is pending."
+      },
+      "render_rule": "For each z-ordered layer draw optional underpainting_file, then file. Both use exactly the same parent, pivot and deformation. bbox covers their union.",
+      "head_pivot": [
+        512,
+        763
+      ],
+      "neck_pivot": [
+        512,
+        850
+      ],
+      "hair_highlights": "Preserved inside the original strand artwork; not isolated because highlight borders are blended into shading."
+    },
+    "B": {
+      "profiles": {
+        "annoyed": {
+          "left": {
+            "closed": false,
+            "socket_anchor": [
+              376,
+              545
+            ],
+            "iris_center": [
+              400,
+              534
+            ],
+            "iris_radius": 43,
+            "iris_render_scale": [
+              0.68,
+              1
+            ],
+            "iris_render_scale_reason": "Circular source is compressed horizontally around iris_center to preserve original anime eye proportions.",
+            "layers": {
+              "sclera": "tier_b/annoyed/left/sclera.png",
+              "iris": "tier_b/annoyed/left/iris.png",
+              "highlight": "tier_b/annoyed/left/highlight.png",
+              "upper_lid": "tier_b/annoyed/left/upper_lid.png",
+              "lower_lid": "tier_b/annoyed/left/lower_lid.png",
+              "eye_mask": "tier_b/annoyed/left/eye_mask.png"
+            },
+            "draw_order": [
+              "sclera",
+              "iris",
+              "highlight",
+              "lower_lid",
+              "upper_lid"
+            ],
+            "clip": [
+              "iris",
+              "highlight"
+            ],
+            "highlight_moves_with_iris": true,
+            "maximum_gaze_offset": [
+              8,
+              5
+            ],
+            "source": "reference/mascot/components/eyes_left/annoyed.png"
+          },
+          "right": {
+            "closed": false,
+            "socket_anchor": [
+              648,
+              545
+            ],
+            "iris_center": [
+              623,
+              535
+            ],
+            "iris_radius": 43,
+            "iris_render_scale": [
+              0.68,
+              1
+            ],
+            "iris_render_scale_reason": "Circular source is compressed horizontally around iris_center to preserve original anime eye proportions.",
+            "layers": {
+              "sclera": "tier_b/annoyed/right/sclera.png",
+              "iris": "tier_b/annoyed/right/iris.png",
+              "highlight": "tier_b/annoyed/right/highlight.png",
+              "upper_lid": "tier_b/annoyed/right/upper_lid.png",
+              "lower_lid": "tier_b/annoyed/right/lower_lid.png",
+              "eye_mask": "tier_b/annoyed/right/eye_mask.png"
+            },
+            "draw_order": [
+              "sclera",
+              "iris",
+              "highlight",
+              "lower_lid",
+              "upper_lid"
+            ],
+            "clip": [
+              "iris",
+              "highlight"
+            ],
+            "highlight_moves_with_iris": true,
+            "maximum_gaze_offset": [
+              8,
+              5
+            ],
+            "source": "reference/mascot/components/eyes_right/annoyed.png"
+          }
+        },
+        "bashful": {
+          "left": {
+            "closed": false,
+            "socket_anchor": [
+              376,
+              545
+            ],
+            "iris_center": [
+              401,
+              542
+            ],
+            "iris_radius": 43,
+            "iris_render_scale": [
+              0.7558,
+              1
+            ],
+            "iris_render_scale_reason": "Circular source is compressed horizontally around iris_center to preserve original anime eye proportions.",
+            "layers": {
+              "sclera": "tier_b/bashful/left/sclera.png",
+              "iris": "tier_b/bashful/left/iris.png",
+              "highlight": "tier_b/bashful/left/highlight.png",
+              "upper_lid": "tier_b/bashful/left/upper_lid.png",
+              "lower_lid": "tier_b/bashful/left/lower_lid.png",
+              "eye_mask": "tier_b/bashful/left/eye_mask.png"
+            },
+            "draw_order": [
+              "sclera",
+              "iris",
+              "highlight",
+              "lower_lid",
+              "upper_lid"
+            ],
+            "clip": [
+              "iris",
+              "highlight"
+            ],
+            "highlight_moves_with_iris": true,
+            "maximum_gaze_offset": [
+              8,
+              5
+            ],
+            "source": "reference/mascot/components/eyes_left/bashful.png"
+          },
+          "right": {
+            "closed": false,
+            "socket_anchor": [
+              648,
+              545
+            ],
+            "iris_center": [
+              622,
+              543
+            ],
+            "iris_radius": 43,
+            "iris_render_scale": [
+              0.7674,
+              1
+            ],
+            "iris_render_scale_reason": "Circular source is compressed horizontally around iris_center to preserve original anime eye proportions.",
+            "layers": {
+              "sclera": "tier_b/bashful/right/sclera.png",
+              "iris": "tier_b/bashful/right/iris.png",
+              "highlight": "tier_b/bashful/right/highlight.png",
+              "upper_lid": "tier_b/bashful/right/upper_lid.png",
+              "lower_lid": "tier_b/bashful/right/lower_lid.png",
+              "eye_mask": "tier_b/bashful/right/eye_mask.png"
+            },
+            "draw_order": [
+              "sclera",
+              "iris",
+              "highlight",
+              "lower_lid",
+              "upper_lid"
+            ],
+            "clip": [
+              "iris",
+              "highlight"
+            ],
+            "highlight_moves_with_iris": true,
+            "maximum_gaze_offset": [
+              8,
+              5
+            ],
+            "source": "reference/mascot/components/eyes_right/bashful.png"
+          }
+        },
+        "cheerful": {
+          "left": {
+            "closed": false,
+            "socket_anchor": [
+              376,
+              545
+            ],
+            "iris_center": [
+              399,
+              546
+            ],
+            "iris_radius": 43,
+            "iris_render_scale": [
+              0.7326,
+              1
+            ],
+            "iris_render_scale_reason": "Circular source is compressed horizontally around iris_center to preserve original anime eye proportions.",
+            "layers": {
+              "sclera": "tier_b/cheerful/left/sclera.png",
+              "iris": "tier_b/cheerful/left/iris.png",
+              "highlight": "tier_b/cheerful/left/highlight.png",
+              "upper_lid": "tier_b/cheerful/left/upper_lid.png",
+              "lower_lid": "tier_b/cheerful/left/lower_lid.png",
+              "eye_mask": "tier_b/cheerful/left/eye_mask.png"
+            },
+            "draw_order": [
+              "sclera",
+              "iris",
+              "highlight",
+              "lower_lid",
+              "upper_lid"
+            ],
+            "clip": [
+              "iris",
+              "highlight"
+            ],
+            "highlight_moves_with_iris": true,
+            "maximum_gaze_offset": [
+              8,
+              5
+            ],
+            "source": "reference/mascot/components/eyes_left/cheerful.png"
+          },
+          "right": {
+            "closed": false,
+            "socket_anchor": [
+              648,
+              545
+            ],
+            "iris_center": [
+              625,
+              546
+            ],
+            "iris_radius": 43,
+            "iris_render_scale": [
+              0.7209,
+              1
+            ],
+            "iris_render_scale_reason": "Circular source is compressed horizontally around iris_center to preserve original anime eye proportions.",
+            "layers": {
+              "sclera": "tier_b/cheerful/right/sclera.png",
+              "iris": "tier_b/cheerful/right/iris.png",
+              "highlight": "tier_b/cheerful/right/highlight.png",
+              "upper_lid": "tier_b/cheerful/right/upper_lid.png",
+              "lower_lid": "tier_b/cheerful/right/lower_lid.png",
+              "eye_mask": "tier_b/cheerful/right/eye_mask.png"
+            },
+            "draw_order": [
+              "sclera",
+              "iris",
+              "highlight",
+              "lower_lid",
+              "upper_lid"
+            ],
+            "clip": [
+              "iris",
+              "highlight"
+            ],
+            "highlight_moves_with_iris": true,
+            "maximum_gaze_offset": [
+              8,
+              5
+            ],
+            "source": "reference/mascot/components/eyes_right/cheerful.png"
+          }
+        },
+        "fierce": {
+          "left": {
+            "closed": false,
+            "socket_anchor": [
+              376,
+              537
+            ],
+            "iris_center": [
+              396,
+              537
+            ],
+            "iris_radius": 43,
+            "iris_render_scale": [
+              0.7093,
+              1
+            ],
+            "iris_render_scale_reason": "Circular source is compressed horizontally around iris_center to preserve original anime eye proportions.",
+            "layers": {
+              "sclera": "tier_b/fierce/left/sclera.png",
+              "iris": "tier_b/fierce/left/iris.png",
+              "highlight": "tier_b/fierce/left/highlight.png",
+              "upper_lid": "tier_b/fierce/left/upper_lid.png",
+              "lower_lid": "tier_b/fierce/left/lower_lid.png",
+              "eye_mask": "tier_b/fierce/left/eye_mask.png"
+            },
+            "draw_order": [
+              "sclera",
+              "iris",
+              "highlight",
+              "lower_lid",
+              "upper_lid"
+            ],
+            "clip": [
+              "iris",
+              "highlight"
+            ],
+            "highlight_moves_with_iris": true,
+            "maximum_gaze_offset": [
+              8,
+              5
+            ],
+            "source": "reference/mascot/components/eyes_left/fierce.png"
+          },
+          "right": {
+            "closed": false,
+            "socket_anchor": [
+              648,
+              537
+            ],
+            "iris_center": [
+              628,
+              538
+            ],
+            "iris_radius": 43,
+            "iris_render_scale": [
+              0.7209,
+              1
+            ],
+            "iris_render_scale_reason": "Circular source is compressed horizontally around iris_center to preserve original anime eye proportions.",
+            "layers": {
+              "sclera": "tier_b/fierce/right/sclera.png",
+              "iris": "tier_b/fierce/right/iris.png",
+              "highlight": "tier_b/fierce/right/highlight.png",
+              "upper_lid": "tier_b/fierce/right/upper_lid.png",
+              "lower_lid": "tier_b/fierce/right/lower_lid.png",
+              "eye_mask": "tier_b/fierce/right/eye_mask.png"
+            },
+            "draw_order": [
+              "sclera",
+              "iris",
+              "highlight",
+              "lower_lid",
+              "upper_lid"
+            ],
+            "clip": [
+              "iris",
+              "highlight"
+            ],
+            "highlight_moves_with_iris": true,
+            "maximum_gaze_offset": [
+              8,
+              5
+            ],
+            "source": "reference/mascot/components/eyes_right/fierce.png"
+          }
+        },
+        "kind": {
+          "left": {
+            "closed": false,
+            "socket_anchor": [
+              376,
+              545
+            ],
+            "iris_center": [
+              400,
+              549
+            ],
+            "iris_radius": 43,
+            "iris_render_scale": [
+              0.7674,
+              1
+            ],
+            "iris_render_scale_reason": "Circular source is compressed horizontally around iris_center to preserve original anime eye proportions.",
+            "layers": {
+              "sclera": "tier_b/kind/left/sclera.png",
+              "iris": "tier_b/kind/left/iris.png",
+              "highlight": "tier_b/kind/left/highlight.png",
+              "upper_lid": "tier_b/kind/left/upper_lid.png",
+              "lower_lid": "tier_b/kind/left/lower_lid.png",
+              "eye_mask": "tier_b/kind/left/eye_mask.png"
+            },
+            "draw_order": [
+              "sclera",
+              "iris",
+              "highlight",
+              "lower_lid",
+              "upper_lid"
+            ],
+            "clip": [
+              "iris",
+              "highlight"
+            ],
+            "highlight_moves_with_iris": true,
+            "maximum_gaze_offset": [
+              8,
+              5
+            ],
+            "source": "reference/mascot/components/eyes_left/kind.png"
+          },
+          "right": {
+            "closed": false,
+            "socket_anchor": [
+              648,
+              545
+            ],
+            "iris_center": [
+              624,
+              549
+            ],
+            "iris_radius": 43,
+            "iris_render_scale": [
+              0.7558,
+              1
+            ],
+            "iris_render_scale_reason": "Circular source is compressed horizontally around iris_center to preserve original anime eye proportions.",
+            "layers": {
+              "sclera": "tier_b/kind/right/sclera.png",
+              "iris": "tier_b/kind/right/iris.png",
+              "highlight": "tier_b/kind/right/highlight.png",
+              "upper_lid": "tier_b/kind/right/upper_lid.png",
+              "lower_lid": "tier_b/kind/right/lower_lid.png",
+              "eye_mask": "tier_b/kind/right/eye_mask.png"
+            },
+            "draw_order": [
+              "sclera",
+              "iris",
+              "highlight",
+              "lower_lid",
+              "upper_lid"
+            ],
+            "clip": [
+              "iris",
+              "highlight"
+            ],
+            "highlight_moves_with_iris": true,
+            "maximum_gaze_offset": [
+              8,
+              5
+            ],
+            "source": "reference/mascot/components/eyes_right/kind.png"
+          }
+        },
+        "laugh": {
+          "left": {
+            "closed": true,
+            "socket_anchor": [
+              376,
+              545
+            ],
+            "upper_lid": "tier_b/laugh/left/upper_lid.png",
+            "eye_mask": "tier_b/laugh/left/eye_mask.png",
+            "mask_coverage": "empty because eyes are closed",
+            "source": "reference/mascot/components/eyes_left/laugh.png"
+          },
+          "right": {
+            "closed": true,
+            "socket_anchor": [
+              648,
+              545
+            ],
+            "upper_lid": "tier_b/laugh/right/upper_lid.png",
+            "eye_mask": "tier_b/laugh/right/eye_mask.png",
+            "mask_coverage": "empty because eyes are closed",
+            "source": "reference/mascot/components/eyes_right/laugh.png"
+          }
+        },
+        "neutral": {
+          "left": {
+            "closed": false,
+            "socket_anchor": [
+              376,
+              545
+            ],
+            "iris_center": [
+              403,
+              551
+            ],
+            "iris_radius": 43,
+            "iris_render_scale": [
+              0.7558,
+              1
+            ],
+            "iris_render_scale_reason": "Circular source is compressed horizontally around iris_center to preserve original anime eye proportions.",
+            "layers": {
+              "sclera": "tier_b/neutral/left/sclera.png",
+              "iris": "tier_b/neutral/left/iris.png",
+              "highlight": "tier_b/neutral/left/highlight.png",
+              "upper_lid": "tier_b/neutral/left/upper_lid.png",
+              "lower_lid": "tier_b/neutral/left/lower_lid.png",
+              "eye_mask": "tier_b/neutral/left/eye_mask.png"
+            },
+            "draw_order": [
+              "sclera",
+              "iris",
+              "highlight",
+              "lower_lid",
+              "upper_lid"
+            ],
+            "clip": [
+              "iris",
+              "highlight"
+            ],
+            "highlight_moves_with_iris": true,
+            "maximum_gaze_offset": [
+              8,
+              5
+            ],
+            "source": "reference/mascot/components/eyes_left/neutral.png"
+          },
+          "right": {
+            "closed": false,
+            "socket_anchor": [
+              648,
+              545
+            ],
+            "iris_center": [
+              620,
+              551
+            ],
+            "iris_radius": 43,
+            "iris_render_scale": [
+              0.7558,
+              1
+            ],
+            "iris_render_scale_reason": "Circular source is compressed horizontally around iris_center to preserve original anime eye proportions.",
+            "layers": {
+              "sclera": "tier_b/neutral/right/sclera.png",
+              "iris": "tier_b/neutral/right/iris.png",
+              "highlight": "tier_b/neutral/right/highlight.png",
+              "upper_lid": "tier_b/neutral/right/upper_lid.png",
+              "lower_lid": "tier_b/neutral/right/lower_lid.png",
+              "eye_mask": "tier_b/neutral/right/eye_mask.png"
+            },
+            "draw_order": [
+              "sclera",
+              "iris",
+              "highlight",
+              "lower_lid",
+              "upper_lid"
+            ],
+            "clip": [
+              "iris",
+              "highlight"
+            ],
+            "highlight_moves_with_iris": true,
+            "maximum_gaze_offset": [
+              8,
+              5
+            ],
+            "source": "reference/mascot/components/eyes_right/neutral.png"
+          }
+        },
+        "sleepy": {
+          "left": {
+            "closed": false,
+            "socket_anchor": [
+              376,
+              545
+            ],
+            "iris_center": [
+              396,
+              531
+            ],
+            "iris_radius": 43,
+            "iris_render_scale": [
+              0.68,
+              1
+            ],
+            "iris_render_scale_reason": "Circular source is compressed horizontally around iris_center to preserve original anime eye proportions.",
+            "layers": {
+              "sclera": "tier_b/sleepy/left/sclera.png",
+              "iris": "tier_b/sleepy/left/iris.png",
+              "highlight": "tier_b/sleepy/left/highlight.png",
+              "upper_lid": "tier_b/sleepy/left/upper_lid.png",
+              "lower_lid": "tier_b/sleepy/left/lower_lid.png",
+              "eye_mask": "tier_b/sleepy/left/eye_mask.png"
+            },
+            "draw_order": [
+              "sclera",
+              "iris",
+              "highlight",
+              "lower_lid",
+              "upper_lid"
+            ],
+            "clip": [
+              "iris",
+              "highlight"
+            ],
+            "highlight_moves_with_iris": true,
+            "maximum_gaze_offset": [
+              8,
+              5
+            ],
+            "source": "reference/mascot/components/eyes_left/sleepy.png"
+          },
+          "right": {
+            "closed": false,
+            "socket_anchor": [
+              648,
+              545
+            ],
+            "iris_center": [
+              637,
+              531
+            ],
+            "iris_radius": 43,
+            "iris_render_scale": [
+              0.68,
+              1
+            ],
+            "iris_render_scale_reason": "Circular source is compressed horizontally around iris_center to preserve original anime eye proportions.",
+            "layers": {
+              "sclera": "tier_b/sleepy/right/sclera.png",
+              "iris": "tier_b/sleepy/right/iris.png",
+              "highlight": "tier_b/sleepy/right/highlight.png",
+              "upper_lid": "tier_b/sleepy/right/upper_lid.png",
+              "lower_lid": "tier_b/sleepy/right/lower_lid.png",
+              "eye_mask": "tier_b/sleepy/right/eye_mask.png"
+            },
+            "draw_order": [
+              "sclera",
+              "iris",
+              "highlight",
+              "lower_lid",
+              "upper_lid"
+            ],
+            "clip": [
+              "iris",
+              "highlight"
+            ],
+            "highlight_moves_with_iris": true,
+            "maximum_gaze_offset": [
+              8,
+              5
+            ],
+            "source": "reference/mascot/components/eyes_right/sleepy.png"
+          }
+        },
+        "worried": {
+          "left": {
+            "closed": false,
+            "socket_anchor": [
+              376,
+              545
+            ],
+            "iris_center": [
+              404,
+              548
+            ],
+            "iris_radius": 43,
+            "iris_render_scale": [
+              0.6977,
+              1
+            ],
+            "iris_render_scale_reason": "Circular source is compressed horizontally around iris_center to preserve original anime eye proportions.",
+            "layers": {
+              "sclera": "tier_b/worried/left/sclera.png",
+              "iris": "tier_b/worried/left/iris.png",
+              "highlight": "tier_b/worried/left/highlight.png",
+              "upper_lid": "tier_b/worried/left/upper_lid.png",
+              "lower_lid": "tier_b/worried/left/lower_lid.png",
+              "eye_mask": "tier_b/worried/left/eye_mask.png"
+            },
+            "draw_order": [
+              "sclera",
+              "iris",
+              "highlight",
+              "lower_lid",
+              "upper_lid"
+            ],
+            "clip": [
+              "iris",
+              "highlight"
+            ],
+            "highlight_moves_with_iris": true,
+            "maximum_gaze_offset": [
+              8,
+              5
+            ],
+            "source": "reference/mascot/components/eyes_left/worried.png"
+          },
+          "right": {
+            "closed": false,
+            "socket_anchor": [
+              648,
+              545
+            ],
+            "iris_center": [
+              635,
+              548
+            ],
+            "iris_radius": 43,
+            "iris_render_scale": [
+              0.7093,
+              1
+            ],
+            "iris_render_scale_reason": "Circular source is compressed horizontally around iris_center to preserve original anime eye proportions.",
+            "layers": {
+              "sclera": "tier_b/worried/right/sclera.png",
+              "iris": "tier_b/worried/right/iris.png",
+              "highlight": "tier_b/worried/right/highlight.png",
+              "upper_lid": "tier_b/worried/right/upper_lid.png",
+              "lower_lid": "tier_b/worried/right/lower_lid.png",
+              "eye_mask": "tier_b/worried/right/eye_mask.png"
+            },
+            "draw_order": [
+              "sclera",
+              "iris",
+              "highlight",
+              "lower_lid",
+              "upper_lid"
+            ],
+            "clip": [
+              "iris",
+              "highlight"
+            ],
+            "highlight_moves_with_iris": true,
+            "maximum_gaze_offset": [
+              8,
+              5
+            ],
+            "source": "reference/mascot/components/eyes_right/worried.png"
+          }
+        }
+      },
+      "notes": [
+        "eye_mask clips sclera, transformed iris and highlight. Draw eyelids afterwards.",
+        "Transform circular iris and highlight around iris_center by iris_render_scale, then add gaze offset; masks and eyelids stay fixed.",
+        "No original full eyes_* image underneath; that would leave a stationary iris.",
+        "Laugh has closed lids and an empty aperture mask; no iris or sclera is required."
+      ]
+    },
+    "C": {
+      "profiles": {
+        "neutral": {
+          "closed": {
+            "anchor": [
+              512,
+              681
+            ],
+            "bbox": [
+              481,
+              676,
+              544,
+              688
+            ],
+            "full": "tier_c/neutral/closed/full.png",
+            "layers": {
+              "contour": "tier_c/neutral/closed/contour.png",
+              "mouth_inner": "tier_c/neutral/closed/mouth_inner.png",
+              "teeth": "tier_c/neutral/closed/teeth.png"
+            },
+            "draw_order": [
+              "mouth_inner",
+              "teeth",
+              "contour"
+            ],
+            "source": "reference/mascot/components/mouths/neutral.png",
+            "method": "Original closed mouth pixels retained"
+          },
+          "A": {
+            "anchor": [
+              512,
+              681
+            ],
+            "bbox": [
+              488,
+              657,
+              536,
+              705
+            ],
+            "full": "tier_c/neutral/A/full.png",
+            "layers": {
+              "contour": "tier_c/neutral/A/contour.png",
+              "mouth_inner": "tier_c/neutral/A/mouth_inner.png",
+              "teeth": "tier_c/neutral/A/teeth.png"
+            },
+            "draw_order": [
+              "mouth_inner",
+              "teeth",
+              "contour"
+            ],
+            "source": "generation/mouths/neutral_A.png",
+            "method": "Built-in imagegen glyph, cropped by semantic mouth interior plus outline, alpha cleaned and normalized to common anchor"
+          },
+          "I": {
+            "anchor": [
+              512,
+              681
+            ],
+            "bbox": [
+              481,
+              672,
+              543,
+              690
+            ],
+            "full": "tier_c/neutral/I/full.png",
+            "layers": {
+              "contour": "tier_c/neutral/I/contour.png",
+              "mouth_inner": "tier_c/neutral/I/mouth_inner.png",
+              "teeth": "tier_c/neutral/I/teeth.png"
+            },
+            "draw_order": [
+              "mouth_inner",
+              "teeth",
+              "contour"
+            ],
+            "source": "generation/mouths/neutral_I.png",
+            "method": "Built-in imagegen glyph, cropped by semantic mouth interior plus outline, alpha cleaned and normalized to common anchor"
+          },
+          "U": {
+            "anchor": [
+              512,
+              681
+            ],
+            "bbox": [
+              500,
+              666,
+              524,
+              696
+            ],
+            "full": "tier_c/neutral/U/full.png",
+            "layers": {
+              "contour": "tier_c/neutral/U/contour.png",
+              "mouth_inner": "tier_c/neutral/U/mouth_inner.png",
+              "teeth": "tier_c/neutral/U/teeth.png"
+            },
+            "draw_order": [
+              "mouth_inner",
+              "teeth",
+              "contour"
+            ],
+            "source": "generation/mouths/neutral_U.png",
+            "method": "Built-in imagegen glyph, cropped by semantic mouth interior plus outline, alpha cleaned and normalized to common anchor"
+          },
+          "E": {
+            "anchor": [
+              512,
+              681
+            ],
+            "bbox": [
+              486,
+              666,
+              538,
+              696
+            ],
+            "full": "tier_c/neutral/E/full.png",
+            "layers": {
+              "contour": "tier_c/neutral/E/contour.png",
+              "mouth_inner": "tier_c/neutral/E/mouth_inner.png",
+              "teeth": "tier_c/neutral/E/teeth.png"
+            },
+            "draw_order": [
+              "mouth_inner",
+              "teeth",
+              "contour"
+            ],
+            "source": "generation/mouths/neutral_E.png",
+            "method": "Built-in imagegen glyph, cropped by semantic mouth interior plus outline, alpha cleaned and normalized to common anchor"
+          },
+          "O": {
+            "anchor": [
+              512,
+              681
+            ],
+            "bbox": [
+              496,
+              665,
+              528,
+              697
+            ],
+            "full": "tier_c/neutral/O/full.png",
+            "layers": {
+              "contour": "tier_c/neutral/O/contour.png",
+              "mouth_inner": "tier_c/neutral/O/mouth_inner.png",
+              "teeth": "tier_c/neutral/O/teeth.png"
+            },
+            "draw_order": [
+              "mouth_inner",
+              "teeth",
+              "contour"
+            ],
+            "source": "generation/mouths/neutral_O.png",
+            "method": "Built-in imagegen glyph, cropped by semantic mouth interior plus outline, alpha cleaned and normalized to common anchor"
+          },
+          "open_small": {
+            "anchor": [
+              512,
+              681
+            ],
+            "bbox": [
+              496,
+              672,
+              528,
+              690
+            ],
+            "full": "tier_c/neutral/open_small/full.png",
+            "layers": {
+              "contour": "tier_c/neutral/open_small/contour.png",
+              "mouth_inner": "tier_c/neutral/open_small/mouth_inner.png",
+              "teeth": "tier_c/neutral/open_small/teeth.png"
+            },
+            "draw_order": [
+              "mouth_inner",
+              "teeth",
+              "contour"
+            ],
+            "source": "generation/mouths/neutral_A.png",
+            "method": "Built-in imagegen glyph, cropped by semantic mouth interior plus outline, alpha cleaned and normalized to common anchor"
+          },
+          "open_mid": {
+            "anchor": [
+              512,
+              681
+            ],
+            "bbox": [
+              490,
+              665,
+              535,
+              697
+            ],
+            "full": "tier_c/neutral/open_mid/full.png",
+            "layers": {
+              "contour": "tier_c/neutral/open_mid/contour.png",
+              "mouth_inner": "tier_c/neutral/open_mid/mouth_inner.png",
+              "teeth": "tier_c/neutral/open_mid/teeth.png"
+            },
+            "draw_order": [
+              "mouth_inner",
+              "teeth",
+              "contour"
+            ],
+            "source": "generation/mouths/neutral_A.png",
+            "method": "Built-in imagegen glyph, cropped by semantic mouth interior plus outline, alpha cleaned and normalized to common anchor"
+          },
+          "open_wide": {
+            "anchor": [
+              512,
+              681
+            ],
+            "bbox": [
+              484,
+              655,
+              540,
+              707
+            ],
+            "full": "tier_c/neutral/open_wide/full.png",
+            "layers": {
+              "contour": "tier_c/neutral/open_wide/contour.png",
+              "mouth_inner": "tier_c/neutral/open_wide/mouth_inner.png",
+              "teeth": "tier_c/neutral/open_wide/teeth.png"
+            },
+            "draw_order": [
+              "mouth_inner",
+              "teeth",
+              "contour"
+            ],
+            "source": "generation/mouths/neutral_A.png",
+            "method": "Built-in imagegen glyph, cropped by semantic mouth interior plus outline, alpha cleaned and normalized to common anchor"
+          },
+          "smile_teeth": {
+            "anchor": [
+              512,
+              681
+            ],
+            "bbox": [
+              480,
+              671,
+              544,
+              691
+            ],
+            "full": "tier_c/neutral/smile_teeth/full.png",
+            "layers": {
+              "contour": "tier_c/neutral/smile_teeth/contour.png",
+              "mouth_inner": "tier_c/neutral/smile_teeth/mouth_inner.png",
+              "teeth": "tier_c/neutral/smile_teeth/teeth.png"
+            },
+            "draw_order": [
+              "mouth_inner",
+              "teeth",
+              "contour"
+            ],
+            "source": "generation/mouths/neutral_smile_teeth.png",
+            "method": "Built-in imagegen glyph, cropped by semantic mouth interior plus outline, alpha cleaned and normalized to common anchor"
+          },
+          "pout": {
+            "anchor": [
+              512,
+              681
+            ],
+            "bbox": [
+              496,
+              674,
+              529,
+              688
+            ],
+            "full": "tier_c/neutral/pout/full.png",
+            "layers": {
+              "contour": "tier_c/neutral/pout/contour.png",
+              "mouth_inner": "tier_c/neutral/pout/mouth_inner.png",
+              "teeth": "tier_c/neutral/pout/teeth.png"
+            },
+            "draw_order": [
+              "mouth_inner",
+              "teeth",
+              "contour"
+            ],
+            "source": "reference/mascot/components/mouths/annoyed.png",
+            "method": "Original pout/frown mouth pixels retained"
+          }
+        },
+        "kind": {
+          "closed": {
+            "anchor": [
+              512,
+              681
+            ],
+            "bbox": [
+              482,
+              676,
+              542,
+              687
+            ],
+            "full": "tier_c/kind/closed/full.png",
+            "layers": {
+              "contour": "tier_c/kind/closed/contour.png",
+              "mouth_inner": "tier_c/kind/closed/mouth_inner.png",
+              "teeth": "tier_c/kind/closed/teeth.png"
+            },
+            "draw_order": [
+              "mouth_inner",
+              "teeth",
+              "contour"
+            ],
+            "source": "reference/mascot/components/mouths/kind.png",
+            "method": "Original closed mouth pixels retained"
+          },
+          "A": {
+            "anchor": [
+              512,
+              681
+            ],
+            "bbox": [
+              481,
+              658,
+              543,
+              704
+            ],
+            "full": "tier_c/kind/A/full.png",
+            "layers": {
+              "contour": "tier_c/kind/A/contour.png",
+              "mouth_inner": "tier_c/kind/A/mouth_inner.png",
+              "teeth": "tier_c/kind/A/teeth.png"
+            },
+            "draw_order": [
+              "mouth_inner",
+              "teeth",
+              "contour"
+            ],
+            "source": "generation/mouths/kind_A.png",
+            "method": "Built-in imagegen glyph, cropped by semantic mouth interior plus outline, alpha cleaned and normalized to common anchor"
+          },
+          "I": {
+            "anchor": [
+              512,
+              681
+            ],
+            "bbox": [
+              479,
+              671,
+              545,
+              691
+            ],
+            "full": "tier_c/kind/I/full.png",
+            "layers": {
+              "contour": "tier_c/kind/I/contour.png",
+              "mouth_inner": "tier_c/kind/I/mouth_inner.png",
+              "teeth": "tier_c/kind/I/teeth.png"
+            },
+            "draw_order": [
+              "mouth_inner",
+              "teeth",
+              "contour"
+            ],
+            "source": "generation/mouths/kind_I.png",
+            "method": "Built-in imagegen glyph, cropped by semantic mouth interior plus outline, alpha cleaned and normalized to common anchor"
+          },
+          "U": {
+            "anchor": [
+              512,
+              681
+            ],
+            "bbox": [
+              499,
+              665,
+              525,
+              697
+            ],
+            "full": "tier_c/kind/U/full.png",
+            "layers": {
+              "contour": "tier_c/kind/U/contour.png",
+              "mouth_inner": "tier_c/kind/U/mouth_inner.png",
+              "teeth": "tier_c/kind/U/teeth.png"
+            },
+            "draw_order": [
+              "mouth_inner",
+              "teeth",
+              "contour"
+            ],
+            "source": "generation/mouths/neutral_U.png",
+            "method": "Built-in imagegen glyph, cropped by semantic mouth interior plus outline, alpha cleaned and normalized to common anchor"
+          },
+          "E": {
+            "anchor": [
+              512,
+              681
+            ],
+            "bbox": [
+              482,
+              663,
+              542,
+              699
+            ],
+            "full": "tier_c/kind/E/full.png",
+            "layers": {
+              "contour": "tier_c/kind/E/contour.png",
+              "mouth_inner": "tier_c/kind/E/mouth_inner.png",
+              "teeth": "tier_c/kind/E/teeth.png"
+            },
+            "draw_order": [
+              "mouth_inner",
+              "teeth",
+              "contour"
+            ],
+            "source": "generation/mouths/kind_E.png",
+            "method": "Built-in imagegen glyph, cropped by semantic mouth interior plus outline, alpha cleaned and normalized to common anchor"
+          },
+          "O": {
+            "anchor": [
+              512,
+              681
+            ],
+            "bbox": [
+              495,
+              664,
+              529,
+              698
+            ],
+            "full": "tier_c/kind/O/full.png",
+            "layers": {
+              "contour": "tier_c/kind/O/contour.png",
+              "mouth_inner": "tier_c/kind/O/mouth_inner.png",
+              "teeth": "tier_c/kind/O/teeth.png"
+            },
+            "draw_order": [
+              "mouth_inner",
+              "teeth",
+              "contour"
+            ],
+            "source": "generation/mouths/neutral_O.png",
+            "method": "Built-in imagegen glyph, cropped by semantic mouth interior plus outline, alpha cleaned and normalized to common anchor"
+          },
+          "open_small": {
+            "anchor": [
+              512,
+              681
+            ],
+            "bbox": [
+              493,
+              671,
+              531,
+              691
+            ],
+            "full": "tier_c/kind/open_small/full.png",
+            "layers": {
+              "contour": "tier_c/kind/open_small/contour.png",
+              "mouth_inner": "tier_c/kind/open_small/mouth_inner.png",
+              "teeth": "tier_c/kind/open_small/teeth.png"
+            },
+            "draw_order": [
+              "mouth_inner",
+              "teeth",
+              "contour"
+            ],
+            "source": "generation/mouths/kind_A.png",
+            "method": "Built-in imagegen glyph, cropped by semantic mouth interior plus outline, alpha cleaned and normalized to common anchor"
+          },
+          "open_mid": {
+            "anchor": [
+              512,
+              681
+            ],
+            "bbox": [
+              486,
+              665,
+              538,
+              697
+            ],
+            "full": "tier_c/kind/open_mid/full.png",
+            "layers": {
+              "contour": "tier_c/kind/open_mid/contour.png",
+              "mouth_inner": "tier_c/kind/open_mid/mouth_inner.png",
+              "teeth": "tier_c/kind/open_mid/teeth.png"
+            },
+            "draw_order": [
+              "mouth_inner",
+              "teeth",
+              "contour"
+            ],
+            "source": "generation/mouths/kind_A.png",
+            "method": "Built-in imagegen glyph, cropped by semantic mouth interior plus outline, alpha cleaned and normalized to common anchor"
+          },
+          "open_wide": {
+            "anchor": [
+              512,
+              681
+            ],
+            "bbox": [
+              477,
+              656,
+              547,
+              706
+            ],
+            "full": "tier_c/kind/open_wide/full.png",
+            "layers": {
+              "contour": "tier_c/kind/open_wide/contour.png",
+              "mouth_inner": "tier_c/kind/open_wide/mouth_inner.png",
+              "teeth": "tier_c/kind/open_wide/teeth.png"
+            },
+            "draw_order": [
+              "mouth_inner",
+              "teeth",
+              "contour"
+            ],
+            "source": "generation/mouths/kind_A.png",
+            "method": "Built-in imagegen glyph, cropped by semantic mouth interior plus outline, alpha cleaned and normalized to common anchor"
+          },
+          "smile_teeth": {
+            "anchor": [
+              512,
+              681
+            ],
+            "bbox": [
+              475,
+              670,
+              549,
+              692
+            ],
+            "full": "tier_c/kind/smile_teeth/full.png",
+            "layers": {
+              "contour": "tier_c/kind/smile_teeth/contour.png",
+              "mouth_inner": "tier_c/kind/smile_teeth/mouth_inner.png",
+              "teeth": "tier_c/kind/smile_teeth/teeth.png"
+            },
+            "draw_order": [
+              "mouth_inner",
+              "teeth",
+              "contour"
+            ],
+            "source": "generation/mouths/kind_smile_teeth.png",
+            "method": "Built-in imagegen glyph, cropped by semantic mouth interior plus outline, alpha cleaned and normalized to common anchor"
+          },
+          "pout": {
+            "anchor": [
+              512,
+              681
+            ],
+            "bbox": [
+              496,
+              674,
+              529,
+              688
+            ],
+            "full": "tier_c/kind/pout/full.png",
+            "layers": {
+              "contour": "tier_c/kind/pout/contour.png",
+              "mouth_inner": "tier_c/kind/pout/mouth_inner.png",
+              "teeth": "tier_c/kind/pout/teeth.png"
+            },
+            "draw_order": [
+              "mouth_inner",
+              "teeth",
+              "contour"
+            ],
+            "source": "reference/mascot/components/mouths/annoyed.png",
+            "method": "Original pout/frown mouth pixels retained"
+          }
+        }
+      },
+      "notes": [
+        "Draw either full.png or individual layers, never both.",
+        "All visemes share the fixed mouth anchor (512,681).",
+        "U/O use the same correct rounded source in both moods with small size differences; rejected smiling triangular U/O sources are retained only in generation/.",
+        "Opening degrees are normalized variants of the corresponding A shape."
+      ]
+    },
+    "E": {
+      "effects": {
+        "sweat_drop": {
+          "file": "tier_e/sweat_drop.png",
+          "anchor": [
+            754,
+            456
+          ],
+          "parent": "head",
+          "depth": 1,
+          "z": 40,
+          "method": "Locally authored simple vector effect, rasterized into sRGB straight RGBA",
+          "source": "generation/effects_svg/sweat_drop.svg"
+        },
+        "anger": {
+          "file": "tier_e/anger.png",
+          "anchor": [
+            765,
+            454
+          ],
+          "parent": "head",
+          "depth": 1,
+          "z": 40,
+          "method": "Locally authored simple vector effect, rasterized into sRGB straight RGBA",
+          "source": "generation/effects_svg/anger.svg"
+        },
+        "sparkle_1": {
+          "file": "tier_e/sparkle_1.png",
+          "anchor": [
+            178,
+            260
+          ],
+          "parent": "head",
+          "depth": 1,
+          "z": 40,
+          "method": "Locally authored simple vector effect, rasterized into sRGB straight RGBA",
+          "source": "generation/effects_svg/sparkle_1.svg"
+        },
+        "sparkle_2": {
+          "file": "tier_e/sparkle_2.png",
+          "anchor": [
+            851,
+            202
+          ],
+          "parent": "head",
+          "depth": 1,
+          "z": 40,
+          "method": "Locally authored simple vector effect, rasterized into sRGB straight RGBA",
+          "source": "generation/effects_svg/sparkle_2.svg"
+        },
+        "sparkle_3": {
+          "file": "tier_e/sparkle_3.png",
+          "anchor": [
+            891,
+            436
+          ],
+          "parent": "head",
+          "depth": 1,
+          "z": 40,
+          "method": "Locally authored simple vector effect, rasterized into sRGB straight RGBA",
+          "source": "generation/effects_svg/sparkle_3.svg"
+        },
+        "tear_left": {
+          "file": "tier_e/tear_left.png",
+          "anchor": [
+            424,
+            590
+          ],
+          "parent": "head",
+          "depth": 1,
+          "z": 40,
+          "method": "Locally authored simple vector effect, rasterized into sRGB straight RGBA",
+          "source": "generation/effects_svg/tear_left.svg",
+          "bind": "eye_left",
+          "offset_from_socket": [
+            48,
+            45
+          ]
+        },
+        "tear_right": {
+          "file": "tier_e/tear_right.png",
+          "anchor": [
+            602,
+            590
+          ],
+          "parent": "head",
+          "depth": 1,
+          "z": 40,
+          "method": "Locally authored simple vector effect, rasterized into sRGB straight RGBA",
+          "source": "generation/effects_svg/tear_right.svg",
+          "bind": "eye_right",
+          "offset_from_socket": [
+            -46,
+            45
+          ]
+        },
+        "sleep_zz": {
+          "file": "tier_e/sleep_zz.png",
+          "anchor": [
+            170,
+            150
+          ],
+          "parent": "head",
+          "depth": 1,
+          "z": 40,
+          "method": "Locally authored simple vector effect, rasterized into sRGB straight RGBA",
+          "source": "generation/effects_svg/sleep_zz.svg"
+        },
+        "question": {
+          "file": "tier_e/question.png",
+          "anchor": [
+            889,
+            202
+          ],
+          "parent": "head",
+          "depth": 1,
+          "z": 40,
+          "method": "Locally authored simple vector effect, rasterized into sRGB straight RGBA",
+          "source": "generation/effects_svg/question.svg"
+        },
+        "heart": {
+          "file": "tier_e/heart.png",
+          "anchor": [
+            879,
+            292
+          ],
+          "parent": "head",
+          "depth": 1,
+          "z": 40,
+          "method": "Locally authored simple vector effect, rasterized into sRGB straight RGBA",
+          "source": "generation/effects_svg/heart.svg"
+        },
+        "eye_stars": {
+          "file": "tier_e/eye_stars.png",
+          "anchor": [
+            512,
+            551
+          ],
+          "parent": "head",
+          "depth": 1,
+          "z": 40,
+          "method": "Locally authored simple vector effect, rasterized into sRGB straight RGBA",
+          "source": "generation/effects_svg/eye_stars.svg",
+          "bindings": {
+            "left_iris": [
+              403,
+              551
+            ],
+            "right_iris": [
+              620,
+              551
+            ]
+          },
+          "components": [
+            "tier_e/eye_star_left.png",
+            "tier_e/eye_star_right.png"
+          ],
+          "clip_to_eye_masks": true
+        },
+        "eye_star_left": {
+          "file": "tier_e/eye_star_left.png",
+          "anchor": [
+            403,
+            551
+          ],
+          "parent": "head",
+          "depth": 1,
+          "z": 40,
+          "method": "Locally authored simple vector effect, rasterized into sRGB straight RGBA",
+          "source": "generation/effects_svg/eye_star_left.svg",
+          "bind": "iris_left",
+          "clip_to_eye_mask": true
+        },
+        "eye_star_right": {
+          "file": "tier_e/eye_star_right.png",
+          "anchor": [
+            620,
+            551
+          ],
+          "parent": "head",
+          "depth": 1,
+          "z": 40,
+          "method": "Locally authored simple vector effect, rasterized into sRGB straight RGBA",
+          "source": "generation/effects_svg/eye_star_right.svg",
+          "bind": "iris_right",
+          "clip_to_eye_mask": true
+        },
+        "blush_soft": {
+          "file": "tier_e/blush_soft.png",
+          "anchor": [
+            512,
+            626
+          ],
+          "cheek_anchors": [
+            [
+              384,
+              626
+            ],
+            [
+              640,
+              626
+            ]
+          ],
+          "parent": "head",
+          "z": 39,
+          "depth": 0.55,
+          "replace_existing_cheeks": true,
+          "method": "Original three pink cheek strokes copied; opacity/density only. Background alpha zero.",
+          "source": [
+            "reference/mascot/components/cheeks_left/neutral.png",
+            "reference/mascot/components/cheeks_right/neutral.png"
+          ]
+        },
+        "blush_strong": {
+          "file": "tier_e/blush_strong.png",
+          "anchor": [
+            512,
+            626
+          ],
+          "cheek_anchors": [
+            [
+              384,
+              626
+            ],
+            [
+              640,
+              626
+            ]
+          ],
+          "parent": "head",
+          "z": 39,
+          "depth": 0.55,
+          "replace_existing_cheeks": true,
+          "method": "Original three pink cheek strokes copied; opacity/density only. Background alpha zero.",
+          "source": [
+            "reference/mascot/components/cheeks_left/neutral.png",
+            "reference/mascot/components/cheeks_right/neutral.png"
+          ]
+        },
+        "blush_dense": {
+          "file": "tier_e/blush_dense.png",
+          "anchor": [
+            512,
+            626
+          ],
+          "cheek_anchors": [
+            [
+              384,
+              626
+            ],
+            [
+              640,
+              626
+            ]
+          ],
+          "parent": "head",
+          "z": 39,
+          "depth": 0.55,
+          "replace_existing_cheeks": true,
+          "method": "Original three pink cheek strokes copied; opacity/density only. Background alpha zero.",
+          "source": [
+            "reference/mascot/components/cheeks_left/neutral.png",
+            "reference/mascot/components/cheeks_right/neutral.png"
+          ]
+        }
+      },
+      "notes": [
+        "Effects are transparent overlays, no skin-colored or rectangular matte.",
+        "Blush variants REPLACE existing cheeks; do not render both.",
+        "Eye stars have independent left/right components bound to actual iris_center; combined preview is for the neutral profile. Clip stars to eye apertures."
+      ]
+    },
+    "D": {
+      "status": "awaiting_user_approval_of_A_B_C",
+      "generated": false
+    }
+  },
+  "generation_sources": {
+    "head": "generation/underpainting_head.png",
+    "hair": "generation/underpainting_hair.png",
+    "neck": "generation/underpainting_neck.png",
+    "body": "generation/underpainting_body.png"
+  },
+  "status": "repairing_review_requirements"
+}

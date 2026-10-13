@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eva</title>
+  <link rel="icon" href="data:,">
+  <style>
+    /* Тот же маскот, что в приложении (embed.js), но мышь ловит сама страница, а не окно Mac. */
+    html, body { margin: 0; height: 100%; background: transparent; overflow: hidden; }
+    body { display: flex; align-items: center; justify-content: center; -webkit-user-select: none; user-select: none; cursor: pointer; touch-action: pan-y; }
+    #portrait { display: block; }
+  </style>
+</head>
+<body>
+  <canvas id="portrait" aria-label="Ева"></canvas>
+  <script type="module" src="./src/embed.js"></script>
+  <script>
+    const m = () => window.mascot;
+    addEventListener('pointermove', e => m()?.pointer(e.clientX, e.clientY));
+    addEventListener('pointerleave', () => m()?.pointerLeave());
+    document.addEventListener('mouseleave', () => m()?.pointerLeave());
+    addEventListener('click', e => m()?.click(e.clientX, e.clientY));
+    const ready = setInterval(() => { if (m()) { clearInterval(ready); parent.postMessage({ eva: 'ready' }, location.origin); } }, 120);
+  </script>
+</body>
+</html>

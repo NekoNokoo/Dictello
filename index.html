@@ -1,3 +1,312 @@
-<!doctype html><html lang="ru"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#d8ddd6"/><meta name="description" content="Dictello — локальная диктовка, перевод и работа с текстом на Mac."/><link rel="icon" type="image/png" href="/Dictello/assets/AppIcon.png"/><link rel="apple-touch-icon" href="/Dictello/assets/AppIcon.png"/><title>Dictello — говорите, Mac сделает остальное</title>  <script type="module" crossorigin src="/Dictello/assets/index-Cbe_-veB.js"></script>
-  <link rel="stylesheet" crossorigin href="/Dictello/assets/index-Katmkp_J.css">
-</head><body><div id="root"></div></body></html>
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dictello — ассистент, диктовка и перевод на вашем Mac</title>
+<meta name="description" content="Поиск по вашим документам с доказательствами, живая диктовка с переводом и перевод документов с сохранением вёрстки. Локально на Mac.">
+<meta property="og:title" content="Dictello">
+<meta property="og:description" content="Ассистент, диктовка и перевод. На вашем Mac.">
+<meta name="theme-color" content="#060a14">
+<link rel="icon" href="assets/favicon.png">
+<link rel="preload" href="fonts/handjet-cyr.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/eva-gentle_neutral.webp" as="image">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="grain" aria-hidden="true"></div>
+
+<header class="nav">
+  <a class="nav__logo" href="#top" aria-label="Dictello">DICTELLO<i>_</i></a>
+  <nav class="nav__links" aria-label="Разделы">
+    <a href="#ask"><b>01</b><span data-i18n="nav1">Ассистент</span></a>
+    <a href="#voice"><b>02</b><span data-i18n="nav2">Голос</span></a>
+    <a href="#docs"><b>03</b><span data-i18n="nav3">Документы</span></a>
+    <a href="#eva"><b>04</b><span data-i18n="nav4">Ева</span></a>
+  </nav>
+  <div class="nav__side">
+    <button class="lang" type="button" id="lang" aria-label="Switch language">EN</button>
+    <a class="btn btn--small" href="https://github.com/NekoNokoo/Dictello/releases/download/v0.2.0-beta.15/Dictello-0.2.0-beta.15-apple-silicon-macos26.dmg" data-i18n="get">Скачать</a>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ───────── HERO ───────── -->
+<section class="hero" id="hero">
+<div class="hero__pin">
+  <div class="hero__haze" aria-hidden="true"></div>
+  <p class="tick tick--tl">EVA / エヴァ<br><span data-i18n="tickLocal">ЛОКАЛЬНО ИЛИ ЧЕРЕЗ OPENROUTER</span></p>
+  <p class="tick tick--tr">v0.2 BETA<br>APPLE SILICON</p>
+
+  <h1 class="sr">Dictello</h1>
+  <canvas class="hero__field" id="field" aria-hidden="true"></canvas>
+
+  <div class="hero__foot">
+    <p class="hero__line" data-i18n="heroLine">Ассистент, диктовка и перевод.<br><em>На вашем Mac.</em></p>
+    <div class="hero__cta">
+      <a class="btn" href="https://github.com/NekoNokoo/Dictello/releases/download/v0.2.0-beta.15/Dictello-0.2.0-beta.15-apple-silicon-macos26.dmg"><span data-i18n="getMac">Скачать для macOS</span><i aria-hidden="true">↓</i></a>
+      <a class="link" href="https://github.com/NekoNokoo/Dictello">GitHub ↗</a>
+    </div>
+    <p class="hero__hint" data-i18n="hint">Символы живые — потрогайте</p>
+  </div>
+</div>
+</section>
+
+<canvas class="dissolve" data-from="#060a14" data-to="#e8eef6" aria-hidden="true"></canvas>
+
+<!-- ───────── CHAPTERS ───────── -->
+<div class="chapters">
+  <aside class="rail" aria-hidden="true">
+    <p class="rail__title" data-i18n="contents">Содержание</p>
+    <a href="#ask" data-rail="ask" data-i18n="rail1">Ваша база знаний</a>
+    <a href="#voice" data-rail="voice" data-i18n="rail2">Говорить вместо печати</a>
+    <a href="#docs" data-rail="docs" data-i18n="rail3">Перевести документ</a>
+  </aside>
+
+  <div class="chapters__body">
+
+  <!-- 01 ASK -->
+  <section class="chapter" id="ask">
+    <header class="chapter__head">
+      <span class="num">01</span>
+      <h2><span data-i18n="askTitleA">База знаний,</span> <em data-i18n="askTitleB">которую собираете вы</em></h2>
+      <p data-i18n="askBody">Сложите в неё свои договоры, регламенты, инструкции. Ответ собирается из них — в том числе из того, чего в интернете нет. Каждое утверждение ведёт к строке в документе.</p>
+    </header>
+
+    <div class="demo demo--ask" id="demoAsk">
+      <div class="demo__bar">
+        <span class="scope"><i>@</i><span data-i18n="scope">Договоры</span> · 214 <span data-i18n="files">файлов</span></span>
+        <div class="seg seg--tight" role="group">
+          <button type="button" class="is-on" data-brain="local" data-i18n="brainLocal">модель на Mac</button>
+          <button type="button" data-brain="cloud">OpenRouter</button>
+        </div>
+      </div>
+      <div class="chat">
+        <p class="msg msg--me" id="askQ"></p>
+        <ol class="trace" id="askTrace">
+          <li data-step="sem"><b data-i18n="tSem">по смыслу</b><i style="--w:78%"></i><span>14</span></li>
+          <li data-step="lex"><b data-i18n="tLex">по словам</b><i style="--w:52%"></i><span>9</span></li>
+          <li data-step="top"><b data-i18n="tTop">лучшие</b><i style="--w:30%"></i><span>6</span></li>
+          <li data-step="web" class="is-web"><b data-i18n="tWeb">интернет</b><i style="--w:14%"></i><span>2</span></li>
+        </ol>
+        <p class="msg msg--eva"><img src="assets/eva-gentle_neutral.webp" alt="" width="34" height="34"><span id="askAnswer"></span></p>
+        <div class="srcs" id="askSrcs">
+          <button type="button" class="src" data-src="1"><small>[1] Договор поставки.pdf · <span data-i18n="pg">стр.</span> 4</small><span data-i18n="src1">из вашей базы</span></button>
+          <button type="button" class="src src--web" data-src="2"><small>[2] nordpump.example · <span data-i18n="srcWeb">сайт производителя</span></small><span data-i18n="src2">из интернета</span></button>
+        </div>
+        <div class="viewer" id="askView">
+          <article class="page page--cite" data-view="1">
+            <h3 data-i18n="v1h">7. Гарантийные обязательства</h3>
+            <p data-i18n="v1a">7.1. Поставщик гарантирует соответствие оборудования условиям настоящего договора.</p>
+            <p class="hl"><i>[1]</i><span data-i18n="v1b">7.2. Гарантийный срок на насосное оборудование составляет 12 месяцев со дня поставки.</span></p>
+            <p data-i18n="v1c">7.3. Гарантия не распространяется на расходные материалы и уплотнения.</p>
+          </article>
+          <article class="page page--cite page--web" data-view="2" hidden>
+            <h3 data-i18n="v2h">Гарантия на насосы серии N</h3>
+            <p data-i18n="v2a">Мы отвечаем за качество каждого насоса, который выходит с завода.</p>
+            <p class="hl"><i>[2]</i><span data-i18n="v2b">Гарантия производителя на всю серию N — 24 месяца с даты ввода в эксплуатацию.</span></p>
+            <p data-i18n="v2c">Для регистрации гарантии сохраните серийный номер изделия.</p>
+          </article>
+        </div>
+      </div>
+      <div class="demo__foot"><span id="askWhere"></span><button type="button" class="replay" data-replay="ask" data-i18n="replay">↻ ещё раз</button></div>
+    </div>
+
+    <ul class="facts">
+      <li data-i18n="askF1">Поиск сразу по смыслу и по точным словам</li>
+      <li data-i18n="askF2">Цитата открывает нужную страницу документа</li>
+      <li data-i18n="askF4">Запрос в интернет по документу — только с вашего согласия</li>
+    </ul>
+  </section>
+
+  <!-- 02 VOICE -->
+  <section class="chapter" id="voice">
+    <header class="chapter__head">
+      <span class="num">02</span>
+      <h2><span data-i18n="voiceTitleA">Говорите.</span> <em data-i18n="voiceTitleB">Текст уже в поле</em></h2>
+      <p data-i18n="voiceBody">Зажмите fn в любом приложении. Речь распознаётся на Mac и сразу печатается. Нужен другой язык — перевод идёт вживую, пока вы говорите.</p>
+    </header>
+
+    <div class="demo demo--voice" id="demoVoice">
+      <div class="demo__bar"><span><i class="rec"></i><span data-i18n="voiceBar">слушаю локально</span></span><span class="key">fn</span></div>
+      <div class="wave" aria-hidden="true"></div>
+      <div class="lines">
+        <p class="said"><small id="vFrom">RU</small><span id="vSaid"></span><i class="caret"></i></p>
+        <p class="tr"><small id="vTo">EN</small><span id="vTr"></span></p>
+      </div>
+      <div class="seg" role="group" aria-label="Перевод">
+        <button type="button" class="is-on" data-voice="en">RU → EN</button>
+        <button type="button" data-voice="ja">RU → 日本語</button>
+        <button type="button" data-voice="off" data-i18n="noTr">без перевода</button>
+      </div>
+    </div>
+
+    <ul class="facts">
+      <li data-i18n="voiceF1">Whisper работает на устройстве, звук никуда не уходит</li>
+      <li data-i18n="voiceF2">Знаки препинания и вставка в активное поле</li>
+    </ul>
+  </section>
+
+  <!-- 03 DOCS -->
+  <section class="chapter" id="docs">
+    <header class="chapter__head">
+      <span class="num">03</span>
+      <h2><span data-i18n="docsTitleA">Перевод документов</span> <em data-i18n="docsTitleB">с сохранением форматирования</em></h2>
+      <p data-i18n="docsBody">PDF и DOCX возвращаются с теми же таблицами, колонками и шрифтами. Быстро и офлайн — или через LLM, которая держит контекст и термины всего документа.</p>
+    </header>
+
+    <div class="demo demo--docs" id="demoDocs">
+      <div class="demo__bar">
+        <span>manual_v3.pdf</span>
+        <div class="seg seg--tight" role="group">
+          <button type="button" class="is-on" data-doc="local" data-i18n="docLocal">локально</button>
+          <button type="button" data-doc="llm" data-i18n="docLlm">LLM с контекстом</button>
+        </div>
+      </div>
+      <div class="sheet" style="--cut:52%">
+        <article class="page page--src" lang="en">
+          <h3>3. Battery and charging</h3>
+          <p>Charge the unit before first use. A full cycle takes about two hours.</p>
+          <table><tr><th>Mode</th><th>Runtime</th><th>Charge</th></tr><tr><td>Eco</td><td>14 h</td><td>2 h</td></tr><tr><td>Turbo</td><td>6 h</td><td>2 h</td></tr></table>
+          <p class="note">Do not leave the unit on charge overnight.</p>
+        </article>
+        <article class="page page--dst" lang="ru">
+          <h3>3. Аккумулятор и зарядка</h3>
+          <p><span class="v v-local">Зарядите единицу перед первым использованием.</span><span class="v v-llm">Зарядите устройство перед первым использованием.</span> Полный цикл занимает около двух часов.</p>
+          <table><tr><th>Режим</th><th>Работа</th><th>Заряд</th></tr><tr><td>Эко</td><td>14 ч</td><td>2 ч</td></tr><tr><td>Турбо</td><td>6 ч</td><td>2 ч</td></tr></table>
+          <p class="note"><span class="v v-local">Не оставляйте единицу на зарядке на ночь.</span><span class="v v-llm">Не оставляйте устройство на зарядке на ночь.</span></p>
+        </article>
+        <div class="cut" aria-hidden="true"><i>⇆</i></div>
+        <input class="cutrange" type="range" min="4" max="96" value="52" aria-label="Оригинал и перевод">
+      </div>
+    </div>
+
+    <ul class="facts">
+      <li data-i18n="docsF1">Сканы распознаются и переводятся так же</li>
+      <li data-i18n="docsF2">Свои термины и то, что переводить нельзя</li>
+    </ul>
+  </section>
+
+  <!-- AND ALSO -->
+  <section class="more" id="more">
+    <p class="more__title" data-i18n="moreTitle">И ещё</p>
+    <div class="more__grid">
+
+      <article class="mini">
+        <div class="mini__demo mini--deep" aria-hidden="true">
+          <svg viewBox="0 0 300 170">
+            <path class="ln l1" d="M58 85 C 80 85, 78 45, 100 45"/><path class="ln l2" d="M160 45 H 196"/>
+            <path class="ln l3 dash" d="M226 58 C 226 96, 130 84, 130 112"/><path class="ln l4" d="M160 125 H 196"/>
+            <path class="ln l5 hot" d="M226 60 V 110"/>
+            <rect class="nd n0" x="8" y="72" width="50" height="26" rx="13"/>
+            <rect class="nd n1" x="100" y="32" width="60" height="26" rx="5"/><rect class="nd n2" x="196" y="32" width="60" height="26" rx="5"/>
+            <rect class="nd n3 web" x="100" y="112" width="60" height="26" rx="5"/><rect class="nd n4 web" x="196" y="112" width="60" height="26" rx="5"/>
+            <circle class="bang" cx="226" cy="85" r="8"/><text class="bang__t" x="226" y="89">!</text>
+          </svg>
+          <span class="tag tag--a" data-i18n="laneDocs">документы</span><span class="tag tag--b" data-i18n="laneWeb">интернет</span>
+        </div>
+        <h3 data-i18n="m1T">Глубокий поиск</h3>
+        <p data-i18n="m1B">Идёт по шагам: из документа — в интернет и обратно. Сверяет источники и показывает, где они расходятся.</p>
+      </article>
+
+      <article class="mini">
+        <div class="mini__demo mini--screen" aria-hidden="true">
+          <div class="win"><i></i><i></i><i></i></div>
+          <div class="shot">
+            <div class="shot__t shot__src"><b>Einstellungen</b><span>Zwei-Faktor-Anmeldung aktivieren</span><span>Wiederherstellungscodes anzeigen</span></div>
+            <div class="shot__t shot__dst"><b data-i18n="m2a">Настройки</b><span data-i18n="m2b">Включить двухфакторный вход</span><span data-i18n="m2c">Показать коды восстановления</span></div>
+            <div class="shot__sel"></div>
+          </div>
+        </div>
+        <h3 data-i18n="m2T">Перевод с экрана</h3>
+        <p data-i18n="m2B">Обведите область — перевод ляжет поверх, тем же шрифтом и на тех же местах.</p>
+      </article>
+
+      <article class="mini">
+        <div class="mini__demo mini--notch" aria-hidden="true">
+          <div class="bezel">
+            <div class="notch">
+              <div class="notch__a"><i class="rec"></i><span data-i18n="m4a">Перевожу manual_v3.pdf</span><b>62%</b><u></u></div>
+              <div class="notch__b"><span class="ok">✓</span><span data-i18n="m4b">Готово · 12 страниц</span></div>
+              <div class="notch__c"><span data-i18n="m4c">Спросить Еву…</span><kbd>fn J</kbd></div>
+            </div>
+          </div>
+        </div>
+        <h3 data-i18n="m4T">Чёлка</h3>
+        <p data-i18n="m4B">Рабочий центр у выреза экрана: ход задач, быстрый чат, полка для файлов. На мониторе без выреза — виртуальная.</p>
+      </article>
+
+    </div>
+  </section>
+
+  </div>
+</div>
+
+<canvas class="dissolve" data-from="#e8eef6" data-to="#0f3dff" aria-hidden="true"></canvas>
+
+<!-- ───────── WHERE IT RUNS ───────── -->
+<section class="where" id="where">
+  <h2 class="where__pick" role="group" aria-label="Где работает модель">
+    <button type="button" class="is-on" data-where="local" data-i18n="wLocal">ЛОКАЛЬНО</button>
+    <span aria-hidden="true">/</span>
+    <button type="button" data-where="cloud" data-i18n="wCloud">ОБЛАКО</button>
+  </h2>
+  <p class="where__say" id="whereSay"></p>
+  <div class="wire" id="wire">
+    <div class="wire__box">
+      <small data-i18n="wMac">ваш Mac</small>
+      <ul><li data-i18n="wDocs">документы</li><li data-i18n="wVec">векторы</li><li data-i18n="wAudio">голос</li><li class="only-local" data-i18n="wModel">модель</li></ul>
+    </div>
+    <div class="wire__line"><span data-i18n="wSent">вопрос и найденные фрагменты</span></div>
+    <div class="wire__box wire__box--far">
+      <small>OpenRouter</small>
+      <ul><li data-i18n="wAny">любая модель</li><li data-i18n="wKey">ваш ключ</li></ul>
+    </div>
+  </div>
+  <div class="where__always">
+    <p><b data-i18n="alwA">Векторы всегда у вас.</b> <span data-i18n="alwAT">База знаний и её индекс лежат на Mac в любом режиме.</span></p>
+    <p><b data-i18n="alwB">Базой можно поделиться.</b> <span data-i18n="alwBT">Один файл с документами и готовыми векторами, при желании под паролем.</span></p>
+  </div>
+</section>
+
+<canvas class="dissolve" data-from="#0f3dff" data-to="#060a14" aria-hidden="true"></canvas>
+
+<!-- ───────── EVA ───────── -->
+<section class="eva" id="eva">
+  <div class="eva__stage" id="evaStage">
+    <img class="eva__art" id="evaArt" src="assets/eva-gentle_neutral.webp" width="1024" height="1024" alt="Ева" loading="lazy">
+    <iframe class="eva__live" id="evaLive" title="Ева" data-src="eva/app/site.html?fps=30" scrolling="no" allowtransparency="true"></iframe>
+  </div>
+  <div class="eva__text">
+    <span class="num">04</span>
+    <h2><span data-i18n="evaTitleA">Это</span> <em data-i18n="evaTitleB">Ева</em></h2>
+    <p data-i18n="evaBody">Здесь она та же, что в приложении: следит за курсором, моргает, зевает. Символы в волосах — то, чем она сейчас занята. Нажмите на неё.</p>
+    <div class="seg seg--dark" role="group" aria-label="Настроение">
+      <button type="button" data-mood="listening" data-i18n="mood1">слушает</button>
+      <button type="button" data-mood="processing" data-i18n="mood2">думает</button>
+      <button type="button" data-mood="done" data-i18n="mood3">готово</button>
+      <button type="button" data-mood="sleep" data-i18n="mood4">спит</button>
+    </div>
+  </div>
+</section>
+
+<!-- ───────── CTA ───────── -->
+<section class="cta">
+  <h2 class="cta__word"><span data-i18n="ctaWord">СКАЧАТЬ</span></h2>
+  <a class="btn btn--light" href="https://github.com/NekoNokoo/Dictello/releases/download/v0.2.0-beta.15/Dictello-0.2.0-beta.15-apple-silicon-macos26.dmg"><span data-i18n="getMac">Скачать для macOS</span><i aria-hidden="true">↓</i></a>
+  <p class="cta__req" data-i18n="req">Apple Silicon · macOS 26 и новее · бесплатно</p>
+</section>
+
+</main>
+
+<footer class="foot">
+  <span>DICTELLO<i>_</i> 2026</span>
+  <a href="https://github.com/NekoNokoo/Dictello">GitHub</a>
+  <a href="https://github.com/NekoNokoo/Dictello/releases" data-i18n="releases">Все версии</a>
+  <span class="foot__r">EVA / エヴァ</span>
+</footer>
+
+<script src="main.js" defer></script>
+</body>
+</html>
