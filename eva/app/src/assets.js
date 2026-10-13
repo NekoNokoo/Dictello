@@ -35,7 +35,12 @@ async function fetchJson(url, label, failures) {
   }
 }
 
-function loadImage(url) {
+// Сайт: не более 8 загрузок разом и до 4 попыток на файл (см. Scripts/build-site-eva.sh).
+let inFlight = 0;
+const waiting = [];
+function slot() { return inFlight < 8 ? (inFlight++, Promise.resolve()) : new Promise((r) => waiting.push(r)); }
+function release() { const next = waiting.shift(); if (next) next(); else inFlight--; }
+function loadImageOnce(url) {
   return new Promise((resolve, reject) => {
     const img = new Image();
     img.decoding = 'async';
@@ -43,6 +48,15 @@ function loadImage(url) {
     img.onerror = () => reject(new Error('image load error'));
     img.src = url;
   });
+}
+async function loadImage(url) {
+  await slot();
+  try {
+    for (let attempt = 0; ; attempt++) {
+      try { return await loadImageOnce(attempt ? `${url}${url.includes('?') ? '&' : '?'}retry=${attempt}` : url); }
+      catch (e) { if (attempt >= 3) throw e; await new Promise((r) => setTimeout(r, 400 * (attempt + 1))); }
+    }
+  } finally { release(); }
 }
 
 /** Every layer path (relative to assets/mascot/) the live renderer can draw. */

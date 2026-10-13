@@ -14,11 +14,23 @@
 </head>
 <body>
   <canvas id="portrait" aria-label="Ева"></canvas>
+  <script>
+    // JSON-манифесты: повтор при сетевой ошибке и ответах 5xx (404 — законный «нет файла», не повторяем).
+    const plainFetch = window.fetch.bind(window);
+    window.fetch = async (input, init) => {
+      for (let attempt = 0; ; attempt++) {
+        try {
+          const r = await plainFetch(input, init);
+          if (r.status < 500 || attempt >= 3) return r;
+        } catch (e) { if (attempt >= 3) throw e; }
+        await new Promise((r) => setTimeout(r, 400 * (attempt + 1)));
+      }
+    };
+  </script>
   <script type="module" src="./src/embed.js"></script>
   <script>
     const m = () => window.mascot;
     addEventListener('pointermove', e => m()?.pointer(e.clientX, e.clientY));
-    addEventListener('pointerleave', () => m()?.pointerLeave());
     document.addEventListener('mouseleave', () => m()?.pointerLeave());
     addEventListener('click', e => m()?.click(e.clientX, e.clientY));
     const ready = setInterval(() => { if (m()) { clearInterval(ready); parent.postMessage({ eva: 'ready' }, location.origin); } }, 120);

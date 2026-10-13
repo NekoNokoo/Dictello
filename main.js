@@ -358,7 +358,11 @@ function eva() {
   const stage = $('#evaStage'), frame = $('#evaLive'); if (!frame) return;
   const mascot = () => { try { return frame.contentWindow.mascot; } catch { return null; } };
   addEventListener('message', e => { if (e.origin === location.origin && e.data?.eva === 'ready') stage.classList.add('is-live'); });
-  eva.load = () => { if (!frame.src) frame.src = frame.dataset.src; };          // ~8 MB, so only when the section is near
+  eva.load = () => {                                                          // ~8 MB, so only when the section is near
+    if (frame.src) return;
+    frame.src = frame.dataset.src;
+    setTimeout(() => { if (!stage.classList.contains('is-live')) frame.src = frame.dataset.src + '&again=1'; }, 30000);   // one more try on a bad connection
+  };
   let asleep = false;
   for (const b of $$('[data-mood]')) b.addEventListener('click', () => {
     const m = mascot(); if (!m) return;
